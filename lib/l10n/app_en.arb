@@ -1,0 +1,2487 @@
+{
+  "@@locale": "en",
+  "appTitle": "Demo Scheduler",
+  "commonCancel": "Cancel",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonConfirm": "Confirm",
+  "commonEdit": "Edit",
+  "commonClose": "Close",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonSearch": "Search",
+  "commonLoading": "Loading...",
+  "commonError": "Error",
+  "commonAdd": "Add",
+  "commonBack": "Back",
+  "commonNoteLabel": "Notes",
+  "commonRequiredField": "Required field",
+  "commonErrorWithDetails": "Error: {details}",
+  "appBarGoHome": "Go to home",
+  "appBarLogout": "Log out",
+  "appBarLogoutConfirmTitle": "Confirm logout",
+  "appBarLogoutConfirmMessage": "Are you sure you want to log out?",
+  "appBarLogoutConfirmButton": "Log out",
+  "appBarLanguageTooltip": "Cambia in italiano",
+  "confirmDialogCancel": "Cancel",
+  "confirmDialogDeleteDefault": "Delete",
+  "loginWelcomeTitle": "Welcome!",
+  "loginWelcomeSubtitle": "Sign in to the construction site manager",
+  "loginEmailHint": "Enter your email",
+  "loginEmailLabel": "Email",
+  "loginEmailValidatorEmpty": "Enter your email",
+  "loginPasswordHint": "Enter your password",
+  "loginPasswordLabel": "Password",
+  "loginPasswordValidatorEmpty": "Enter your password",
+  "loginButton": "Login",
+  "authInvalidCredentials": "Invalid credentials",
+  "errorLoadingScale": "Error loading ladders",
+  "errorLoadingTipiScadenza": "Error loading deadline types",
+  "errorLoadingScadenzeGenerali": "Error loading general deadlines",
+  "errorLoadingCantieri": "Error loading construction sites",
+  "errorLoadingTipiDpi": "Error loading PPE types",
+  "errorLoadingImpostazioni": "Error loading settings",
+  "errorLoadingDocumenti": "Error loading documents",
+  "errorLoadingMisure": "Error loading measurements",
+  "errorLoadingRifiuti": "Error loading waste records",
+  "errorLoadingEstintori": "Error loading fire extinguishers",
+  "errorLoadingBenne": "Error loading buckets",
+  "errorLoadingSegnaletica": "Error loading signage",
+  "errorLoadingCassette": "Error loading first aid kits",
+  "errorLoadingMacchinari": "Error loading machinery",
+  "errorLoadingAutomezzi": "Error loading vehicles",
+  "errorLoadingRegoleDpi": "Error loading PPE rules",
+  "errorLoadingImpianti": "Error loading systems",
+  "errorLoadingControlli": "Error loading inspections",
+  "errorLoadingFasceCatene": "Error loading straps and chains",
+  "errorLoadingSubappaltatori": "Error loading subcontractors",
+  "errorLoadingDipendentiSubappaltatori": "Error loading employees",
+  "errorLoadingArticoli": "Error loading items",
+  "errorLoadingDpiAssegnati": "Error loading assigned PPE",
+  "errorLoadingProdottiStandard": "Error loading standard products",
+  "errorLoadingDipendentiAziendali": "Error loading company employees",
+  "errorLoadingScaffalature": "Error loading shelving",
+  "errorDeletingScadenzaGenerale": "Unable to delete the deadline",
+  "errorDeletingTipoScadenzaInUse": "Unable to delete the type: it is probably still used by one or more deadlines.",
+  "errorDeletingScaffalatura": "Unable to delete the shelving",
+  "appDrawerAmministrazione": "Administration",
+  "appDrawerArchivioCantieri": "Site archive",
+  "appDrawerAutomezzi": "Vehicles",
+  "appDrawerCantieri": "Construction sites",
+  "appDrawerContenutoStandard": "Standard contents",
+  "appDrawerDpi": "PPE",
+  "appDrawerEstintori": "Fire extinguishers",
+  "appDrawerFasceCatene": "Slings/Chains",
+  "appDrawerHideSubsections": "Hide subsections",
+  "appDrawerImpianti": "Systems",
+  "appDrawerMacchinari": "Machinery",
+  "appDrawerMisure": "Gauges",
+  "appDrawerOtherSectionsTitle": "Other sections",
+  "appDrawerPrimoSoccorso": "First aid",
+  "appDrawerRemindersSuspended": "Reminders suspended",
+  "appDrawerRifiuti": "Waste",
+  "appDrawerScaffalature": "Shelving",
+  "appDrawerScale": "Ladders",
+  "appDrawerSegnaleticaSicurezza": "Safety signals",
+  "appDrawerShowSubsections": "Show subsections",
+  "appDrawerSubappaltatori": "Subcontractors",
+  "appDrawerSuspendReminderSubtitle": "For company closure periods",
+  "appDrawerSuspendReminders": "Suspend reminders",
+  "appDrawerSuspendedUntil": "Until {date}",
+  "@appDrawerSuspendedUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "appDrawerTipiDpi": "PPE types",
+  "appDrawerTipiScadenze": "Deadline types",
+  "appDrawerUpcomingDeadlinesTooltip": "Upcoming deadlines",
+  "cantiereCardClosedOn": "Closed on {date}",
+  "@cantiereCardClosedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereCardDeleteTooltip": "Delete site",
+  "cantiereCardEditTooltip": "Edit site",
+  "cantiereCardExpiringCount": "{count} expiring soon",
+  "@cantiereCardExpiringCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cantiereCardSubappaltatoriCount": "{count, plural, one{{count} subcontractor} other{{count} subcontractors}}",
+  "@cantiereCardSubappaltatoriCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cantiereCardSuspendedLabel": "SUSPENDED",
+  "dpiAssegnatoFormDialogAdditionalNotesLabel": "Additional notes",
+  "dpiAssegnatoFormDialogAssignTitle": "Assign PPE",
+  "dpiAssegnatoFormDialogDateInUseLabel": "Date put into use",
+  "dpiAssegnatoFormDialogDeliveryDateLabel": "Delivery date",
+  "dpiAssegnatoFormDialogDpiTypeLabel": "PPE type*",
+  "dpiAssegnatoFormDialogEditTitle": "Edit assigned PPE",
+  "dpiAssegnatoFormDialogEmployeeLabel": "Employee",
+  "dpiAssegnatoFormDialogExpiryDateLabel": "Expiry date",
+  "dpiAssegnatoFormDialogManufactureYearLabel": "Year of manufacture",
+  "dpiAssegnatoFormDialogManufacturerLabel": "Manufacturer",
+  "dpiAssegnatoFormDialogSelectDpiType": "Select a PPE type",
+  "dpiAssegnatoFormDialogSelectEmployee": "Select an employee",
+  "dpiAssegnatoFormDialogSerialNumberLabel": "Serial number",
+  "dpiAssegnatoFormDialogSizeLabel": "Size",
+  "fasciaCatenaFormDialogAdditionalNotesLabel": "Additional notes",
+  "fasciaCatenaFormDialogBrowse": "Browse",
+  "fasciaCatenaFormDialogCapacityLabel": "Capacity (kg)",
+  "fasciaCatenaFormDialogChangePhoto": "Change photo",
+  "fasciaCatenaFormDialogCharacteristicsSection": "Characteristics",
+  "fasciaCatenaFormDialogCheckPassedLabel": "Check passed",
+  "fasciaCatenaFormDialogColorLabel": "Color",
+  "fasciaCatenaFormDialogDiameterLabel": "Diameter (mm)",
+  "fasciaCatenaFormDialogDragPhotoHint": "Drag the sling/chain photo here",
+  "fasciaCatenaFormDialogEditTitle": "Edit sling/chain",
+  "fasciaCatenaFormDialogFileFormatsHint": "JPG, PNG or WEBP - max 5 MB",
+  "fasciaCatenaFormDialogFitForUse": "Fit for use",
+  "fasciaCatenaFormDialogImageTooLarge": "Image too large (max 5 MB)",
+  "fasciaCatenaFormDialogImageUnavailable": "Image unavailable",
+  "fasciaCatenaFormDialogInternalCheckSection": "Internal check",
+  "fasciaCatenaFormDialogInternalIdLabel": "Internal ID*",
+  "fasciaCatenaFormDialogInvalidExtension": "File type not allowed (.{extension})",
+  "@fasciaCatenaFormDialogInvalidExtension": {
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "fasciaCatenaFormDialogLastInternalCheckLabel": "Last internal check",
+  "fasciaCatenaFormDialogLengthLabel": "Length (m)",
+  "fasciaCatenaFormDialogLocationNotSpecified": "Not specified",
+  "fasciaCatenaFormDialogLocationSection": "Location",
+  "fasciaCatenaFormDialogLocationTypeLabel": "Location type",
+  "fasciaCatenaFormDialogNewTitle": "New sling/chain",
+  "fasciaCatenaFormDialogNextCheckLabel": "Next check",
+  "fasciaCatenaFormDialogNotFitForUse": "Not fit for use: to be taken out of service",
+  "fasciaCatenaFormDialogPhotoSection": "Photo",
+  "fasciaCatenaFormDialogPurchaseDateLabel": "Purchase date",
+  "fasciaCatenaFormDialogPurchaseLocationLabel": "Place of purchase",
+  "fasciaCatenaFormDialogPurchaseSection": "Purchase",
+  "fasciaCatenaFormDialogRatchetLabel": "Ratchet",
+  "fasciaCatenaFormDialogRegistrySection": "Details",
+  "fasciaCatenaFormDialogRemove": "Remove",
+  "fasciaCatenaFormDialogSelectSite": "Select a construction site",
+  "fasciaCatenaFormDialogSelectVehicle": "Select a vehicle",
+  "fasciaCatenaFormDialogSerialNumberLabel": "Manufacturer serial number",
+  "fasciaCatenaFormDialogSiteOption": "Construction site",
+  "fasciaCatenaFormDialogThicknessLabel": "Thickness (mm)",
+  "fasciaCatenaFormDialogTypeLabel": "Type",
+  "fasciaCatenaFormDialogTypeNotSpecified": "Not specified",
+  "fasciaCatenaFormDialogVehicleOption": "Vehicle",
+  "fasciaCatenaFormDialogWarehouseOption": "Warehouse",
+  "fasciaCatenaFormDialogWidthLabel": "Width (mm)",
+  "notaDipendenteAziendaleDialogTitle": "Note — {nome} {cognome}",
+  "@notaDipendenteAziendaleDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "cognome": {
+        "type": "String"
+      }
+    }
+  },
+  "notaDipendenteAziendaleDialogTitleConTipo": "Note — {nome} {cognome} — {tipo}",
+  "@notaDipendenteAziendaleDialogTitleConTipo": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "cognome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaEstintoreDialogTitle": "Note — {matricola} — {tipo}",
+  "@notaEstintoreDialogTitle": {
+    "placeholders": {
+      "matricola": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScaffalaturaDialogTitle": "Note — Shelving unit #{id} — {tipo}",
+  "@notaScaffalaturaDialogTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenAerialPlatformsDeadline": "Aerial platforms certification deadline",
+  "scadenzeImminentiScreenAnnualCheck": "Annual inspection",
+  "scadenzeImminentiScreenAnnualMaintenance": "Annual maintenance",
+  "scadenzeImminentiScreenArticleLabel": "Item",
+  "scadenzeImminentiScreenAssigneeLabel": "Assignee",
+  "scadenzeImminentiScreenCollapseAll": "Collapse all",
+  "scadenzeImminentiScreenCompanyEmployeesSection": "Company employees",
+  "scadenzeImminentiScreenCompanyLabel": "Company",
+  "scadenzeImminentiScreenContractDeadline": "Contract deadline",
+  "scadenzeImminentiScreenDeadlineNoteLabel": "Deadline note",
+  "scadenzeImminentiScreenDigitalSignatureDeadline": "Digital signature deadline",
+  "scadenzeImminentiScreenDiisocyanatesCourseDeadline": "Diisocyanates course deadline",
+  "scadenzeImminentiScreenDocumentFallback": "Document",
+  "scadenzeImminentiScreenDrivingLicenseDeadline": "Driving license deadline",
+  "scadenzeImminentiScreenEditNoteTooltip": "Edit note",
+  "scadenzeImminentiScreenEmployeeLabel": "Employee",
+  "scadenzeImminentiScreenExcavatorOperationDeadline": "Excavator operation certification deadline",
+  "scadenzeImminentiScreenExpandAll": "Expand all",
+  "scadenzeImminentiScreenExternalCheckDeadline": "External check deadline",
+  "scadenzeImminentiScreenExternalMaintenanceDeadline": "External maintenance deadline",
+  "scadenzeImminentiScreenFireSafetyDeadline": "Fire safety certification deadline",
+  "scadenzeImminentiScreenFirstAidDeadline": "First aid certification deadline",
+  "scadenzeImminentiScreenFirstAidSection": "First aid",
+  "scadenzeImminentiScreenForkliftDeadline": "Forklift certification deadline",
+  "scadenzeImminentiScreenGeneralDeadlinesSection": "General deadlines",
+  "scadenzeImminentiScreenHazardousWasteCarrierDeadline": "Hazardous waste carrier deadline",
+  "scadenzeImminentiScreenHazardousWasteDisposerDeadline": "Hazardous waste disposer deadline",
+  "scadenzeImminentiScreenHeightWorkDeadline": "Height work certification deadline",
+  "scadenzeImminentiScreenHideSectionTooltip": "Hide deadlines",
+  "scadenzeImminentiScreenIdCardDeadline": "ID card deadline",
+  "scadenzeImminentiScreenInspectionDeadline": "Inspection deadline",
+  "scadenzeImminentiScreenInsuranceDeadline": "Insurance deadline",
+  "scadenzeImminentiScreenInternalMaintenanceDeadline": "Internal maintenance deadline",
+  "scadenzeImminentiScreenLadderCodeLabel": "Ladder code",
+  "scadenzeImminentiScreenLastCheckLabel": "Last check",
+  "scadenzeImminentiScreenLeaseRentalDeadline": "Lease/rental deadline",
+  "scadenzeImminentiScreenLocationInOfficeLower": "in Office",
+  "scadenzeImminentiScreenLocationInWarehouseLower": "in Warehouse",
+  "scadenzeImminentiScreenLocationLabel": "Location",
+  "scadenzeImminentiScreenLocationNotSpecified": "Not specified",
+  "scadenzeImminentiScreenLocationNotSpecifiedLower": "not specified",
+  "scadenzeImminentiScreenLocationOffice": "In office",
+  "scadenzeImminentiScreenLocationSite": "At site {site}",
+  "@scadenzeImminentiScreenLocationSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenLocationVehicle": "On vehicle {vehicle}",
+  "@scadenzeImminentiScreenLocationVehicle": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenLocationWarehouse": "In warehouse",
+  "scadenzeImminentiScreenLorryCraneDeadline": "Lorry-mounted crane certification deadline",
+  "scadenzeImminentiScreenMedicalExamDeadline": "Medical exam deadline",
+  "scadenzeImminentiScreenModelLabel": "Model",
+  "scadenzeImminentiScreenNextCheckLabel": "Next check",
+  "scadenzeImminentiScreenNextExternalCalibration": "Next external calibration",
+  "scadenzeImminentiScreenNextInternalCalibration": "Next internal calibration",
+  "scadenzeImminentiScreenNextVerificationLabel": "Next inspection",
+  "scadenzeImminentiScreenNonHazardousWasteCarrierDeadline": "Non-hazardous waste carrier deadline",
+  "scadenzeImminentiScreenNonHazardousWasteDisposerDeadline": "Non-hazardous waste disposer deadline",
+  "scadenzeImminentiScreenNoteTitleGeneric": "Note — {titolo}",
+  "@scadenzeImminentiScreenNoteTitleGeneric": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenNoteTitleSiteDeadline": "Note — {site} — {label}",
+  "@scadenzeImminentiScreenNoteTitleSiteDeadline": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenPlateLabel": "Plate",
+  "scadenzeImminentiScreenProductDeadline": "{product} deadline",
+  "@scadenzeImminentiScreenProductDeadline": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenReplacement18Years": "Replacement (18 years)",
+  "scadenzeImminentiScreenResidencyPermitDeadline": "Residency permit deadline",
+  "scadenzeImminentiScreenRlstDeadline": "Workers' safety representative (RLST) deadline",
+  "scadenzeImminentiScreenRoadTaxDeadline": "Road tax deadline",
+  "scadenzeImminentiScreenRopesChainsCheck": "Ropes/chains check",
+  "scadenzeImminentiScreenRsppDeadline": "Safety officer (RSPP) deadline",
+  "scadenzeImminentiScreenSafetyTrainingDeadline": "Safety training deadline",
+  "scadenzeImminentiScreenScaffoldingErectionDeadline": "Scaffolding erection/dismantling deadline",
+  "scadenzeImminentiScreenSectionHeaderTitle": "Deadlines to review",
+  "scadenzeImminentiScreenSerialNumberLabel": "Serial number",
+  "scadenzeImminentiScreenShelvingCourseDeadline": "Shelving course deadline",
+  "scadenzeImminentiScreenShelvingIdLabel": "Shelving ID",
+  "scadenzeImminentiScreenShelvingNextCheckLabel": "Next shelving check",
+  "scadenzeImminentiScreenShowSectionTooltip": "Show deadlines",
+  "scadenzeImminentiScreenSiteLabel": "Construction site",
+  "scadenzeImminentiScreenSitesPresentLabel": "Sites where present",
+  "scadenzeImminentiScreenSubcontractorLabel": "Subcontractor",
+  "scadenzeImminentiScreenSupervisorDeadline": "Supervisor certification deadline",
+  "scadenzeImminentiScreenTachographCardCompanyDeadline": "Tachograph card + company deadline",
+  "scadenzeImminentiScreenTachographCardDeadline": "Tachograph card deadline",
+  "scadenzeImminentiScreenTachographCourseDeadline": "Tachograph course deadline",
+  "scadenzeImminentiScreenTachographDeadline": "Tachograph deadline",
+  "scadenzeImminentiScreenTaxCodeDeadline": "Tax code deadline",
+  "scadenzeImminentiScreenTestingDeadline": "Testing deadline",
+  "scadenzeImminentiScreenTetanusDeadline": "Tetanus vaccination deadline",
+  "scadenzeImminentiScreenTitle": "Upcoming deadlines",
+  "scadenzeImminentiScreenTowerCraneDeadline": "Tower crane certification deadline",
+  "scadenzeImminentiScreenTwentyYearCheck": "Twenty-year inspection",
+  "scadenzeImminentiScreenTypeLabel": "Type",
+  "scadenzeImminentiScreenVehicleLabel": "Vehicle",
+  "subappaltatoreDocumentiScreenAddEmployeeLabel": "Add employee",
+  "subappaltatoreDocumentiScreenAddGeneralDeadlineLabel": "Add general deadline",
+  "subappaltatoreDocumentiScreenAssociatedSitesLabel": "Associated sites",
+  "subappaltatoreDocumentiScreenBreadcrumbCantieri": "Construction sites",
+  "subappaltatoreDocumentiScreenBreadcrumbSubappaltatori": "Subcontractors",
+  "subappaltatoreDocumentiScreenDeleteEmployeeConfirm": "Delete \"{nome}\"?",
+  "@subappaltatoreDocumentiScreenDeleteEmployeeConfirm": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenDeleteEmployeeNoDocs": "Their name will disappear from the sites where they are listed.",
+  "subappaltatoreDocumentiScreenDeleteEmployeeTitle": "Delete employee?",
+  "subappaltatoreDocumentiScreenDeleteEmployeeTooltip": "Delete employee",
+  "subappaltatoreDocumentiScreenDeleteEmployeeWithDocs": "Their {count} deadlines will also be deleted (including history), and their name will disappear from the sites where they are listed.",
+  "@subappaltatoreDocumentiScreenDeleteEmployeeWithDocs": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenDocsInOrder": "Documents in order",
+  "subappaltatoreDocumentiScreenEmailLabel": "Email",
+  "subappaltatoreDocumentiScreenEmployeesLabel": "Employees",
+  "subappaltatoreDocumentiScreenGeneralDeadlinesLabel": "General deadlines",
+  "subappaltatoreDocumentiScreenInfoLabel": "Information:",
+  "subappaltatoreDocumentiScreenIrreversible": "This action cannot be undone.",
+  "subappaltatoreDocumentiScreenNewGeneralDeadlineTooltip": "New general deadline",
+  "subappaltatoreDocumentiScreenNoDeadlinesForSite": "No deadlines for this site.",
+  "subappaltatoreDocumentiScreenNoDeadlinesRegistered": "No deadlines registered",
+  "subappaltatoreDocumentiScreenNoEmployees": "No employees added for this subcontractor.",
+  "subappaltatoreDocumentiScreenNoGeneralDeadlines": "No general deadlines added for this subcontractor.",
+  "subappaltatoreDocumentiScreenOpenSiteTooltip": "Open site",
+  "subappaltatoreDocumentiScreenSelfEmployed": "Self-employed",
+  "subappaltatoreDocumentiScreenSiteIndexTitle": "{index}) {nome}",
+  "@subappaltatoreDocumentiScreenSiteIndexTitle": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenTypeLabel": "Type",
+  "subappaltatoreDocumentiScreenVatLabel": "VAT number",
+  "tipiDpiScreenBreadcrumbDpi": "PPE",
+  "tipiDpiScreenBreadcrumbTipiDpi": "PPE types",
+  "tipiDpiScreenDeleteConfirmMessage": "Delete the PPE type {nome}? This action cannot be undone.",
+  "@tipiDpiScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiDpiScreenDeleteConfirmTitle": "Delete this type?",
+  "tipiDpiScreenDeleteTooltip": "Delete type",
+  "tipiDpiScreenEditTooltip": "Edit type",
+  "tipiDpiScreenEmptyState": "No PPE added.",
+  "tipiDpiScreenForHeightWork": "For height work",
+  "tipiDpiScreenNewDpiLabel": "New PPE",
+  "tipiDpiScreenNoteLabel": "Note: {note}",
+  "@tipiDpiScreenNoteLabel": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "campoDataClearDateTooltip": "Clear date",
+  "campoDataFormatHint": "dd/mm/yyyy",
+  "campoDataInvalidDate": "Invalid date",
+  "campoDataPickDateTooltip": "Pick a date",
+  "campoDataRemoveFieldTooltip": "Remove field",
+  "campoDataYearRange": "Year between {min} and {max}",
+  "@campoDataYearRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "creaDpiFormDialogAdditionalNotesLabel": "Additional notes",
+  "creaDpiFormDialogHeightWorkRequired": "Required for working at height",
+  "creaDpiFormDialogHeightWorkSubtitle": "Automatically required for workers (M04) with a working-at-height deadline set",
+  "creaDpiFormDialogNameLabel": "Name*",
+  "creaDpiFormDialogNoticeDaysHint": "30, 7, 1",
+  "creaDpiFormDialogNoticeDaysLabel": "Notice days",
+  "creaDpiFormDialogTitleEdit": "Edit PPE",
+  "creaDpiFormDialogTitleNew": "New PPE",
+  "scadenzaCantiereTileConfirmDeleteMessage": "Delete {etichetta} from {cantiere}? This action cannot be undone.",
+  "@scadenzaCantiereTileConfirmDeleteMessage": {
+    "placeholders": {
+      "etichetta": {
+        "type": "String"
+      },
+      "cantiere": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzaCantiereTileConfirmDeleteTitle": "Delete this deadline?",
+  "scadenzaCantiereTileDeleteTooltip": "Delete deadline",
+  "scadenzaCantiereTileDueDate": "Due date: {date}",
+  "@scadenzaCantiereTileDueDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzaCantiereTileEditTooltip": "Edit deadline",
+  "scadenzaCantiereTileNotesLine": "Notes: {note}",
+  "@scadenzaCantiereTileNotesLine": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "notaRifiutoDialogTitle": "Note — {nomeDitta} — {tipo}",
+  "@notaRifiutoDialogTitle": {
+    "placeholders": {
+      "nomeDitta": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaScalaDialogTitle": "Note — Ladder {codice}",
+  "@notaScadenzaScalaDialogTitle": {
+    "placeholders": {
+      "codice": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaDocumentoDialogDefaultType": "document",
+  "notaScadenzaDocumentoDialogTitle": "Note — {tipo}",
+  "@notaScadenzaDocumentoDialogTitle": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "creaSegnaleFormDialogBrowse": "Browse",
+  "creaSegnaleFormDialogChangeImage": "Change image",
+  "creaSegnaleFormDialogDragDropText": "Drag the sign image here",
+  "creaSegnaleFormDialogExtensionNotAllowed": "File type not allowed (.{estensione})",
+  "@creaSegnaleFormDialogExtensionNotAllowed": {
+    "placeholders": {
+      "estensione": {
+        "type": "String"
+      }
+    }
+  },
+  "creaSegnaleFormDialogFileTooLarge": "Image too large (max 5 MB)",
+  "creaSegnaleFormDialogFileTypesHint": "JPG, PNG or WEBP - max 5 MB",
+  "creaSegnaleFormDialogImageSectionTitle": "Sign image",
+  "creaSegnaleFormDialogImageUnavailable": "Image unavailable",
+  "creaSegnaleFormDialogLocationHint": "E.g. entrance hallway, north side",
+  "creaSegnaleFormDialogLocationLabel": "Location",
+  "creaSegnaleFormDialogNameLabel": "Name*",
+  "creaSegnaleFormDialogRemoveImage": "Remove",
+  "creaSegnaleFormDialogTitleEdit": "Edit sign",
+  "creaSegnaleFormDialogTitleNew": "New sign",
+  "creaSegnaleFormDialogZoneLabel": "Zone",
+  "creaSegnaleFormDialogZoneOffice": "Office",
+  "creaSegnaleFormDialogZoneUnspecified": "Unspecified",
+  "creaSegnaleFormDialogZoneWarehouse": "Warehouse",
+  "subappaltatoriScreenConfirmDeleteMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@subappaltatoriScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoriScreenConfirmDeleteTitle": "Delete subcontractor?",
+  "subappaltatoriScreenDeleteTooltip": "Delete subcontractor",
+  "subappaltatoriScreenEditTooltip": "Edit subcontractor",
+  "subappaltatoriScreenEmptyLoaded": "No subcontractors loaded.",
+  "subappaltatoriScreenEmptySearch": "No subcontractor found for \"{query}\".",
+  "@subappaltatoriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoriScreenNewTooltip": "New subcontractor",
+  "subappaltatoriScreenNone": "none",
+  "subappaltatoriScreenSearchHint": "Search by company name",
+  "subappaltatoriScreenSitesCount": "Associated sites",
+  "subappaltatoriScreenTitle": "Subcontractors",
+  "cantiereDetailScreenAddDeadlineLabel": "Add deadline",
+  "cantiereDetailScreenAddSubcontractorLabel": "Add subcontractor",
+  "cantiereDetailScreenAddressLabel": "Address",
+  "cantiereDetailScreenBreadcrumbSites": "Sites",
+  "cantiereDetailScreenConfirmDeleteMessage": "All deadlines for {nome} and those of the subcontractors assigned to this site will be permanently deleted from the server.\nTHIS ACTION CANNOT BE UNDONE.",
+  "@cantiereDetailScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereDetailScreenConfirmDeleteTitle": "Delete the site's deadlines?",
+  "cantiereDetailScreenConfirmRemoveMessage": "Remove \"{nome}\" from this site? The subcontractor will not be deleted, but their deadlines and those of their employees will no longer be linked to this site.",
+  "@cantiereDetailScreenConfirmRemoveMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereDetailScreenConfirmRemoveTitle": "Remove subcontractor from this site?",
+  "cantiereDetailScreenDeadlinesTitle": "Site deadlines",
+  "cantiereDetailScreenDeleteDataAction": "Delete data",
+  "cantiereDetailScreenEmployeesPresentLabel": "Employees present",
+  "cantiereDetailScreenEmployeesPresentTooltip": "Employees present at this site",
+  "cantiereDetailScreenEndDateLabel": "End date",
+  "cantiereDetailScreenGeneralDeadlinesTitle": "General site deadlines",
+  "cantiereDetailScreenInfoSectionTitle": "Information:",
+  "cantiereDetailScreenNoDeadlines": "No deadlines recorded for this site.",
+  "cantiereDetailScreenNoGeneralDeadlines": "No general deadlines set for this site.",
+  "cantiereDetailScreenNoSubcontractors": "No subcontractors associated with this site.",
+  "cantiereDetailScreenNoneValue": "none",
+  "cantiereDetailScreenNotSet": "Not set",
+  "cantiereDetailScreenPostalCodeLabel": "Postal code",
+  "cantiereDetailScreenRemoveFromSiteTooltip": "Remove from this site",
+  "cantiereDetailScreenStartDateLabel": "Start date",
+  "cantiereDetailScreenSubcontractorsTitle": "Subcontractors",
+  "cantiereDetailScreenSuspensionDateLabel": "Suspension date",
+  "cantieriScreenActiveSitesTitle": "Active sites",
+  "cantieriScreenArchiveAction": "Site archive",
+  "cantieriScreenConfirmDeleteMessage": "Delete the site {nome}? This action cannot be undone.",
+  "@cantieriScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenConfirmDeleteTitle": "Delete site?",
+  "cantieriScreenDeadlineNoteLabel": "Deadline note",
+  "cantieriScreenDeadlineTypesAction": "Deadline types",
+  "cantieriScreenDefaultDocumentType": "Document",
+  "cantieriScreenEditNoteTooltip": "Edit note",
+  "cantieriScreenEmployeeLabel": "Employee",
+  "cantieriScreenEmptyAllConcluded": "No active sites (all completed).",
+  "cantieriScreenEmptyLoaded": "No sites loaded.",
+  "cantieriScreenEmptySearch": "No site found for \"{query}\".",
+  "@cantieriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenHideDeadlinesTooltip": "Hide deadlines",
+  "cantieriScreenNewSiteAction": "New site",
+  "cantieriScreenNoteDialogTitle": "Note — {nome} — {etichetta}",
+  "@cantieriScreenNoteDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "etichetta": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenSearchHint": "Search by name or municipality",
+  "cantieriScreenShowDeadlinesTooltip": "Show deadlines",
+  "cantieriScreenSiteDeadlinesGroup": "Site deadlines",
+  "cantieriScreenSiteLabel": "Site",
+  "cantieriScreenSitesPresentLabel": "Sites where present",
+  "cantieriScreenSubcontractorsAction": "Subcontractors",
+  "cantieriScreenTitle": "Sites",
+  "cantieriScreenUpcomingDeadlinesTitle": "Upcoming deadlines",
+  "amministrazioneScreenConfirmDeleteDeadlineMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@amministrazioneScreenConfirmDeleteDeadlineMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenConfirmDeleteDeadlineTitle": "Delete deadline?",
+  "amministrazioneScreenConfirmDeleteEmployeeMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@amministrazioneScreenConfirmDeleteEmployeeMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenConfirmDeleteEmployeeTitle": "Delete employee?",
+  "amministrazioneScreenDeadlineDateLabel": "Due date",
+  "amministrazioneScreenDeadlineNoteLabel": "Deadline note",
+  "amministrazioneScreenDeleteDeadlineTooltip": "Delete deadline",
+  "amministrazioneScreenDeleteEmployeeTooltip": "Delete employee",
+  "amministrazioneScreenDlAerialPlatform": "Aerial platform license expiry",
+  "amministrazioneScreenDlContract": "Contract expiry",
+  "amministrazioneScreenDlDigitalSignature": "Digital signature expiry",
+  "amministrazioneScreenDlExcavator": "Excavator operation license expiry",
+  "amministrazioneScreenDlFirefighting": "Firefighting certification expiry",
+  "amministrazioneScreenDlFirstAid": "First aid certification expiry",
+  "amministrazioneScreenDlForklift": "Self-propelled forklift license expiry",
+  "amministrazioneScreenDlHeightWork": "Working at height certification expiry",
+  "amministrazioneScreenDlIdCard": "ID card expiry",
+  "amministrazioneScreenDlIsocyanates": "Diisocyanates course expiry",
+  "amministrazioneScreenDlLicense": "Driving license expiry",
+  "amministrazioneScreenDlMedicalCheckup": "Medical checkup expiry",
+  "amministrazioneScreenDlResidencePermit": "Residence permit expiry",
+  "amministrazioneScreenDlRlst": "RLST certification expiry",
+  "amministrazioneScreenDlRspp": "RSPP certification expiry",
+  "amministrazioneScreenDlSafetyTraining": "Safety training expiry",
+  "amministrazioneScreenDlScaffolding": "Scaffolding assembly/disassembly certification expiry",
+  "amministrazioneScreenDlShelving": "Shelving course expiry",
+  "amministrazioneScreenDlSupervisor": "Supervisor certification expiry",
+  "amministrazioneScreenDlTachograph": "Tachograph card expiry",
+  "amministrazioneScreenDlTachographCompany": "Tachograph card + company expiry",
+  "amministrazioneScreenDlTachographCourse": "Tachograph course expiry",
+  "amministrazioneScreenDlTaxCode": "Tax code expiry",
+  "amministrazioneScreenDlTetanus": "Tetanus vaccination expiry",
+  "amministrazioneScreenDlTowerCrane": "Tower crane license expiry",
+  "amministrazioneScreenDlTruckCrane": "Truck-mounted crane license expiry",
+  "amministrazioneScreenEditDeadlineTooltip": "Edit deadline",
+  "amministrazioneScreenEditEmployeeTooltip": "Edit employee",
+  "amministrazioneScreenEditNoteTooltip": "Edit note",
+  "amministrazioneScreenEmployeeDeadlinesTitle": "Employee deadlines",
+  "amministrazioneScreenEmployeeLabel": "Employee",
+  "amministrazioneScreenEmployeesTitle": "Company employees",
+  "amministrazioneScreenEmptyDeadlinesLoaded": "No deadlines loaded.",
+  "amministrazioneScreenEmptyDeadlinesSearch": "No deadline found for \"{query}\".",
+  "@amministrazioneScreenEmptyDeadlinesSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenEmptyEmployeesLoaded": "No employees loaded.",
+  "amministrazioneScreenEmptyEmployeesSearch": "No employee found for \"{query}\".",
+  "@amministrazioneScreenEmptyEmployeesSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenFieldAerialPlatform": "Aerial platforms",
+  "amministrazioneScreenFieldAge": "Age",
+  "amministrazioneScreenFieldBirthDate": "Date of birth",
+  "amministrazioneScreenFieldBirthPlace": "Place of birth",
+  "amministrazioneScreenFieldDigitalSignature": "Digital signature",
+  "amministrazioneScreenFieldEnvironmentalManagement": "Environmental management",
+  "amministrazioneScreenFieldExcavator": "Excavator operation",
+  "amministrazioneScreenFieldFirefighting": "Firefighting",
+  "amministrazioneScreenFieldFirstAid": "First aid",
+  "amministrazioneScreenFieldForklift": "Self-propelled forklift",
+  "amministrazioneScreenFieldGeneralSafetyTraining": "General safety training",
+  "amministrazioneScreenFieldHealthCard": "Health card",
+  "amministrazioneScreenFieldHeightWork": "Working at height",
+  "amministrazioneScreenFieldIdCard": "ID card",
+  "amministrazioneScreenFieldIsocyanates": "Diisocyanates course",
+  "amministrazioneScreenFieldLicense": "Driving license",
+  "amministrazioneScreenFieldMedicalCheckup": "Medical checkup",
+  "amministrazioneScreenFieldModel231": "Model 231",
+  "amministrazioneScreenFieldName": "Name",
+  "amministrazioneScreenFieldRentri": "Rentri",
+  "amministrazioneScreenFieldResidencePermit": "Residence permit",
+  "amministrazioneScreenFieldRlst": "RLST",
+  "amministrazioneScreenFieldRole": "Role",
+  "amministrazioneScreenFieldRspp": "RSPP",
+  "amministrazioneScreenFieldScaffolding": "Scaffolding assembly/disassembly",
+  "amministrazioneScreenFieldShelving": "Shelving course",
+  "amministrazioneScreenFieldSupervisor": "Supervisor",
+  "amministrazioneScreenFieldTachograph": "Tachograph card",
+  "amministrazioneScreenFieldTachographCourse": "Tachograph course",
+  "amministrazioneScreenFieldTaxCode": "Tax code",
+  "amministrazioneScreenFieldTetanus": "Tetanus",
+  "amministrazioneScreenFieldTowerCrane": "Tower crane",
+  "amministrazioneScreenFieldTruckCrane": "Truck-mounted crane",
+  "amministrazioneScreenGeneralDeadlinesTitle": "General deadlines",
+  "amministrazioneScreenHideAllTooltip": "Hide all",
+  "amministrazioneScreenHideDeadlinesTooltip": "Hide deadlines",
+  "amministrazioneScreenHideDetailsTooltip": "Hide details",
+  "amministrazioneScreenNoUpcomingDeadlines": "No upcoming deadlines.",
+  "amministrazioneScreenSearchDeadlinesHint": "Search by name or note",
+  "amministrazioneScreenSearchEmployeesHint": "Search by first name, last name or role",
+  "amministrazioneScreenSectionCoursesCompleted": "Completed course deadlines",
+  "amministrazioneScreenSectionPersonalDeadlines": "Personal deadlines",
+  "amministrazioneScreenSectionPersonalInfo": "Personal details",
+  "amministrazioneScreenSectionTrainingDates": "Completed training course dates",
+  "amministrazioneScreenShowAllTooltip": "Show all",
+  "amministrazioneScreenShowDeadlinesTooltip": "Show deadlines",
+  "amministrazioneScreenShowDetailsTooltip": "Show details",
+  "amministrazioneScreenTitle": "Administration",
+  "amministrazioneScreenUpcomingDeadlinesTitle": "Upcoming deadlines",
+  "fasceCateneScreenInMagazzino": "In warehouse",
+  "fasceCateneScreenInCantiere": "At site {nome}",
+  "@fasceCateneScreenInCantiere": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenSuAutomezzo": "On vehicle {nome}",
+  "@fasceCateneScreenSuAutomezzo": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenNonSpecificata": "Not specified",
+  "fasceCateneScreenEsitoPositivo": "Passed",
+  "fasceCateneScreenEsitoNegativo": "Failed",
+  "fasceCateneScreenTitle": "Slings, Chains & Buckets",
+  "fasceCateneScreenNuovaFasciaCatena": "New sling/chain",
+  "fasceCateneScreenInserisciBenna": "Add bucket",
+  "fasceCateneScreenPresenti": "Slings, chains and buckets on record",
+  "fasceCateneScreenNascondiTutti": "Collapse all",
+  "fasceCateneScreenMostraTutti": "Expand all",
+  "fasceCateneScreenSearchHint": "Search by ID, serial number, type or location",
+  "fasceCateneScreenNessunElementoCaricato": "No items loaded.",
+  "fasceCateneScreenNessunElementoTrovato": "No items found for \"{query}\".",
+  "@fasceCateneScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenBenneAutoscaricanti": "Self-dumping buckets",
+  "fasceCateneScreenAnagrafica": "Details",
+  "fasceCateneScreenNumeroSerie": "Serial no.",
+  "fasceCateneScreenUbicazione": "Location",
+  "fasceCateneScreenVerificaConEsito": "Inspection outcome",
+  "fasceCateneScreenEsitoNegativoLower": "failed",
+  "fasceCateneScreenEsitoPositivoLower": "passed",
+  "fasceCateneScreenTipo": "Type",
+  "fasceCateneScreenCricchetto": "Ratchet",
+  "fasceCateneScreenIdInterno": "Internal ID",
+  "fasceCateneScreenNumeroSerieProduttore": "Manufacturer serial no.",
+  "fasceCateneScreenColore": "Color",
+  "fasceCateneScreenCaratteristiche": "Specifications",
+  "fasceCateneScreenPortataKg": "Capacity (kg)",
+  "fasceCateneScreenSpessoreMm": "Thickness (mm)",
+  "fasceCateneScreenDiametroMm": "Diameter (mm)",
+  "fasceCateneScreenLarghezzaMm": "Width (mm)",
+  "fasceCateneScreenLunghezzaM": "Length (m)",
+  "fasceCateneScreenUbicazioneEAcquisto": "Location and purchase",
+  "fasceCateneScreenDataAcquisto": "Purchase date",
+  "fasceCateneScreenLuogoAcquisto": "Place of purchase",
+  "fasceCateneScreenVerificaInterna": "Internal inspection",
+  "fasceCateneScreenUltimaVerifica": "Last inspection",
+  "fasceCateneScreenEsito": "Outcome",
+  "fasceCateneScreenProssimaVerifica": "Next inspection",
+  "fasceCateneScreenEliminareFasciaCatenaTitle": "Delete this sling/chain?",
+  "fasceCateneScreenEliminareBennaTitle": "Delete this bucket?",
+  "fasceCateneScreenConfirmDeleteMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@fasceCateneScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenNascondiInfo": "Hide details",
+  "fasceCateneScreenMostraInfo": "Show details",
+  "fasceCateneScreenDescrizione": "Description",
+  "fasceCateneScreenCapacitaCarico": "Load capacity",
+  "fasceCateneScreenIngrandisciFoto": "Enlarge photo",
+  "fasceCateneScreenImmagineNonDisponibile": "Image not available",
+  "fasceCateneScreenBennaTitolo": "{idInterno} - Bucket",
+  "@fasceCateneScreenBennaTitolo": {
+    "placeholders": {
+      "idInterno": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenCodice": "Code",
+  "scaleScreenMateriale": "Material",
+  "scaleScreenDescrizione": "Description",
+  "scaleScreenUbicazione": "Location",
+  "scaleScreenUltimaVerifica": "Last inspection",
+  "scaleScreenProssimaVerifica": "Next inspection",
+  "scaleScreenInMagazzino": "In warehouse",
+  "scaleScreenInCantiere": "At site {nome}",
+  "@scaleScreenInCantiere": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNonSpecificata": "Not specified",
+  "scaleScreenTitle": "Ladders",
+  "scaleScreenPdfCount": "{count} ladders",
+  "@scaleScreenPdfCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scaleScreenPdfFiltro": "search filter: \"{filtro}\"",
+  "@scaleScreenPdfFiltro": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenStampaErrore": "Could not generate the printout: {dettagli}",
+  "@scaleScreenStampaErrore": {
+    "placeholders": {
+      "dettagli": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNuovaScala": "New ladder",
+  "scaleScreenStampa": "Print",
+  "scaleScreenScadenzeImminenti": "Upcoming deadlines",
+  "scaleScreenNascondiScadenze": "Hide deadlines",
+  "scaleScreenMostraScadenze": "Show deadlines",
+  "scaleScreenPresenti": "Ladders on record",
+  "scaleScreenNascondiTutti": "Collapse all",
+  "scaleScreenMostraTutti": "Expand all",
+  "scaleScreenSearchHint": "Search by code, material or location",
+  "scaleScreenNessunElementoCaricato": "No items loaded.",
+  "scaleScreenNessunElementoTrovato": "No items found for \"{query}\".",
+  "@scaleScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenCodiceScala": "Ladder code",
+  "scaleScreenNotaScadenza": "Deadline note",
+  "scaleScreenModificaNota": "Edit note",
+  "scaleScreenEliminaScala": "Delete ladder",
+  "scaleScreenEliminareScalaTitle": "Delete ladder?",
+  "scaleScreenConfirmDeleteMessage": "Delete \"{codice}\"? This action cannot be undone.",
+  "@scaleScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "codice": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNascondiInfo": "Hide details",
+  "scaleScreenMostraInfo": "Show details",
+  "scaleScreenAnagrafica": "Details",
+  "scaleScreenControlli": "Inspections",
+  "bennaFormDialogEstensioneNonAmmessa": "File type not allowed (.{estensione})",
+  "@bennaFormDialogEstensioneNonAmmessa": {
+    "placeholders": {
+      "estensione": {
+        "type": "String"
+      }
+    }
+  },
+  "bennaFormDialogImmagineTroppoGrande": "Image too large (max 5 MB)",
+  "bennaFormDialogModificaTitle": "Edit bucket",
+  "bennaFormDialogNuovaTitle": "New bucket",
+  "bennaFormDialogAnagrafica": "Details",
+  "bennaFormDialogIdInterno": "Internal ID*",
+  "bennaFormDialogDescrizione": "Description",
+  "bennaFormDialogNumeroSerieProduttore": "Manufacturer serial number",
+  "bennaFormDialogCapacitaCaricoLt": "Load capacity (L)",
+  "bennaFormDialogUbicazione": "Location",
+  "bennaFormDialogTipoUbicazione": "Location type",
+  "bennaFormDialogNonSpecificata": "Not specified",
+  "bennaFormDialogMagazzino": "Warehouse",
+  "bennaFormDialogCantiere": "Construction site",
+  "bennaFormDialogSelezionaCantiere": "Select a construction site",
+  "bennaFormDialogAcquisto": "Purchase",
+  "bennaFormDialogDataAcquisto": "Purchase date",
+  "bennaFormDialogVerificaInterna": "Internal inspection",
+  "bennaFormDialogUltimaVerificaInterna": "Last internal inspection",
+  "bennaFormDialogProssimaVerifica": "Next inspection",
+  "bennaFormDialogEsitoVerificaPositivo": "Inspection passed",
+  "bennaFormDialogIdoneaUso": "Fit for use",
+  "bennaFormDialogNonIdonea": "Not fit for use: must be taken out of service",
+  "bennaFormDialogFoto": "Photo",
+  "bennaFormDialogCambiaFoto": "Change photo",
+  "bennaFormDialogSfoglia": "Browse",
+  "bennaFormDialogRimuovi": "Remove",
+  "bennaFormDialogNoteAggiuntive": "Additional notes",
+  "bennaFormDialogImmagineNonDisponibile": "Image not available",
+  "bennaFormDialogTrascinaFoto": "Drag the bucket's photo here",
+  "bennaFormDialogFormatiAmmessi": "JPG, PNG or WEBP - max 5 MB",
+  "scadenzaCantiereFormDialogNomeScadenzaTitle": "Deadline name",
+  "scadenzaCantiereFormDialogNomeScadenzaHint": "E.g. Scaffolding, Crane, Fencing...",
+  "scadenzaCantiereFormDialogContinua": "Continue",
+  "scadenzaCantiereFormDialogTitle": "Construction site general deadlines",
+  "scadenzaCantiereFormDialogScadenzaMessaTerra": "Grounding system deadline",
+  "scadenzaCantiereFormDialogRimuoviMessaTerra": "Remove grounding system deadline",
+  "scadenzaCantiereFormDialogAggiungiMessaTerra": "Add grounding system deadline",
+  "scadenzaCantiereFormDialogScadenzaGenerica": "Generic deadline {numero}",
+  "@scadenzaCantiereFormDialogScadenzaGenerica": {
+    "placeholders": {
+      "numero": {
+        "type": "int"
+      }
+    }
+  },
+  "scadenzaCantiereFormDialogRimuoviQuesta": "Remove this deadline",
+  "scadenzaCantiereFormDialogAggiungiGenerica": "Add generic deadline",
+  "tipiScadenzeScreenTitle": "Deadline Types",
+  "tipiScadenzeScreenNuovaTipologia": "New type",
+  "tipiScadenzeScreenSearchHint": "Search by type",
+  "tipiScadenzeScreenNessunaTipologiaCaricata": "No types loaded.",
+  "tipiScadenzeScreenNessunaTipologiaTrovata": "No types found for \"{query}\".",
+  "@tipiScadenzeScreenNessunaTipologiaTrovata": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenRichiedeScadenza": "Requires a deadline",
+  "tipiScadenzeScreenAvviso": "Alert",
+  "tipiScadenzeScreenAvvisoDalGiorno": "from the day after the deadline",
+  "tipiScadenzeScreenPreavviso": "Advance notice",
+  "tipiScadenzeScreenGiorniPreavviso": "{giorni} days",
+  "@tipiScadenzeScreenGiorniPreavviso": {
+    "placeholders": {
+      "giorni": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenCollegatoA": "Linked to",
+  "tipiScadenzeScreenModificaTipologia": "Edit type",
+  "tipiScadenzeScreenEliminaTipologia": "Delete type",
+  "tipiScadenzeScreenEliminareTitle": "Delete this type?",
+  "tipiScadenzeScreenEliminareMessage": "Delete the deadline type {nome}? This action cannot be undone.",
+  "@tipiScadenzeScreenEliminareMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenCantiere": "Construction site",
+  "tipiScadenzeScreenSubappaltatore": "Subcontractor",
+  "tipiScadenzeScreenDipendenteSubappaltatore": "Subcontractor employee",
+  "tipiScadenzeScreenDipendenteSubappaltatoreAutonomo": "Subcontractor employee (and self-employed workers)",
+  "tipiScadenzeScreenLavoratoreAutonomo": "Self-employed worker",
+  "tipiScadenzeScreenElencoFinale": "{a} and {b}",
+  "@tipiScadenzeScreenElencoFinale": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendenteSubappaltatoreDetailScreenCantieri": "Construction Sites",
+  "dipendenteSubappaltatoreDetailScreenSubappaltatori": "Subcontractors",
+  "dipendenteSubappaltatoreDetailScreenDipendentiAziendali": "Company Employees",
+  "dipendenteSubappaltatoreDetailScreenInformazioni": "Information:",
+  "dipendenteSubappaltatoreDetailScreenTipo": "Type",
+  "dipendenteSubappaltatoreDetailScreenLavoratoreAutonomo": "Self-employed worker",
+  "dipendenteSubappaltatoreDetailScreenNessunCantiere": "The subcontractor is not assigned to any construction site.",
+  "dipendenteSubappaltatoreDetailScreenScadenzeDocumenti": "Document and certification deadlines",
+  "dipendenteSubappaltatoreDetailScreenAggiungiScadenza": "Add deadline",
+  "dipendenteSubappaltatoreDetailScreenNessunaScadenza": "No deadlines recorded for this employee.",
+  "dipendenteSubappaltatoreFormDialogNuovo": "New employee",
+  "dipendenteSubappaltatoreFormDialogModifica": "Edit employee",
+  "dipendenteSubappaltatoreFormDialogNome": "First name*",
+  "dipendenteSubappaltatoreFormDialogCognome": "Last name*",
+  "dipendenteSubappaltatoreFormDialogNoteHelper": "Shown in the \"Information\" box of the employee's page",
+  "dipendenteSubappaltatoreFormDialogLavoratoreAutonomo": "Self-employed worker",
+  "dipendenteSubappaltatoreFormDialogLavoratoreAutonomoSubtitle": "In addition to the employee's deadlines, can also record those reserved for self-employed workers",
+  "modificaScadenzaDocumentoDialogModificaTipo": "Edit {tipo}",
+  "@modificaScadenzaDocumentoDialogModificaTipo": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "modificaScadenzaDocumentoDialogModificaScadenza": "Edit deadline",
+  "modificaScadenzaDocumentoDialogDataScadenza": "Deadline date",
+  "notaMisuraDialogTitle": "Note — {nome} — {tipo}",
+  "@notaMisuraDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaGeneraleDialogTitle": "Note — {nome}",
+  "@notaScadenzaGeneraleDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendentiPresentiDialogTitle": "Employees on site — {nome}",
+  "@dipendentiPresentiDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendentiPresentiDialogNessunDipendente": "No employees registered for this subcontractor.",
+  "dipendentiPresentiDialogNote": "Notes: {note}",
+  "@dipendentiPresentiDialogNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenTitle": "First Aid",
+  "primoSoccorsoScreenStandardProductsLabel": "Standard products",
+  "primoSoccorsoScreenNewItemLabel": "New item",
+  "primoSoccorsoScreenUpcomingDeadlines": "Upcoming deadlines",
+  "primoSoccorsoScreenHideDeadlinesTooltip": "Hide deadlines",
+  "primoSoccorsoScreenShowDeadlinesTooltip": "Show deadlines",
+  "primoSoccorsoScreenSectionTitle": "First aid kits and packs",
+  "primoSoccorsoScreenHideAllTooltip": "Hide all",
+  "primoSoccorsoScreenShowAllTooltip": "Show all",
+  "primoSoccorsoScreenSearchHint": "Search by number, location, or type",
+  "primoSoccorsoScreenNoItemsLoaded": "No items loaded.",
+  "primoSoccorsoScreenNoItemsFound": "No items found for \"{query}\".",
+  "@primoSoccorsoScreenNoItemsFound": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenArticleLabel": "Item",
+  "primoSoccorsoScreenLocationLabel": "Location",
+  "primoSoccorsoScreenDeadlineNoteLabel": "Deadline note",
+  "primoSoccorsoScreenEditNoteTooltip": "Edit note",
+  "primoSoccorsoScreenEditItemTooltip": "Edit item",
+  "primoSoccorsoScreenDeleteItemTooltip": "Delete item",
+  "primoSoccorsoScreenDeleteConfirmTitle": "Delete item?",
+  "primoSoccorsoScreenDeleteConfirmMessage": "Delete \"{numero}\"? This action cannot be undone.",
+  "@primoSoccorsoScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenHideInfoTooltip": "Hide info",
+  "primoSoccorsoScreenShowInfoTooltip": "Show info",
+  "primoSoccorsoScreenChecksSectionTitle": "Checks and deadlines",
+  "primoSoccorsoScreenLastCheckLabel": "Last check",
+  "primoSoccorsoScreenNextCheckLabel": "Next check",
+  "primoSoccorsoScreenNextProductDeadlineLabel": "Next product expiry",
+  "primoSoccorsoScreenNotaDialogTitle": "Note — {titolo}",
+  "@primoSoccorsoScreenNotaDialogTitle": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenNextCheckType": "Next check",
+  "primoSoccorsoScreenProductDeadlineType": "{nomeProdotto} expiry",
+  "@primoSoccorsoScreenProductDeadlineType": {
+    "placeholders": {
+      "nomeProdotto": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationWarehouse": "At the warehouse",
+  "primoSoccorsoScreenLocationOffice": "At the office",
+  "primoSoccorsoScreenLocationSite": "At site {nome}",
+  "@primoSoccorsoScreenLocationSite": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationVehicle": "On vehicle {nome}",
+  "@primoSoccorsoScreenLocationVehicle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationUnspecified": "Not specified",
+  "impiantiScreenPdfOffice": "Office",
+  "impiantiScreenPdfWarehouse": "Warehouse",
+  "impiantiScreenPdfUnspecified": "Not specified",
+  "impiantiScreenColType": "Type",
+  "impiantiScreenColLocation": "Location",
+  "impiantiScreenColInstallerCompany": "Installer company",
+  "impiantiScreenColInstallDate": "Installation date",
+  "impiantiScreenColAssessmentDate": "Assessment date",
+  "impiantiScreenColInternalMaintDate": "Internal maint. date",
+  "impiantiScreenColInternalMaintDeadline": "Internal maint. deadline",
+  "impiantiScreenColInternalCheckType": "Internal check type",
+  "impiantiScreenColExternalMaintDate": "External maint. date",
+  "impiantiScreenColExternalMaintDeadline": "External maint. deadline",
+  "impiantiScreenColExternalCheckType": "External check type",
+  "impiantiScreenColLightningAssessmentDeadline": "Lightning protection assessment deadline",
+  "impiantiScreenInternalMaintenanceDeadlineType": "Internal maintenance deadline",
+  "impiantiScreenExternalMaintenanceDeadlineType": "External maintenance deadline",
+  "impiantiScreenTitle": "Systems",
+  "impiantiScreenPdfSubtitleCount": "{count} systems",
+  "@impiantiScreenPdfSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "impiantiScreenPdfSubtitleFilter": "search filter: \"{filtro}\"",
+  "@impiantiScreenPdfSubtitleFilter": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenPrintErrorMessage": "Unable to generate the printout: {details}",
+  "@impiantiScreenPrintErrorMessage": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenNewSystemLabel": "New system",
+  "impiantiScreenPrintLabel": "Print",
+  "impiantiScreenUpcomingDeadlines": "Upcoming deadlines",
+  "impiantiScreenHideDeadlinesTooltip": "Hide deadlines",
+  "impiantiScreenShowDeadlinesTooltip": "Show deadlines",
+  "impiantiScreenActiveSystemsTitle": "Active systems",
+  "impiantiScreenCollapseAllTooltip": "Collapse all",
+  "impiantiScreenExpandAllTooltip": "Expand all",
+  "impiantiScreenSearchHint": "Search by name",
+  "impiantiScreenNoItemsLoaded": "No systems loaded.",
+  "impiantiScreenNoItemsFound": "No systems found for \"{query}\".",
+  "@impiantiScreenNoItemsFound": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenLocationOfficeLower": "at the office",
+  "impiantiScreenLocationWarehouseLower": "at the warehouse",
+  "impiantiScreenLocationUnspecifiedLower": "not specified",
+  "impiantiScreenDeadlineNoteLabel": "Deadline note",
+  "impiantiScreenEditNoteTooltip": "Edit note",
+  "impiantiScreenEditSystemTooltip": "Edit system",
+  "impiantiScreenDeleteSystemTooltip": "Delete system",
+  "impiantiScreenDeleteConfirmTitle": "Delete system?",
+  "impiantiScreenDeleteConfirmMessage": "Delete \"{tipologia}\"? This action cannot be undone.",
+  "@impiantiScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenHideInfoTooltip": "Hide info",
+  "impiantiScreenShowInfoTooltip": "Show info",
+  "impiantiScreenInstallationSectionTitle": "Installation",
+  "impiantiScreenInstallerCompanyLabel": "Installer company",
+  "impiantiScreenInstallDateLabel": "Installation date",
+  "impiantiScreenAssessmentDateLabel": "Assessment date",
+  "impiantiScreenInternalMaintenanceSectionTitle": "Internal maintenance",
+  "impiantiScreenInternalMaintDateLabel": "Internal maintenance date",
+  "impiantiScreenInternalMaintDeadlineLabel": "Internal maintenance deadline",
+  "impiantiScreenCheckTypeLabel": "Check type",
+  "impiantiScreenExternalMaintenanceSectionTitle": "External maintenance",
+  "impiantiScreenExternalMaintDateLabel": "External maintenance date",
+  "impiantiScreenExternalMaintDeadlineLabel": "External maintenance deadline",
+  "impiantiScreenLightningSectionTitle": "Lightning protection",
+  "impiantiScreenLightningAssessmentDeadlineLabel": "Lightning protection assessment deadline",
+  "impiantiScreenAdditionalNotesSectionTitle": "Additional notes",
+  "macchinarioFormDialogOwnershipOwned": "Owned",
+  "macchinarioFormDialogOwnershipRented": "Rented",
+  "macchinarioFormDialogOwnershipLeased": "Leased",
+  "macchinarioFormDialogNewTitle": "New machinery",
+  "macchinarioFormDialogEditTitle": "Edit machinery",
+  "macchinarioFormDialogModelLabel": "Model*",
+  "macchinarioFormDialogSerialNumberLabel": "Serial number",
+  "macchinarioFormDialogFactoryNumberLabel": "Factory number",
+  "macchinarioFormDialogPurchaseYearLabel": "Purchase year",
+  "macchinarioFormDialogTypeLabel": "Type",
+  "macchinarioFormDialogUnspecifiedOption": "Not specified",
+  "macchinarioFormDialogOwnershipLabel": "Ownership",
+  "macchinarioFormDialogLeasingCompanyLabel": "Leasing company",
+  "macchinarioFormDialogLeasingDeadlineLabel": "Leasing deadline",
+  "macchinarioFormDialogRentalCompanyLabel": "Rental company",
+  "macchinarioFormDialogRentalEmailLabel": "Rental company email",
+  "macchinarioFormDialogInvalidEmailValidator": "Enter a valid email",
+  "macchinarioFormDialogCivaInailLabel": "Listed in CIVA/INAIL",
+  "macchinarioFormDialogInUseLabel": "In use?",
+  "macchinarioFormDialogLocationSectionTitle": "Location",
+  "macchinarioFormDialogLocationTypeLabel": "Location type",
+  "macchinarioFormDialogLocationWarehouse": "Warehouse",
+  "macchinarioFormDialogLocationSite": "Construction site",
+  "macchinarioFormDialogLocationVehicle": "Vehicle",
+  "macchinarioFormDialogSiteValidator": "Select a construction site",
+  "macchinarioFormDialogVehicleValidator": "Select a vehicle",
+  "macchinarioFormDialogInsuranceCompanyLabel": "Insurance company",
+  "macchinarioFormDialogInsuranceDeadlineLabel": "Insurance deadline",
+  "macchinarioFormDialogRemoveInsuranceDeadlineTooltip": "Remove insurance deadline",
+  "macchinarioFormDialogAddInsuranceDeadlineLabel": "Add insurance deadline",
+  "macchinarioFormDialogInternalMaintenanceSectionTitle": "Internal maintenance",
+  "macchinarioFormDialogInterventionDateLabel": "Intervention date",
+  "macchinarioFormDialogDeadlineLabel": "Deadline",
+  "macchinarioFormDialogRopeChainCheckSectionTitle": "Rope/chain check",
+  "macchinarioFormDialogCheckDateLabel": "Check date",
+  "macchinarioFormDialogAnnualCheckSectionTitle": "Annual inspection",
+  "macchinarioFormDialogInspectionDateLabel": "Inspection date",
+  "macchinarioFormDialogTwentyYearCheckSectionTitle": "Twenty-year inspection",
+  "macchinarioFormDialogAdditionalNotesLabel": "Additional notes",
+  "scaffalatureScreenNextCheckType": "Next shelving check",
+  "scaffalatureScreenTitle": "Shelving",
+  "scaffalatureScreenAddLabel": "Add shelving unit",
+  "scaffalatureScreenUpcomingDeadlines": "Upcoming deadlines",
+  "scaffalatureScreenHideDeadlinesTooltip": "Hide deadlines",
+  "scaffalatureScreenShowDeadlinesTooltip": "Show deadlines",
+  "scaffalatureScreenSectionTitle": "Shelving units on record",
+  "scaffalatureScreenHideAllTooltip": "Hide all",
+  "scaffalatureScreenShowAllTooltip": "Show all",
+  "scaffalatureScreenNoItemsLoaded": "No items loaded.",
+  "scaffalatureScreenIdLabel": "Shelving ID",
+  "scaffalatureScreenLastCheckLabel": "Last check",
+  "scaffalatureScreenDeadlineNoteLabel": "Deadline note",
+  "scaffalatureScreenEditNoteTooltip": "Edit note",
+  "scaffalatureScreenCardTitle": "Shelving unit #{id}",
+  "@scaffalatureScreenCardTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalatureScreenNextCheckLabel": "Next check",
+  "scaffalatureScreenDeleteTooltip": "Delete shelving unit",
+  "scaffalatureScreenDeleteConfirmTitle": "Delete shelving unit?",
+  "scaffalatureScreenDeleteConfirmMessage": "Delete shelving unit #{id}? This action cannot be undone.",
+  "@scaffalatureScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalatureScreenHideInfoTooltip": "Hide info",
+  "scaffalatureScreenShowInfoTooltip": "Show info",
+  "scaffalatureScreenChecksSectionTitle": "Checks",
+  "scaffalatureScreenOutcomeLabel": "Outcome",
+  "scaffalatureScreenOutcomePositive": "Passed",
+  "scaffalatureScreenOutcomeNegative": "Failed",
+  "impiantiFormDialogNewTitle": "New system",
+  "impiantiFormDialogEditTitle": "Edit system",
+  "impiantiFormDialogTypeLabel": "Type*",
+  "impiantiFormDialogLocationTypeLabel": "Location type",
+  "impiantiFormDialogUnspecifiedOption": "Not specified",
+  "impiantiFormDialogLocationWarehouse": "Warehouse",
+  "impiantiFormDialogLocationOffice": "Office",
+  "impiantiFormDialogInstallationSectionTitle": "Installation",
+  "impiantiFormDialogInstallDateLabel": "Installation date",
+  "impiantiFormDialogInstallerCompanyLabel": "Installer company",
+  "impiantiFormDialogAssessmentDateLabel": "Assessment date",
+  "impiantiFormDialogInternalMaintenanceSectionTitle": "Internal maintenance",
+  "impiantiFormDialogInternalMaintDateLabel": "Internal maintenance date",
+  "impiantiFormDialogInternalMaintDeadlineLabel": "Internal maintenance deadline",
+  "impiantiFormDialogInternalCheckTypeLabel": "Internal check type",
+  "impiantiFormDialogExternalMaintenanceSectionTitle": "External maintenance",
+  "impiantiFormDialogExternalMaintDateLabel": "External maintenance date",
+  "impiantiFormDialogExternalMaintDeadlineLabel": "External maintenance deadline",
+  "impiantiFormDialogExternalCheckTypeLabel": "External check type",
+  "impiantiFormDialogLightningSectionTitle": "Lightning protection",
+  "impiantiFormDialogLightningAssessmentDeadlineLabel": "Lightning protection assessment deadline",
+  "impiantiFormDialogRemoveLightningAssessmentTooltip": "Remove lightning protection assessment",
+  "impiantiFormDialogAddLightningAssessmentLabel": "Add lightning protection assessment deadline",
+  "impiantiFormDialogAdditionalNotesLabel": "Additional notes",
+  "documentFormDialogDeadlineRequiredError": "This document type requires a deadline date",
+  "documentFormDialogTitle": "New deadline",
+  "documentFormDialogSectionTitle": "Document",
+  "documentFormDialogTypeLabel": "Document type",
+  "documentFormDialogTypeValidator": "Select a type",
+  "documentFormDialogDeadlineDateLabel": "Deadline date",
+  "documentFormDialogDeadlineDateOptionalLabel": "Deadline date (optional)",
+  "documentFormDialogInfoText": "The document itself is kept on file: this only records the deadline, so reminders can be sent by email.",
+  "cantiereFormDialogNewTitle": "New construction site",
+  "cantiereFormDialogEditTitle": "Edit construction site",
+  "cantiereFormDialogInfoSectionTitle": "Site details",
+  "cantiereFormDialogNameLabel": "Name*",
+  "cantiereFormDialogAddressLabel": "Address*",
+  "cantiereFormDialogTownLabel": "Town",
+  "cantiereFormDialogPostalCodeLabel": "Postal code",
+  "cantiereFormDialogStatusSectionTitle": "Site status",
+  "cantiereFormDialogStatusLabel": "Status",
+  "cantiereFormDialogStatusInProgress": "In progress",
+  "cantiereFormDialogStatusCompleted": "Completed",
+  "cantiereFormDialogStatusSuspended": "Suspended",
+  "cantiereFormDialogStartDateLabel": "Start date",
+  "cantiereFormDialogSuspensionDateLabel": "Suspension date",
+  "cantiereFormDialogCompletionDateLabel": "Completion date",
+  "scadenzaGeneraleFormDialogNewTitle": "New deadline",
+  "scadenzaGeneraleFormDialogEditTitle": "Edit deadline",
+  "scadenzaGeneraleFormDialogNameLabel": "Name",
+  "scadenzaGeneraleFormDialogDeadlineLabel": "Deadline",
+  "scadenzaGeneraleFormDialogNoticeDaysLabel": "Notice days",
+  "scadenzaGeneraleFormDialogAdditionalNotesLabel": "Additional notes",
+  "sospendiSollecitiDialogTitle": "Suspend reminders",
+  "sospendiSollecitiDialogDescription1": "While suspended, items that are already overdue will no longer be re-flagged every day, either to us or to subcontractors and rental companies.",
+  "sospendiSollecitiDialogDescription2": "Advance-notice emails will keep arriving as usual: anything that comes due during the shutdown is still reported, just once.",
+  "sospendiSollecitiDialogUntilLabel": "Suspend until (inclusive)",
+  "sospendiSollecitiDialogInvalidDateMessage": "The date must be today or later.",
+  "sospendiSollecitiDialogSetByMessage": "Suspension set by {impostataDa}.",
+  "@sospendiSollecitiDialogSetByMessage": {
+    "placeholders": {
+      "impostataDa": {
+        "type": "String"
+      }
+    }
+  },
+  "sospendiSollecitiDialogReactivateNowLabel": "Reactivate now",
+  "sospendiSollecitiDialogUpdateLabel": "Update",
+  "sospendiSollecitiDialogSuspendLabel": "Suspend",
+  "notaImpiantoDialogTitle": "Note — {tipologia} — {tipo}",
+  "@notaImpiantoDialogTitle": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaFasciaCatenaDialogTitle": "Note — {id}",
+  "@notaScadenzaFasciaCatenaDialogTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogTitle": "Items — {tipologia} #{numero}",
+  "@showArticoliDialogTitle": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      },
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogEmptyMessage": "No products added.",
+  "showArticoliDialogQuantityLine": "Quantity: {quantita}",
+  "@showArticoliDialogQuantityLine": {
+    "placeholders": {
+      "quantita": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogDeadlineLine": "Expiry: {data}",
+  "@showArticoliDialogDeadlineLine": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogNoteLine": "Notes: {note}",
+  "@showArticoliDialogNoteLine": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogDeadlineNoteLine": "Note: {nota}",
+  "@showArticoliDialogDeadlineNoteLine": {
+    "placeholders": {
+      "nota": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenTitle": "Fire Extinguishers",
+  "estintoriScreenNewButton": "New fire extinguisher",
+  "estintoriScreenPrintAction": "Print",
+  "estintoriScreenPrintError": "Could not generate the printout: {details}",
+  "@estintoriScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenUpcomingDeadlines": "Upcoming deadlines",
+  "estintoriScreenHideDeadlines": "Hide deadlines",
+  "estintoriScreenShowDeadlines": "Show deadlines",
+  "estintoriScreenSectionTitle": "Fire extinguishers on record",
+  "estintoriScreenCollapseAll": "Collapse all",
+  "estintoriScreenExpandAll": "Expand all",
+  "estintoriScreenSearchHint": "Search by serial number or location",
+  "estintoriScreenEmptyNone": "No fire extinguishers loaded.",
+  "estintoriScreenEmptySearch": "No fire extinguisher found for \"{query}\".",
+  "@estintoriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLabelMatricola": "Serial number",
+  "estintoriScreenLabelUbicazione": "Location",
+  "estintoriScreenLabelNotaScadenza": "Deadline note",
+  "estintoriScreenEditNoteTooltip": "Edit note",
+  "estintoriScreenEditTooltip": "Edit fire extinguisher",
+  "estintoriScreenDeleteTooltip": "Delete fire extinguisher",
+  "estintoriScreenDeleteConfirmTitle": "Delete fire extinguisher?",
+  "estintoriScreenDeleteConfirmMessage": "Delete \"{matricola}\"? This action cannot be undone.",
+  "@estintoriScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "matricola": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenHideInfo": "Hide details",
+  "estintoriScreenShowInfo": "Show details",
+  "estintoriScreenSectionGeneralData": "General data",
+  "estintoriScreenLabelCapacita": "Capacity",
+  "estintoriScreenLabelTipo": "Type",
+  "estintoriScreenLabelDataProduzione": "Manufacture date",
+  "estintoriScreenLabelDataMessaInServizio": "Commissioning date",
+  "estintoriScreenSectionVerificaEsterna": "External Inspection",
+  "estintoriScreenLabelDataVerificaEsterna": "External inspection date",
+  "estintoriScreenLabelScadenzaVerificaEsterna": "External inspection due date",
+  "estintoriScreenSectionRevisione": "Servicing",
+  "estintoriScreenLabelDataUltimaRevisione": "Last servicing date",
+  "estintoriScreenLabelScadenzaRevisione": "Servicing due date",
+  "estintoriScreenSectionCollaudo": "Testing",
+  "estintoriScreenLabelDataCollaudo": "Testing date",
+  "estintoriScreenLabelScadenzaCollaudo": "Testing due date",
+  "estintoriScreenTipoScadenzaCollaudo": "Testing Due Date",
+  "estintoriScreenTipoScadenzaRevisione": "Servicing Due Date",
+  "estintoriScreenTipoScadenzaVerificaEsterna": "External Inspection Due Date",
+  "estintoriScreenTipoSostituzione": "Replacement (18 years)",
+  "estintoriScreenLocationWarehouse": "In warehouse",
+  "estintoriScreenLocationOffice": "In office",
+  "estintoriScreenLocationSite": "At site {nome}",
+  "@estintoriScreenLocationSite": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLocationVehicle": "On vehicle {veicolo}",
+  "@estintoriScreenLocationVehicle": {
+    "placeholders": {
+      "veicolo": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLocationUnspecified": "Not specified",
+  "estintoriScreenPdfCount": "{count} fire extinguishers",
+  "@estintoriScreenPdfCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "estintoriScreenPdfFilter": "search filter: \"{filtro}\"",
+  "@estintoriScreenPdfFilter": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenPdfColMatricola": "Serial No.",
+  "estintoriScreenPdfColDataProduzione": "Production date",
+  "estintoriScreenPdfColScadVerificaEsterna": "Ext. inspection due",
+  "estintoriScreenPdfColDataRevisione": "Servicing date",
+  "estintoriScreenPdfColScadRevisione": "Servicing due",
+  "estintoriScreenPdfColScadCollaudo": "Testing due",
+  "cassettaPsFormDialogTipoCassetta": "First Aid Kit",
+  "cassettaPsFormDialogTipoPacchettoMedicazione": "Dressing Pack",
+  "cassettaPsFormDialogNotSpecified": "Not specified",
+  "cassettaPsFormDialogAddProduct": "Add product",
+  "cassettaPsFormDialogNoProducts": "No products added.",
+  "cassettaPsFormDialogQuantityLabel": "Quantity: {quantita}",
+  "@cassettaPsFormDialogQuantityLabel": {
+    "placeholders": {
+      "quantita": {
+        "type": "String"
+      }
+    }
+  },
+  "cassettaPsFormDialogExpiryLabel": "Expiry: {data}",
+  "@cassettaPsFormDialogExpiryLabel": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      }
+    }
+  },
+  "cassettaPsFormDialogEditProductTooltip": "Edit product",
+  "cassettaPsFormDialogRemoveProductTooltip": "Remove product",
+  "cassettaPsFormDialogNewTitle": "New item",
+  "cassettaPsFormDialogEditTitle": "Edit item",
+  "cassettaPsFormDialogNumberLabel": "Number*",
+  "cassettaPsFormDialogTypeLabel": "Type",
+  "cassettaPsFormDialogLocationSection": "Location",
+  "cassettaPsFormDialogLocationTypeLabel": "Location type",
+  "cassettaPsFormDialogLocationWarehouse": "Warehouse",
+  "cassettaPsFormDialogLocationOffice": "Office",
+  "cassettaPsFormDialogLocationSite": "Site",
+  "cassettaPsFormDialogLocationVehicle": "Vehicle",
+  "cassettaPsFormDialogSiteLabel": "Site",
+  "cassettaPsFormDialogSelectSiteValidator": "Select a site",
+  "cassettaPsFormDialogVehicleLabel": "Vehicle",
+  "cassettaPsFormDialogSelectVehicleValidator": "Select a vehicle",
+  "cassettaPsFormDialogLocationDetailsLabel": "Additional location details",
+  "cassettaPsFormDialogChecksSection": "Checks",
+  "cassettaPsFormDialogLastCheckLabel": "Last Check",
+  "cassettaPsFormDialogNextCheckLabel": "Next Check",
+  "cassettaPsFormDialogProductsSection": "Products",
+  "cassettaPsFormDialogNextProductExpiryTitle": "Next Product Expiry",
+  "cassettaPsFormDialogNoProductExpiry": "No product expiry",
+  "cassettaPsFormDialogNewProductTitle": "New product",
+  "cassettaPsFormDialogEditProductTitle": "Edit product",
+  "cassettaPsFormDialogProductNameLabel": "Product name*",
+  "cassettaPsFormDialogQuantityFieldLabel": "Quantity",
+  "cassettaPsFormDialogExpiryFieldLabel": "Expiry",
+  "misureScreenTitle": "Gauges",
+  "misureScreenNewButton": "New gauge",
+  "misureScreenSearchHint": "Search by name",
+  "misureScreenEmptyNone": "No measuring instruments loaded.",
+  "misureScreenEmptySearch": "No measuring instrument found for \"{query}\".",
+  "@misureScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "misureScreenUpcomingDeadlines": "Upcoming deadlines",
+  "misureScreenHideDeadlines": "Hide deadlines",
+  "misureScreenShowDeadlines": "Show deadlines",
+  "misureScreenSectionTitle": "Measuring Instruments",
+  "misureScreenCollapseAll": "Collapse all",
+  "misureScreenExpandAll": "Expand all",
+  "misureScreenLabelModello": "Model",
+  "misureScreenLabelIncaricato": "Assigned to",
+  "misureScreenLabelNotaScadenza": "Deadline note",
+  "misureScreenEditNoteTooltip": "Edit note",
+  "misureScreenLabelMatricola": "Serial number",
+  "misureScreenEditTooltip": "Edit gauge",
+  "misureScreenDeleteTooltip": "Delete gauge",
+  "misureScreenDeleteConfirmTitle": "Delete measuring instrument?",
+  "misureScreenDeleteConfirmMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@misureScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "misureScreenHideInfo": "Hide details",
+  "misureScreenShowInfo": "Show details",
+  "misureScreenSectionGeneralData": "General data",
+  "misureScreenLabelRifAcq": "Purchase ref.",
+  "misureScreenSectionTaraturaInterna": "Internal Calibration",
+  "misureScreenLabelDataUltimaTaratura": "Last calibration date",
+  "misureScreenLabelDataProssimaTaratura": "Next calibration date",
+  "misureScreenSectionTaraturaEsterna": "External Calibration",
+  "misureScreenTipoProssimaTaraturaInterna": "Next Internal Calibration",
+  "misureScreenTipoProssimaTaraturaEsterna": "Next External Calibration",
+  "subappaltatoreDetailScreenBreadcrumbCantieri": "Construction Sites",
+  "subappaltatoreDetailScreenInfoSection": "Information:",
+  "subappaltatoreDetailScreenVatLabel": "VAT number",
+  "subappaltatoreDetailScreenGeneralDeadlinesTitle": "Subcontractor's general deadlines",
+  "subappaltatoreDetailScreenSiteDeadlinesTitle": "Subcontractor deadlines at this site",
+  "subappaltatoreDetailScreenAddDeadline": "Add deadline",
+  "subappaltatoreDetailScreenNoDeadlinesSubappaltatore": "No deadlines recorded for this subcontractor.",
+  "subappaltatoreDetailScreenEmployeeDeadlinesTitle": "On-site employee deadlines",
+  "subappaltatoreDetailScreenCollapseAll": "Collapse all",
+  "subappaltatoreDetailScreenExpandAll": "Show all",
+  "subappaltatoreDetailScreenNoDeadlinesEmployees": "No deadlines recorded for the employees on this site.",
+  "subappaltatoreDetailScreenDeadlineCountSingular": "1 deadline",
+  "subappaltatoreDetailScreenDeadlineCountPlural": "{count} deadlines",
+  "@subappaltatoreDetailScreenDeadlineCountPlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenExpiredCountSingular": ", 1 overdue",
+  "subappaltatoreDetailScreenExpiredCountPlural": ", {count} overdue",
+  "@subappaltatoreDetailScreenExpiredCountPlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenUpcomingCount": ", {count} upcoming",
+  "@subappaltatoreDetailScreenUpcomingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenAutonomousWorker": " · Self-employed worker",
+  "subappaltatoreDetailScreenNoteSuffix": " · Notes: {note}",
+  "@subappaltatoreDetailScreenNoteSuffix": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenHideDeadlines": "Hide deadlines",
+  "subappaltatoreDetailScreenShowDeadlines": "Show deadlines",
+  "subappaltatoreDetailScreenOpenEmployeePage": "Open employee page",
+  "misureFormDialogNewTitle": "New gauge",
+  "misureFormDialogEditTitle": "Edit gauge",
+  "misureFormDialogNameLabel": "Name*",
+  "misureFormDialogReferenceLabel": "Reference",
+  "misureFormDialogSerialLabel": "Serial number",
+  "misureFormDialogInternalCalibrationSection": "Internal Calibration",
+  "misureFormDialogAssignedToLabel": "Assigned to",
+  "misureFormDialogNotSpecified": "Not specified",
+  "misureFormDialogLastCalibrationLabel": "Last calibration date",
+  "misureFormDialogNextCalibrationLabel": "Next calibration date",
+  "misureFormDialogExternalCalibrationSection": "External Calibration",
+  "misureFormDialogExternalAssignedToLabel": "External calibration contact",
+  "misureFormDialogAdditionalNotesLabel": "Additional notes",
+  "articoliStandardCassettePsScreenTipoCassetta": "First Aid Kit",
+  "articoliStandardCassettePsScreenTipoPacchettoMedicazione": "Dressing Pack",
+  "articoliStandardCassettePsScreenBreadcrumbFirstAid": "First Aid",
+  "articoliStandardCassettePsScreenBreadcrumbStandardProducts": "Standard Products",
+  "articoliStandardCassettePsScreenDescription": "These products are added automatically when you choose the type for a new first aid kit or dressing pack.\nQuantity and expiry remain editable for each individual item.",
+  "articoliStandardCassettePsScreenAddProduct": "Add product",
+  "articoliStandardCassettePsScreenEmpty": "No standard products added.",
+  "articoliStandardCassettePsScreenContentSection": "Contents",
+  "articoliStandardCassettePsScreenEditTooltip": "Edit product",
+  "articoliStandardCassettePsScreenDeleteTooltip": "Delete product",
+  "articoliStandardCassettePsScreenDeleteConfirmTitle": "Delete product?",
+  "articoliStandardCassettePsScreenDeleteConfirmMessage": "Delete \"{nome}\" from the standard products? This action cannot be undone.",
+  "@articoliStandardCassettePsScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "articoloStandardCassettaPsFormDialogTipoCassetta": "First Aid Kit",
+  "articoloStandardCassettaPsFormDialogTipoPacchettoMedicazione": "Dressing Pack",
+  "articoloStandardCassettaPsFormDialogNewTitle": "New standard product",
+  "articoloStandardCassettaPsFormDialogEditTitle": "Edit standard product",
+  "articoloStandardCassettaPsFormDialogTypeLabel": "Type*",
+  "articoloStandardCassettaPsFormDialogProductNameLabel": "Product name*",
+  "articoloStandardCassettaPsFormDialogQuantityLabel": "Quantity",
+  "documentoTileDeleteConfirmTitle": "Delete the deadline?",
+  "documentoTileDeleteConfirmMessage": "Delete {documento}? This action cannot be undone.",
+  "@documentoTileDeleteConfirmMessage": {
+    "placeholders": {
+      "documento": {
+        "type": "String"
+      }
+    }
+  },
+  "documentoTileDefaultDocumentName": "this document",
+  "documentoTileSharedSuffix": " (shared)",
+  "documentoTileLabelScadenza": "Due date",
+  "documentoTileNotRequired": "not required",
+  "documentoTileLabelNota": "Note",
+  "documentoTileEditDeadline": "Edit deadline",
+  "documentoTileDeleteDeadline": "Delete deadline",
+  "notaMacchinarioDialogTitle": "Note — {modello} — {tipo}",
+  "@notaMacchinarioDialogTitle": {
+    "placeholders": {
+      "modello": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaDpiAssegnatoDialogTitle": "Note — {titolo}",
+  "@notaDpiAssegnatoDialogTitle": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaBennaDialogTitle": "Note — Bucket {idInterno}",
+  "@notaScadenzaBennaDialogTitle": {
+    "placeholders": {
+      "idInterno": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenTitle": "Machinery",
+  "macchinariScreenLocationCantiere": "At site {cantiere}",
+  "@macchinariScreenLocationCantiere": {
+    "placeholders": {
+      "cantiere": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenLocationAutomezzo": "On {veicolo}",
+  "@macchinariScreenLocationAutomezzo": {
+    "placeholders": {
+      "veicolo": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenLocationMagazzino": "In warehouse",
+  "macchinariScreenLocationUnspecified": "Not specified",
+  "macchinariScreenFieldModello": "Model",
+  "macchinariScreenFieldTipologia": "Type",
+  "macchinariScreenFieldMatricola": "Serial No.",
+  "macchinariScreenFieldFabbrica": "Factory No.",
+  "macchinariScreenFieldAnno": "Year",
+  "macchinariScreenFieldAnnoAcquisto": "Purchase year",
+  "macchinariScreenFieldProprieta": "Ownership",
+  "macchinariScreenFieldUbicazione": "Location",
+  "macchinariScreenFieldCivaInail": "CIVA/INAIL",
+  "macchinariScreenFieldPresenteCivaInail": "Listed in CIVA/INAIL",
+  "macchinariScreenFieldScadAssicurazione": "Insurance exp.",
+  "macchinariScreenFieldScadManutenzione": "Maintenance exp.",
+  "macchinariScreenFieldScadFuniCatene": "Ropes/chains exp.",
+  "macchinariScreenFieldVerificaAnnuale": "Annual inspection",
+  "macchinariScreenFieldVerificaVentennale": "20-year inspection",
+  "macchinariScreenFieldNotaScadenza": "Deadline note",
+  "macchinariScreenFieldLeasingCompany": "Leasing company",
+  "macchinariScreenFieldLeasingExpiry": "Leasing expiry",
+  "macchinariScreenFieldRentalCompany": "Rental company",
+  "macchinariScreenFieldEmail": "Email",
+  "macchinariScreenFieldInsuranceCompany": "Insurance company",
+  "macchinariScreenFieldInsuranceExpiry": "Insurance expiry",
+  "macchinariScreenFieldInterventionDate": "Intervention date",
+  "macchinariScreenFieldExpiry": "Expiry",
+  "macchinariScreenFieldLastControlDate": "Last inspection date",
+  "macchinariScreenFieldVerificationDate": "Verification date",
+  "macchinariScreenPrintSubtitleCount": "{count} machinery items",
+  "@macchinariScreenPrintSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "macchinariScreenPrintSubtitleFilter": "search filter: \"{filter}\"",
+  "@macchinariScreenPrintSubtitleFilter": {
+    "placeholders": {
+      "filter": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenPrintError": "Could not generate the printout: {details}",
+  "@macchinariScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenNewButton": "New machinery",
+  "macchinariScreenPrintButton": "Print",
+  "macchinariScreenUpcomingDeadlines": "Upcoming deadlines",
+  "macchinariScreenHideDeadlinesTooltip": "Hide deadlines",
+  "macchinariScreenShowDeadlinesTooltip": "Show deadlines",
+  "macchinariScreenCollapseAllTooltip": "Collapse all",
+  "macchinariScreenExpandAllTooltip": "Expand all",
+  "macchinariScreenSearchHint": "Search by name",
+  "macchinariScreenEmptyLoaded": "No machinery loaded.",
+  "macchinariScreenEmptySearch": "No machinery found for \"{query}\".",
+  "@macchinariScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenEditNoteTooltip": "Edit note",
+  "macchinariScreenEditTooltip": "Edit machinery",
+  "macchinariScreenDeleteTooltip": "Delete machinery",
+  "macchinariScreenDeleteConfirmTitle": "Delete machinery?",
+  "macchinariScreenDeleteConfirmMessage": "Delete \"{modello}\"? This action cannot be undone.",
+  "@macchinariScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "modello": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenHideInfoTooltip": "Hide info",
+  "macchinariScreenShowInfoTooltip": "Show info",
+  "macchinariScreenSectionGeneralData": "General data",
+  "macchinariScreenSectionInsurance": "Insurance",
+  "macchinariScreenSectionInternalMaintenance": "Internal maintenance",
+  "macchinariScreenSectionRopesChainsControl": "Ropes/chains inspection",
+  "automezziScreenTitle": "Vehicles",
+  "automezziScreenFieldNome": "Name",
+  "automezziScreenFieldTarga": "Plate",
+  "automezziScreenFieldCategoria": "Category",
+  "automezziScreenFieldTelepass": "Telepass No.",
+  "automezziScreenFieldProprieta": "Ownership",
+  "automezziScreenFieldCompAssicurazione": "Insurance company",
+  "automezziScreenFieldScadAssicurazione": "Insurance exp.",
+  "automezziScreenFieldScadBollo": "Road tax exp.",
+  "automezziScreenFieldScadRevisione": "Inspection exp.",
+  "automezziScreenFieldScadTachigrafo": "Tachograph check exp.",
+  "automezziScreenFieldVeicolo": "Vehicle",
+  "automezziScreenFieldNotaScadenza": "Deadline note",
+  "automezziScreenFieldCategoriaEuro": "EURO category",
+  "automezziScreenFieldScadenzaProprieta": "{proprieta} expiry",
+  "@automezziScreenFieldScadenzaProprieta": {
+    "placeholders": {
+      "proprieta": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenPrintSubtitleCount": "{count} vehicles",
+  "@automezziScreenPrintSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "automezziScreenPrintSubtitleFilter": "search filter: \"{filter}\"",
+  "@automezziScreenPrintSubtitleFilter": {
+    "placeholders": {
+      "filter": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenPrintError": "Could not generate the printout: {details}",
+  "@automezziScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenNewButton": "New vehicle",
+  "automezziScreenPrintButton": "Print",
+  "automezziScreenUpcomingDeadlines": "Upcoming deadlines",
+  "automezziScreenHideDeadlinesTooltip": "Hide deadlines",
+  "automezziScreenShowDeadlinesTooltip": "Show deadlines",
+  "automezziScreenCollapseAllTooltip": "Collapse all",
+  "automezziScreenExpandAllTooltip": "Expand all",
+  "automezziScreenSearchHint": "Search by name or plate",
+  "automezziScreenEmptyLoaded": "No vehicles loaded.",
+  "automezziScreenEmptySearch": "No vehicles found for \"{query}\".",
+  "@automezziScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenEditNoteTooltip": "Edit note",
+  "automezziScreenEditTooltip": "Edit vehicle",
+  "automezziScreenDeleteTooltip": "Delete vehicle",
+  "automezziScreenDeleteConfirmTitle": "Delete vehicle?",
+  "automezziScreenDeleteConfirmMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@automezziScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenHideInfoTooltip": "Hide info",
+  "automezziScreenShowInfoTooltip": "Show info",
+  "automezziScreenSectionGeneralData": "General data",
+  "automezziScreenSectionScadenze": "Deadlines",
+  "dipendenteAziendaleFormDialogNewTitle": "New company employee",
+  "dipendenteAziendaleFormDialogEditTitle": "Edit company employee",
+  "dipendenteAziendaleFormDialogNomeLabel": "First name*",
+  "dipendenteAziendaleFormDialogCognomeLabel": "Last name*",
+  "dipendenteAziendaleFormDialogMansioneLabel": "Job role",
+  "dipendenteAziendaleFormDialogMansioneNonSpecificata": "Not specified",
+  "dipendenteAziendaleFormDialogScadenzaRlst": "RLST expiry",
+  "dipendenteAziendaleFormDialogScadenzaRspp": "RSPP expiry",
+  "dipendenteAziendaleFormDialogCodiceFiscaleLabel": "Tax code",
+  "dipendenteAziendaleFormDialogDataNascita": "Date of birth",
+  "dipendenteAziendaleFormDialogLuogoNascita": "Place of birth",
+  "dipendenteAziendaleFormDialogEtaLabel": "Age",
+  "dipendenteAziendaleFormDialogEtaHelper": "Calculated from date of birth",
+  "dipendenteAziendaleFormDialogSectionContratto": "Contract",
+  "dipendenteAziendaleFormDialogDataAssunzione": "Hire date",
+  "dipendenteAziendaleFormDialogScadenzaContratto": "Contract expiry",
+  "dipendenteAziendaleFormDialogRemoveScadenzaContrattoTooltip": "Remove contract expiry",
+  "dipendenteAziendaleFormDialogAddScadenzaContratto": "Add contract expiry",
+  "dipendenteAziendaleFormDialogSectionPersonali": "Personal",
+  "dipendenteAziendaleFormDialogScadenzaVisitaMedica": "Medical check-up expiry",
+  "dipendenteAziendaleFormDialogScadenzaPatente": "Driving licence expiry",
+  "dipendenteAziendaleFormDialogScadenzaCartaTachigraficaAzienda": "Tachograph card + company expiry",
+  "dipendenteAziendaleFormDialogScadenzaCartaTachigrafica": "Tachograph card expiry",
+  "dipendenteAziendaleFormDialogScadenzaCartaIdentita": "ID card expiry",
+  "dipendenteAziendaleFormDialogScadenzaFirmaDigitale": "Digital signature expiry",
+  "dipendenteAziendaleFormDialogScadenzaCodiceFiscale": "Tax code expiry",
+  "dipendenteAziendaleFormDialogScadenzaPermessoSoggiorno": "Residence permit expiry",
+  "dipendenteAziendaleFormDialogRemovePermessoSoggiornoTooltip": "Remove residence permit",
+  "dipendenteAziendaleFormDialogAddPermessoSoggiorno": "Add residence permit",
+  "dipendenteAziendaleFormDialogScadenzaAntitetanica": "Tetanus vaccination expiry",
+  "dipendenteAziendaleFormDialogRemoveAntitetanicaTooltip": "Remove tetanus vaccination",
+  "dipendenteAziendaleFormDialogAddAntitetanica": "Add tetanus vaccination",
+  "dipendenteAziendaleFormDialogSectionCorsi": "Courses",
+  "dipendenteAziendaleFormDialogScadenzaFormazioneGenerale": "General safety training expiry",
+  "dipendenteAziendaleFormDialogNoteAggiuntive": "Additional notes",
+  "dipendenteAziendaleFormDialogRemoveCorsoTooltip": "Remove course",
+  "dipendenteAziendaleFormDialogAddCorso": "Add course",
+  "dipendenteAziendaleFormDialogAllCoursesAdded": "You have already added all available courses.",
+  "dipendenteAziendaleFormDialogSelectCoursesTitle": "Select the courses to add",
+  "dipendenteAziendaleFormDialogAddCoursesCount": "Add ({count})",
+  "@dipendenteAziendaleFormDialogAddCoursesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dipendenteAziendaleFormDialogCorsoPrimoSoccorsoNome": "First Aid Course",
+  "dipendenteAziendaleFormDialogCorsoPrimoSoccorsoEtichetta": "First Aid Course expiry",
+  "dipendenteAziendaleFormDialogCorsoAntincendioNome": "Fire Safety Course",
+  "dipendenteAziendaleFormDialogCorsoAntincendioEtichetta": "Fire Safety Course expiry",
+  "dipendenteAziendaleFormDialogCorsoPrepostoNome": "Supervisor Course",
+  "dipendenteAziendaleFormDialogCorsoPrepostoEtichetta": "Supervisor Course expiry",
+  "dipendenteAziendaleFormDialogCorsoPonteggiNome": "Scaffolding Assembly/Disassembly",
+  "dipendenteAziendaleFormDialogCorsoPonteggiEtichetta": "Scaffolding expiry",
+  "dipendenteAziendaleFormDialogCorsoLavoriQuotaNome": "Working at Height",
+  "dipendenteAziendaleFormDialogCorsoLavoriQuotaEtichetta": "Working at Height expiry",
+  "dipendenteAziendaleFormDialogCorsoEscavatoriNome": "Excavator Operation",
+  "dipendenteAziendaleFormDialogCorsoEscavatoriEtichetta": "Excavator Operation expiry",
+  "dipendenteAziendaleFormDialogCorsoGruAutocarroNome": "Truck-Mounted Crane",
+  "dipendenteAziendaleFormDialogCorsoGruAutocarroEtichetta": "Truck-Mounted Crane expiry",
+  "dipendenteAziendaleFormDialogCorsoGruTorreNome": "Tower Crane",
+  "dipendenteAziendaleFormDialogCorsoGruTorreEtichetta": "Tower Crane expiry",
+  "dipendenteAziendaleFormDialogCorsoPiattaformeNome": "Elevating Platforms",
+  "dipendenteAziendaleFormDialogCorsoPiattaformeEtichetta": "Elevating Platforms expiry",
+  "dipendenteAziendaleFormDialogCorsoCarrelloElevatoreNome": "Self-Propelled Forklift",
+  "dipendenteAziendaleFormDialogCorsoCarrelloElevatoreEtichetta": "Forklift expiry",
+  "dipendenteAziendaleFormDialogCorsoDisocianatiNome": "Diisocyanates Course",
+  "dipendenteAziendaleFormDialogCorsoDisocianatiEtichetta": "Diisocyanates Course expiry",
+  "dipendenteAziendaleFormDialogCorsoScaffalatureNome": "Racking Course",
+  "dipendenteAziendaleFormDialogCorsoScaffalatureEtichetta": "Racking expiry",
+  "dipendenteAziendaleFormDialogCorsoFormazione231Nome": "Model 231 Training Course",
+  "dipendenteAziendaleFormDialogCorsoFormazione231Etichetta": "Model 231 Training date",
+  "dipendenteAziendaleFormDialogCorsoAmbientaleNome": "Environmental Management System Training",
+  "dipendenteAziendaleFormDialogCorsoAmbientaleEtichetta": "Environmental Training date",
+  "dipendenteAziendaleFormDialogCorsoRentriNome": "Rentri Training Course",
+  "dipendenteAziendaleFormDialogCorsoRentriEtichetta": "Rentri Training date",
+  "dipendenteAziendaleFormDialogCorsoCronotachigraficoNome": "Tachograph Course",
+  "dipendenteAziendaleFormDialogCorsoCronotachigraficoEtichetta": "Tachograph Course expiry",
+  "estintoreFormDialogNewTitle": "New fire extinguisher",
+  "estintoreFormDialogEditTitle": "Edit fire extinguisher",
+  "estintoreFormDialogMatricolaLabel": "Serial number*",
+  "estintoreFormDialogTipoAgenteLabel": "Extinguishing agent",
+  "estintoreFormDialogTipoAgenteNonSpecificato": "Not specified",
+  "estintoreFormDialogCapacitaLabel": "Capacity",
+  "estintoreFormDialogDataProduzione": "Production date",
+  "estintoreFormDialogDataMessaInServizio": "Commissioning date",
+  "estintoreFormDialogSectionUbicazione": "Location",
+  "estintoreFormDialogTipoUbicazioneLabel": "Location type",
+  "estintoreFormDialogUbicazioneNonSpecificata": "Not specified",
+  "estintoreFormDialogUbicazioneMagazzino": "Warehouse",
+  "estintoreFormDialogUbicazioneUfficio": "Office",
+  "estintoreFormDialogUbicazioneCantiere": "Site",
+  "estintoreFormDialogUbicazioneAutomezzo": "Vehicle",
+  "estintoreFormDialogSelectCantiereValidator": "Select a site",
+  "estintoreFormDialogSelectAutomezzoValidator": "Select a vehicle",
+  "estintoreFormDialogDettagliUbicazione": "Additional location details",
+  "estintoreFormDialogSectionVerificaEsterna": "External inspection",
+  "estintoreFormDialogDataVerificaEsterna": "External inspection date",
+  "estintoreFormDialogScadenzaVerificaEsterna": "External inspection expiry",
+  "estintoreFormDialogSectionRevisione": "Servicing",
+  "estintoreFormDialogUltimaRevisione": "Last servicing",
+  "estintoreFormDialogScadenzaRevisione": "Servicing expiry",
+  "estintoreFormDialogSectionCollaudo": "Testing",
+  "estintoreFormDialogUltimoCollaudo": "Last test",
+  "estintoreFormDialogScadenzaCollaudo": "Test expiry",
+  "estintoreFormDialogNoteAggiuntive": "Additional notes",
+  "rifiutoFormDialogNewTitle": "New waste company",
+  "rifiutoFormDialogEditTitle": "Edit waste company",
+  "rifiutoFormDialogNomeDittaLabel": "Company name*",
+  "rifiutoFormDialogSectionTrasportatore": "Carrier",
+  "rifiutoFormDialogIsTrasportatore": "Carrier?",
+  "rifiutoFormDialogNrAutorizzazioneTrasportatore": "Carrier authorization number",
+  "rifiutoFormDialogScadNonPericolosiTrasportatore": "Non-hazardous waste carrier authorization expiry",
+  "rifiutoFormDialogAutorizzazionePericolosi": "Authorized for hazardous waste?",
+  "rifiutoFormDialogScadPericolosiTrasportatore": "Hazardous waste carrier authorization expiry",
+  "rifiutoFormDialogNoteTrasportatore": "Carrier notes",
+  "rifiutoFormDialogSectionSmaltitore": "Disposal company",
+  "rifiutoFormDialogIsSmaltitore": "Disposal company?",
+  "rifiutoFormDialogNrAutorizzazioneSmaltitore": "Disposal authorization number",
+  "rifiutoFormDialogScadNonPericolosiSmaltitore": "Non-hazardous waste disposal authorization expiry",
+  "rifiutoFormDialogScadPericolosiSmaltitore": "Hazardous waste disposal authorization expiry",
+  "rifiutoFormDialogNoteSmaltitore": "Disposal company notes",
+  "automezzoFormDialogNewTitle": "New vehicle",
+  "automezzoFormDialogEditTitle": "Edit vehicle",
+  "automezzoFormDialogNomeLabel": "Name",
+  "automezzoFormDialogTargaLabel": "Plate*",
+  "automezzoFormDialogCategoriaLabel": "Category",
+  "automezzoFormDialogNonSpecificata": "Not specified",
+  "automezzoFormDialogTelepassLabel": "Telepass number",
+  "automezzoFormDialogProprietaLabel": "Ownership",
+  "automezzoFormDialogScadenzaProprieta": "{proprieta} expiry",
+  "@automezzoFormDialogScadenzaProprieta": {
+    "placeholders": {
+      "proprieta": {
+        "type": "String"
+      }
+    }
+  },
+  "automezzoFormDialogSectionAssicurazione": "Insurance",
+  "automezzoFormDialogScadenzaAssicurazione": "Insurance expiry",
+  "automezzoFormDialogNomeAssicurazioneLabel": "Insurance company",
+  "automezzoFormDialogSectionBollo": "Road tax",
+  "automezzoFormDialogScadenzaBollo": "Road tax expiry",
+  "automezzoFormDialogSectionRevisione": "Inspection",
+  "automezzoFormDialogScadenzaRevisione": "Inspection expiry",
+  "automezzoFormDialogSectionTachigrafo": "Tachograph",
+  "automezzoFormDialogScadenzaControlloTachigrafo": "Tachograph check expiry",
+  "automezzoFormDialogNoteAggiuntive": "Additional notes",
+  "scalaFormDialogNewTitle": "New ladder",
+  "scalaFormDialogEditTitle": "Edit ladder",
+  "scalaFormDialogSectionAnagrafica": "Details",
+  "scalaFormDialogCodiceLabel": "Code*",
+  "scalaFormDialogMaterialeLabel": "Material",
+  "scalaFormDialogDescrizioneLabel": "Description",
+  "scalaFormDialogSectionUbicazione": "Location",
+  "scalaFormDialogTipoUbicazioneLabel": "Location type",
+  "scalaFormDialogUbicazioneNonSpecificata": "Not specified",
+  "scalaFormDialogUbicazioneMagazzino": "Warehouse",
+  "scalaFormDialogUbicazioneCantiere": "Site",
+  "scalaFormDialogSelectCantiereValidator": "Select a site",
+  "scalaFormDialogSectionVerifiche": "Inspections",
+  "scalaFormDialogUltimaVerifica": "Last inspection",
+  "scalaFormDialogProssimaVerifica": "Next inspection",
+  "scalaFormDialogNoteAggiuntive": "Additional notes",
+  "modificaScadenzaCantiereDialogTitle": "Edit {etichetta}",
+  "@modificaScadenzaCantiereDialogTitle": {
+    "placeholders": {
+      "etichetta": {
+        "type": "String"
+      }
+    }
+  },
+  "modificaScadenzaCantiereDialogDataScadenza": "Expiry date",
+  "modificaScadenzaCantiereDialogMissingDate": "Enter an expiry date",
+  "ritiroDpiQuotaDialogConfirmTitle": "Withdraw the PPE?",
+  "ritiroDpiQuotaDialogConfirmMessage": "Withdraw \"{tipo}\" from {dipendente}? Only the delivery date is cleared: the rest of the record stays unchanged, and on return you'll just need to re-enter the date.",
+  "@ritiroDpiQuotaDialogConfirmMessage": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      },
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogConfirmButton": "Withdraw",
+  "ritiroDpiQuotaDialogRiconsegnaTitle": "Return — {tipo}",
+  "@ritiroDpiQuotaDialogRiconsegnaTitle": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogRiconsegnaMessage": "The PPE goes back to {dipendente}: enter the date it is returned to them.",
+  "@ritiroDpiQuotaDialogRiconsegnaMessage": {
+    "placeholders": {
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogDataConsegnaLabel": "Delivery date*",
+  "ritiroDpiQuotaDialogRiconsegnaButton": "Return",
+  "statoBadgeValido": "Valid",
+  "statoBadgeInScadenza": "Expiring soon",
+  "statoBadgeScaduto": "Expired",
+  "segnaleticaSicurezzaScreenZonaUfficio": "Office",
+  "segnaleticaSicurezzaScreenZonaMagazzino": "Warehouse",
+  "segnaleticaSicurezzaScreenZonaNonSpecificata": "Unspecified area",
+  "segnaleticaSicurezzaScreenEsitoCartelloAssente": "Sign missing",
+  "segnaleticaSicurezzaScreenEsitoPresente": "Present",
+  "segnaleticaSicurezzaScreenEsitoPosizioneIdonea": "Suitable position",
+  "segnaleticaSicurezzaScreenEsitoPosizioneNonIdonea": "Unsuitable position",
+  "segnaleticaSicurezzaScreenEsitoBuonoStato": "Good condition",
+  "segnaleticaSicurezzaScreenEsitoDaSostituire": "Needs replacement",
+  "segnaleticaSicurezzaScreenTitle": "Safety Signals",
+  "segnaleticaSicurezzaScreenTitleShort": "Signage",
+  "segnaleticaSicurezzaScreenNuovoControllo": "New inspection",
+  "segnaleticaSicurezzaScreenNuovoSegnale": "New sign",
+  "segnaleticaSicurezzaScreenInfoEmailScadenza": "Deadline email info",
+  "segnaleticaSicurezzaScreenSegnaleticaPresente": "Signage on record",
+  "segnaleticaSicurezzaScreenChiudiTutti": "Collapse all",
+  "segnaleticaSicurezzaScreenEspandiTutti": "Expand all",
+  "segnaleticaSicurezzaScreenControllaTutti": "Inspect all",
+  "segnaleticaSicurezzaScreenNessunCartelloZona": "No signs in this area.",
+  "segnaleticaSicurezzaScreenModificaCartello": "Edit sign",
+  "segnaleticaSicurezzaScreenEliminaCartello": "Delete sign",
+  "segnaleticaSicurezzaScreenEliminareCartelloTitle": "Delete sign?",
+  "segnaleticaSicurezzaScreenEliminareCartelloMessage": "Delete \"{nome}\" and its inspections? This action cannot be undone.",
+  "@segnaleticaSicurezzaScreenEliminareCartelloMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "segnaleticaSicurezzaScreenNascondiInfo": "Hide info",
+  "segnaleticaSicurezzaScreenMostraInfo": "Show info",
+  "segnaleticaSicurezzaScreenCampoUbicazione": "Location",
+  "segnaleticaSicurezzaScreenUltimoControllo": "Last inspection",
+  "segnaleticaSicurezzaScreenMaiControllato": "never inspected",
+  "segnaleticaSicurezzaScreenDatiCartello": "Sign details",
+  "segnaleticaSicurezzaScreenCampoZona": "Area",
+  "segnaleticaSicurezzaScreenControlliRegistrati": "Inspections on record",
+  "segnaleticaSicurezzaScreenControlliHeader": "Inspections",
+  "segnaleticaSicurezzaScreenNessunControlloRegistrato": "No inspections recorded.",
+  "segnaleticaSicurezzaScreenIngrandisciCartello": "Enlarge sign",
+  "segnaleticaSicurezzaScreenImmagineNonDisponibile": "Image unavailable",
+  "segnaleticaSicurezzaScreenEsitiLabel": "Outcome",
+  "segnaleticaSicurezzaScreenNoteControllo": "Inspection notes",
+  "segnaleticaSicurezzaScreenModificaControllo": "Edit inspection",
+  "segnaleticaSicurezzaScreenEliminaControllo": "Delete inspection",
+  "segnaleticaSicurezzaScreenEliminareControlloTitle": "Delete inspection?",
+  "segnaleticaSicurezzaScreenEliminareControlloMessage": "Delete the inspection from {data} on \"{nome}\"? This action cannot be undone.",
+  "@segnaleticaSicurezzaScreenEliminareControlloMessage": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      },
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dpiScreenTitle": "PPE",
+  "dpiScreenAssegnaDpi": "Assign PPE",
+  "dpiScreenTipiDpi": "PPE Types",
+  "dpiScreenScadenzeImminenti": "Upcoming deadlines",
+  "dpiScreenNascondiScadenze": "Hide deadlines",
+  "dpiScreenMostraScadenze": "Show deadlines",
+  "dpiScreenDipendentiConDpiObbligatori": "Employees with mandatory PPE",
+  "dpiScreenNascondiTutti": "Hide all",
+  "dpiScreenMostraTutti": "Show all",
+  "dpiScreenCercaPerNome": "Search by name",
+  "dpiScreenNessunDipendenteMansione": "No employees with role Datore, M02, M03 or M04.",
+  "dpiScreenNessunDipendenteTrovato": "No employee found for \"{query}\".",
+  "@dpiScreenNessunDipendenteTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "dpiScreenCampoDipendente": "Employee",
+  "dpiScreenCampoMatricola": "ID number",
+  "dpiScreenNotaScadenza": "Deadline note",
+  "dpiScreenModificaNota": "Edit note",
+  "dpiScreenCampoMansione": "Job role",
+  "dpiScreenCampoAssegnati": "Assigned",
+  "dpiScreenCampoNota": "Note",
+  "dpiScreenAssegnaAltroDpi": "Assign another PPE item",
+  "dpiScreenNascondiDpi": "Hide PPE",
+  "dpiScreenMostraDpi": "Show PPE",
+  "dpiScreenNessunaRegolaDpi": "No PPE rule set for this job role.",
+  "dpiScreenAltriDpiAssegnati": "Other assigned PPE",
+  "dpiScreenNonAssegnato": "Not assigned",
+  "dpiScreenCampoProduttore": "Manufacturer",
+  "dpiScreenCampoTaglia": "Size",
+  "dpiScreenCampoScadenza": "Deadline",
+  "dpiScreenNonImpostata": "not set",
+  "dpiScreenDpiRitirato": "PPE Returned",
+  "dpiScreenRiconsegnaDpiQuota": "Return PPE for work at height",
+  "dpiScreenRitiraDpiQuota": "Issue PPE for work at height",
+  "dpiScreenModificaDpiAssegnato": "Edit assigned PPE",
+  "dpiScreenEliminaDpiAssegnato": "Delete assigned PPE",
+  "dpiScreenEliminareDpiAssegnatoTitle": "Delete the assigned PPE?",
+  "dpiScreenEliminareDpiAssegnatoMessage": "Delete \"{tipo}\" assigned to {dipendente}? This action cannot be undone.",
+  "@dpiScreenEliminareDpiAssegnatoMessage": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      },
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenTipoNonPericolosiTrasportatore": "Non-Hazardous Waste Carrier Deadline",
+  "rifiutiScreenTipoPericolosiTrasportatore": "Hazardous Waste Carrier Deadline",
+  "rifiutiScreenTipoNonPericolosiSmaltitore": "Non-Hazardous Waste Disposal Deadline",
+  "rifiutiScreenTipoPericolosiSmaltitore": "Hazardous Waste Disposal Deadline",
+  "rifiutiScreenTitle": "Waste",
+  "rifiutiScreenScadenzeImminenti": "Upcoming deadlines",
+  "rifiutiScreenNascondiScadenze": "Hide deadlines",
+  "rifiutiScreenMostraScadenze": "Show deadlines",
+  "rifiutiScreenAziendePerRaccolta": "Waste collection companies",
+  "rifiutiScreenNascondiTutti": "Hide all",
+  "rifiutiScreenMostraTutti": "Show all",
+  "rifiutiScreenCercaPerNomeDitta": "Search by company name",
+  "rifiutiScreenNessunElementoCaricato": "No items loaded.",
+  "rifiutiScreenNessunElementoTrovato": "No item found for \"{query}\".",
+  "@rifiutiScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenCampoDitta": "Company",
+  "rifiutiScreenNotaScadenza": "Deadline note",
+  "rifiutiScreenModificaNota": "Edit note",
+  "rifiutiScreenCampoTrasportatore": "Carrier",
+  "rifiutiScreenNoteTrasportatore": "Carrier notes",
+  "rifiutiScreenCampoSmaltitore": "Disposal company",
+  "rifiutiScreenNoteSmaltitore": "Disposal company notes",
+  "rifiutiScreenEliminaAzienda": "Delete company",
+  "rifiutiScreenEliminareAziendaTitle": "Delete company?",
+  "rifiutiScreenEliminareAziendaMessage": "Delete \"{nome}\"? This action cannot be undone.",
+  "@rifiutiScreenEliminareAziendaMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenNascondiInfo": "Hide info",
+  "rifiutiScreenMostraInfo": "Show info",
+  "rifiutiScreenNrAutorizzazione": "Authorization no.",
+  "rifiutiScreenScadNonPericolosi": "Non-hazardous waste deadline",
+  "rifiutiScreenScadPericolosi": "Hazardous waste deadline",
+  "controlloSegnaleFormDialogEditTitle": "Edit inspection",
+  "controlloSegnaleFormDialogNewTitle": "New inspection",
+  "controlloSegnaleFormDialogCartelloLabel": "Sign*",
+  "controlloSegnaleFormDialogSelezionaCartello": "Select a sign",
+  "controlloSegnaleFormDialogDataIspezione": "Inspection date",
+  "controlloSegnaleFormDialogEsitoControllo": "Inspection outcome",
+  "controlloSegnaleFormDialogCartelloPresente": "Sign is present",
+  "controlloSegnaleFormDialogPosizioneIdonea": "Suitable position",
+  "controlloSegnaleFormDialogInBuonoStato": "Good condition",
+  "controlloSegnaleFormDialogNoteHint": "E.g. faded sign, needs replacement",
+  "controlloSegnaleFormDialogControlloZonaTitle": "Area inspection - {zona}",
+  "@controlloSegnaleFormDialogControlloZonaTitle": {
+    "placeholders": {
+      "zona": {
+        "type": "String"
+      }
+    }
+  },
+  "controlloSegnaleFormDialogRegistrazioneBlocco": "This records a positive inspection (sign present, suitable position, good condition) for all {count} {noun} in the area. If a sign wasn't in order, correct its inspection from the sign's card.",
+  "controlloSegnaleFormDialogSignSingular": "sign",
+  "controlloSegnaleFormDialogSignPlural": "signs",
+  "@controlloSegnaleFormDialogRegistrazioneBlocco": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "sign": {
+        "type": "String"
+      },
+      "signs": {
+        "type": "String"
+      }
+    }
+  },
+  "controlloSegnaleFormDialogNoteAppliedLabel": "Notes (applied to all)",
+  "controlloSegnaleFormDialogNoteAppliedHint": "E.g. monthly inspection round",
+  "controlloSegnaleFormDialogCartelliInteressati": "Signs involved",
+  "controlloSegnaleFormDialogRegistraSuTutti": "Record for all",
+  "tipoScadenzaFormDialogSelezionaAppartenenza": "Select at least one category",
+  "tipoScadenzaFormDialogNewTitle": "New deadline type",
+  "tipoScadenzaFormDialogEditTitle": "Edit deadline type",
+  "tipoScadenzaFormDialogTipologia": "Category",
+  "tipoScadenzaFormDialogNomeLabel": "Name*",
+  "tipoScadenzaFormDialogNomeHint": "e.g. DURC, POS, Survey",
+  "tipoScadenzaFormDialogNotaPredefinitaLabel": "Default note",
+  "tipoScadenzaFormDialogNotaPredefinitaHint": "e.g. expires every 6 months",
+  "tipoScadenzaFormDialogNotaPredefinitaHelper": "Pre-filled in the deadline notes when this category is selected",
+  "tipoScadenzaFormDialogAppartenenza": "Applies to",
+  "tipoScadenzaFormDialogCantiere": "Construction site",
+  "tipoScadenzaFormDialogSubappaltatore": "Subcontractor",
+  "tipoScadenzaFormDialogDipendenteSubappaltatore": "Subcontractor employee",
+  "tipoScadenzaFormDialogLavoratoreAutonomo": "Self-employed worker",
+  "tipoScadenzaFormDialogTipologieDipendentiInfo": "Employee categories also apply to self-employed workers.",
+  "tipoScadenzaFormDialogScadenza": "Deadline",
+  "tipoScadenzaFormDialogRichiedeScadenza": "Requires a deadline",
+  "tipoScadenzaFormDialogAvvisaSoloScadutaTitle": "Notify only once overdue",
+  "tipoScadenzaFormDialogAvvisaSoloScadutaSubtitle": "No advance notice: the first email goes out the day after the deadline (e.g. DURC)",
+  "tipoScadenzaFormDialogGiorniPreavvisoLabel": "Notice days",
+  "tipoScadenzaFormDialogGiorniPreavvisoHint": "e.g. 30, 15, 7, 1",
+  "subappaltatoreFormDialogNewTitle": "New subcontractor",
+  "subappaltatoreFormDialogEditTitle": "Edit subcontractor",
+  "subappaltatoreFormDialogCercaEsistenti": "Search existing subcontractors",
+  "subappaltatoreFormDialogSelezionaEsistenteInfo": "Select an existing subcontractor, or fill in the fields below to create a new one.",
+  "subappaltatoreFormDialogAnagrafica": "Company details",
+  "subappaltatoreFormDialogRagioneSocialeLabel": "Company name*",
+  "subappaltatoreFormDialogPartitaIvaLabel": "VAT number*",
+  "subappaltatoreFormDialogTelefonoLabel": "Phone",
+  "subappaltatoreFormDialogEmailLabel": "Email",
+  "subappaltatoreFormDialogEmailInvalida": "Enter a valid email",
+  "subappaltatoreFormDialogNoteHelper": "Shown in the \"Information\" box on the subcontractor's page",
+  "subappaltatoreFormDialogCantieriAssociati": "Associated construction sites",
+  "archivioCantieriScreenEliminareTuttiTitle": "Delete all archived construction sites?",
+  "archivioCantieriScreenEliminareTuttiMessage": "This action cannot be undone — please make sure.",
+  "archivioCantieriScreenTitle": "Construction Site Archive",
+  "archivioCantieriScreenEliminaCantieriArchiviatiTooltip": "Delete archived construction sites",
+  "archivioCantieriScreenEliminaCantieriLabel": "Delete sites",
+  "archivioCantieriScreenNessunCantiereArchiviato": "No archived construction sites.",
+  "archivioCantieriScreenCantieriConclusi": "Completed construction sites",
+  "archivioCantieriScreenCercaHint": "Search by name, address or town",
+  "archivioCantieriScreenNessunCantiereConcluso": "No completed construction sites (all active).",
+  "archivioCantieriScreenNessunCantiereTrovato": "No completed construction site found for \"{query}\".",
+  "@archivioCantieriScreenNessunCantiereTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "archivioCantieriScreenEliminareCantiereTitle": "Delete construction site?",
+  "archivioCantieriScreenEliminareCantiereMessage": "Permanently delete the construction site \"{nome}\"? This action cannot be undone.",
+  "@archivioCantieriScreenEliminareCantiereMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalaturaFormDialogNewTitle": "New shelving unit",
+  "scaffalaturaFormDialogEditTitle": "Edit shelving unit",
+  "scaffalaturaFormDialogIdInternoLabel": "Internal ID*",
+  "scaffalaturaFormDialogInserireNumero": "Enter a number",
+  "scaffalaturaFormDialogVerifiche": "Inspections",
+  "scaffalaturaFormDialogDataUltimaVerifica": "Last inspection date",
+  "scaffalaturaFormDialogEsitoPositivo": "Positive outcome?",
+  "scaffalaturaFormDialogDataProssimaVerifica": "Next inspection date",
+  "infoDialogNoteScadenzaTitle": "Information about deadline notes",
+  "infoDialogNoteScadenzaIntro": "By entering the word ",
+  "infoDialogNoteScadenzaOr": " or ",
+  "infoDialogNoteScadenzaOutro": " in the deadline note,\nautomatic email sending for that deadline will be blocked.",
+  "infoDialogEmailScadenzaTitle": "Information about deadline emails",
+  "infoDialogEmailScadenzaIntro": "Emails for the deadlines of ",
+  "infoDialogEmailScadenzaMiddle": " are managed from the ",
+  "infoDialogEmailScadenzaPageName": "Administration - General deadlines",
+  "infoDialogEmailScadenzaOutro": " page.\nUpdate the deadline from there once the inspection has been carried out.",
+  "notaAutomezzoDialogTitle": "Note — {nome} — {tipo}",
+  "@notaAutomezzoDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "pagina404ScreenTitle": "Error 404",
+  "pagina404ScreenMessage": "Oops! Looks like you got lost.\nThe page you're looking for doesn't exist or has been moved.",
+  "pagina404ScreenTornaHome": "Back to Home"
+}

@@ -1,0 +1,2494 @@
+{
+  "@@locale": "it",
+  "appTitle": "Demo Scadenziario",
+  "@appTitle": {
+    "description": "Titolo dell'applicazione"
+  },
+  "commonCancel": "Annulla",
+  "commonSave": "Salva",
+  "commonDelete": "Elimina",
+  "commonConfirm": "Conferma",
+  "commonEdit": "Modifica",
+  "commonClose": "Chiudi",
+  "commonYes": "Sì",
+  "commonNo": "No",
+  "commonSearch": "Cerca",
+  "commonLoading": "Caricamento in corso...",
+  "commonError": "Errore",
+  "commonAdd": "Aggiungi",
+  "commonBack": "Indietro",
+  "commonNoteLabel": "Note",
+  "commonRequiredField": "Campo obbligatorio",
+  "commonErrorWithDetails": "Errore: {details}",
+  "@commonErrorWithDetails": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "appBarGoHome": "Vai alla home",
+  "appBarLogout": "Esci",
+  "appBarLogoutConfirmTitle": "Conferma logout",
+  "appBarLogoutConfirmMessage": "Sei sicuro di voler uscire?",
+  "appBarLogoutConfirmButton": "Esci",
+  "appBarLanguageTooltip": "Switch to English",
+  "confirmDialogCancel": "Annulla",
+  "confirmDialogDeleteDefault": "Elimina",
+  "loginWelcomeTitle": "Benvenuto!",
+  "loginWelcomeSubtitle": "Accedi al gestionale cantieri",
+  "loginEmailHint": "Inserisci la tua email",
+  "loginEmailLabel": "Email",
+  "loginEmailValidatorEmpty": "Inserisci l'email",
+  "loginPasswordHint": "Inserisci la tua password",
+  "loginPasswordLabel": "Password",
+  "loginPasswordValidatorEmpty": "Inserisci la password",
+  "loginButton": "Login",
+  "authInvalidCredentials": "Credenziali non valide",
+  "errorLoadingScale": "Errore nel caricamento delle scale",
+  "errorLoadingTipiScadenza": "Errore nel caricamento dei tipi scadenza",
+  "errorLoadingScadenzeGenerali": "Errore nel caricamento delle scadenze generali",
+  "errorLoadingCantieri": "Errore nel caricamento dei cantieri",
+  "errorLoadingTipiDpi": "Errore nel caricamento dei tipi di DPI",
+  "errorLoadingImpostazioni": "Errore nel caricamento delle impostazioni",
+  "errorLoadingDocumenti": "Errore nel caricamento dei documenti",
+  "errorLoadingMisure": "Errore nel caricamento delle misure",
+  "errorLoadingRifiuti": "Errore nel caricamento dei rifiuti",
+  "errorLoadingEstintori": "Errore nel caricamento degli estintori",
+  "errorLoadingBenne": "Errore nel caricamento delle benne",
+  "errorLoadingSegnaletica": "Errore nel caricamento della segnaletica",
+  "errorLoadingCassette": "Errore nel caricamento delle cassette",
+  "errorLoadingMacchinari": "Errore nel caricamento dei macchinari",
+  "errorLoadingAutomezzi": "Errore nel caricamento degli automezzi",
+  "errorLoadingRegoleDpi": "Errore nel caricamento delle regole DPI",
+  "errorLoadingImpianti": "Errore nel caricamento degli impianti",
+  "errorLoadingControlli": "Errore nel caricamento dei controlli",
+  "errorLoadingFasceCatene": "Errore nel caricamento di fasce e catene",
+  "errorLoadingSubappaltatori": "Errore nel caricamento dei subappaltatori",
+  "errorLoadingDipendentiSubappaltatori": "Errore nel caricamento dei dipendenti",
+  "errorLoadingArticoli": "Errore nel caricamento degli articoli",
+  "errorLoadingDpiAssegnati": "Errore nel caricamento dei DPI assegnati",
+  "errorLoadingProdottiStandard": "Errore nel caricamento dei prodotti standard",
+  "errorLoadingDipendentiAziendali": "Errore nel caricamento dei dipendenti aziendali",
+  "errorLoadingScaffalature": "Errore nel caricamento delle scaffalature",
+  "errorDeletingScadenzaGenerale": "Impossibile eliminare la scadenza",
+  "errorDeletingTipoScadenzaInUse": "Impossibile eliminare la tipologia: probabilmente è ancora usata da una o più scadenze.",
+  "errorDeletingScaffalatura": "Impossibile eliminare la scaffalatura",
+  "appDrawerAmministrazione": "Amministrazione",
+  "appDrawerArchivioCantieri": "Archivio cantieri",
+  "appDrawerAutomezzi": "Automezzi",
+  "appDrawerCantieri": "Cantieri",
+  "appDrawerContenutoStandard": "Contenuto Standard",
+  "appDrawerDpi": "DPI",
+  "appDrawerEstintori": "Estintori",
+  "appDrawerFasceCatene": "Fasce/Catene",
+  "appDrawerHideSubsections": "Nascondi sottosezioni",
+  "appDrawerImpianti": "Impianti",
+  "appDrawerMacchinari": "Macchinari",
+  "appDrawerMisure": "Misure",
+  "appDrawerOtherSectionsTitle": "Altre sezioni",
+  "appDrawerPrimoSoccorso": "Primo Soccorso",
+  "appDrawerRemindersSuspended": "Solleciti sospesi",
+  "appDrawerRifiuti": "Rifiuti",
+  "appDrawerScaffalature": "Scaffalature",
+  "appDrawerScale": "Scale",
+  "appDrawerSegnaleticaSicurezza": "Segnaletica Sicurezza",
+  "appDrawerShowSubsections": "Mostra sottosezioni",
+  "appDrawerSubappaltatori": "Subappaltatori",
+  "appDrawerSuspendReminderSubtitle": "Per i periodi di chiusura aziendale",
+  "appDrawerSuspendReminders": "Sospendi solleciti",
+  "appDrawerSuspendedUntil": "Fino al {date}",
+  "@appDrawerSuspendedUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "appDrawerTipiDpi": "Tipi di DPI",
+  "appDrawerTipiScadenze": "Tipi scadenze",
+  "appDrawerUpcomingDeadlinesTooltip": "Scadenze imminenti",
+  "cantiereCardClosedOn": "Concluso il {date}",
+  "@cantiereCardClosedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereCardDeleteTooltip": "Elimina cantiere",
+  "cantiereCardEditTooltip": "Modifica cantiere",
+  "cantiereCardExpiringCount": "{count} in scadenza",
+  "@cantiereCardExpiringCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cantiereCardSubappaltatoriCount": "{count, plural, one{{count} subappaltatore} other{{count} subappaltatori}}",
+  "@cantiereCardSubappaltatoriCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cantiereCardSuspendedLabel": "SOSPESO",
+  "dpiAssegnatoFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "dpiAssegnatoFormDialogAssignTitle": "Assegna DPI",
+  "dpiAssegnatoFormDialogDateInUseLabel": "Data messa in uso",
+  "dpiAssegnatoFormDialogDeliveryDateLabel": "Data consegna",
+  "dpiAssegnatoFormDialogDpiTypeLabel": "Tipo di DPI*",
+  "dpiAssegnatoFormDialogEditTitle": "Modifica DPI assegnato",
+  "dpiAssegnatoFormDialogEmployeeLabel": "Dipendente",
+  "dpiAssegnatoFormDialogExpiryDateLabel": "Data scadenza",
+  "dpiAssegnatoFormDialogManufactureYearLabel": "Anno di fabbricazione",
+  "dpiAssegnatoFormDialogManufacturerLabel": "Produttore",
+  "dpiAssegnatoFormDialogSelectDpiType": "Seleziona un tipo di DPI",
+  "dpiAssegnatoFormDialogSelectEmployee": "Seleziona un dipendente",
+  "dpiAssegnatoFormDialogSerialNumberLabel": "Matricola",
+  "dpiAssegnatoFormDialogSizeLabel": "Taglia",
+  "fasciaCatenaFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "fasciaCatenaFormDialogBrowse": "Sfoglia",
+  "fasciaCatenaFormDialogCapacityLabel": "Portata (Kg)",
+  "fasciaCatenaFormDialogChangePhoto": "Cambia foto",
+  "fasciaCatenaFormDialogCharacteristicsSection": "Caratteristiche",
+  "fasciaCatenaFormDialogCheckPassedLabel": "Esito verifica positivo",
+  "fasciaCatenaFormDialogColorLabel": "Colore",
+  "fasciaCatenaFormDialogDiameterLabel": "Diametro (mm)",
+  "fasciaCatenaFormDialogDragPhotoHint": "Trascina qui la foto della fascia/catena",
+  "fasciaCatenaFormDialogEditTitle": "Modifica fascia/catena",
+  "fasciaCatenaFormDialogFileFormatsHint": "JPG, PNG o WEBP - max 5 MB",
+  "fasciaCatenaFormDialogFitForUse": "Idonea all'uso",
+  "fasciaCatenaFormDialogImageTooLarge": "Immagine troppo grande (max 5 MB)",
+  "fasciaCatenaFormDialogImageUnavailable": "Immagine non disponibile",
+  "fasciaCatenaFormDialogInternalCheckSection": "Verifica interna",
+  "fasciaCatenaFormDialogInternalIdLabel": "ID interno*",
+  "fasciaCatenaFormDialogInvalidExtension": "Estensione non ammessa (.{extension})",
+  "@fasciaCatenaFormDialogInvalidExtension": {
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "fasciaCatenaFormDialogLastInternalCheckLabel": "Ultima verifica interna",
+  "fasciaCatenaFormDialogLengthLabel": "Lunghezza (m)",
+  "fasciaCatenaFormDialogLocationNotSpecified": "Non specificata",
+  "fasciaCatenaFormDialogLocationSection": "Ubicazione",
+  "fasciaCatenaFormDialogLocationTypeLabel": "Tipo ubicazione",
+  "fasciaCatenaFormDialogNewTitle": "Nuova fascia/catena",
+  "fasciaCatenaFormDialogNextCheckLabel": "Prossima verifica",
+  "fasciaCatenaFormDialogNotFitForUse": "Non idonea: da mettere fuori servizio",
+  "fasciaCatenaFormDialogPhotoSection": "Foto",
+  "fasciaCatenaFormDialogPurchaseDateLabel": "Data di acquisto",
+  "fasciaCatenaFormDialogPurchaseLocationLabel": "Luogo di acquisto",
+  "fasciaCatenaFormDialogPurchaseSection": "Acquisto",
+  "fasciaCatenaFormDialogRatchetLabel": "Cricchetto",
+  "fasciaCatenaFormDialogRegistrySection": "Anagrafica",
+  "fasciaCatenaFormDialogRemove": "Rimuovi",
+  "fasciaCatenaFormDialogSelectSite": "Seleziona un cantiere",
+  "fasciaCatenaFormDialogSelectVehicle": "Seleziona un automezzo",
+  "fasciaCatenaFormDialogSerialNumberLabel": "Numero di serie produttore",
+  "fasciaCatenaFormDialogSiteOption": "Cantiere",
+  "fasciaCatenaFormDialogThicknessLabel": "Spessore (mm)",
+  "fasciaCatenaFormDialogTypeLabel": "Tipo",
+  "fasciaCatenaFormDialogTypeNotSpecified": "Non specificato",
+  "fasciaCatenaFormDialogVehicleOption": "Automezzo",
+  "fasciaCatenaFormDialogWarehouseOption": "Magazzino",
+  "fasciaCatenaFormDialogWidthLabel": "Larghezza (mm)",
+  "notaDipendenteAziendaleDialogTitle": "Nota — {nome} {cognome}",
+  "@notaDipendenteAziendaleDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "cognome": {
+        "type": "String"
+      }
+    }
+  },
+  "notaDipendenteAziendaleDialogTitleConTipo": "Nota — {nome} {cognome} — {tipo}",
+  "@notaDipendenteAziendaleDialogTitleConTipo": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "cognome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaEstintoreDialogTitle": "Nota — {matricola} — {tipo}",
+  "@notaEstintoreDialogTitle": {
+    "placeholders": {
+      "matricola": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScaffalaturaDialogTitle": "Nota — Scaffalatura #{id} — {tipo}",
+  "@notaScaffalaturaDialogTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenAerialPlatformsDeadline": "Scadenza Piattaforme elevatrici",
+  "scadenzeImminentiScreenAnnualCheck": "Verifica annuale",
+  "scadenzeImminentiScreenAnnualMaintenance": "Manutenzione annuale",
+  "scadenzeImminentiScreenArticleLabel": "Articolo",
+  "scadenzeImminentiScreenAssigneeLabel": "Incaricato",
+  "scadenzeImminentiScreenCollapseAll": "Nascondi tutte",
+  "scadenzeImminentiScreenCompanyEmployeesSection": "Dipendenti aziendali",
+  "scadenzeImminentiScreenCompanyLabel": "Ditta",
+  "scadenzeImminentiScreenContractDeadline": "Scadenza Contratto",
+  "scadenzeImminentiScreenDeadlineNoteLabel": "Nota scadenza",
+  "scadenzeImminentiScreenDigitalSignatureDeadline": "Scadenza Firma Digitale",
+  "scadenzeImminentiScreenDiisocyanatesCourseDeadline": "Scadenza corso Diisocianati",
+  "scadenzeImminentiScreenDocumentFallback": "Documento",
+  "scadenzeImminentiScreenDrivingLicenseDeadline": "Scadenza Patente",
+  "scadenzeImminentiScreenEditNoteTooltip": "Modifica nota",
+  "scadenzeImminentiScreenEmployeeLabel": "Dipendente",
+  "scadenzeImminentiScreenExcavatorOperationDeadline": "Scadenza Conduzione Escavatori",
+  "scadenzeImminentiScreenExpandAll": "Mostra tutte",
+  "scadenzeImminentiScreenExternalCheckDeadline": "Scadenza Verifica Esterna",
+  "scadenzeImminentiScreenExternalMaintenanceDeadline": "Scadenza Manutenzione Esterna",
+  "scadenzeImminentiScreenFireSafetyDeadline": "Scadenza Antincendio",
+  "scadenzeImminentiScreenFirstAidDeadline": "Scadenza Primo Soccorso",
+  "scadenzeImminentiScreenFirstAidSection": "Primo soccorso",
+  "scadenzeImminentiScreenForkliftDeadline": "Scadenza Carrello elevatore semovente",
+  "scadenzeImminentiScreenGeneralDeadlinesSection": "Scadenze generali",
+  "scadenzeImminentiScreenHazardousWasteCarrierDeadline": "Scadenza Rifiuti Pericolosi Trasportatore",
+  "scadenzeImminentiScreenHazardousWasteDisposerDeadline": "Scadenza Rifiuti Pericolosi Smaltitore",
+  "scadenzeImminentiScreenHeightWorkDeadline": "Scadenza Lavori in Quota",
+  "scadenzeImminentiScreenHideSectionTooltip": "Nascondi scadenze",
+  "scadenzeImminentiScreenIdCardDeadline": "Scadenza Carta Identità",
+  "scadenzeImminentiScreenInspectionDeadline": "Scadenza Revisione",
+  "scadenzeImminentiScreenInsuranceDeadline": "Scadenza Assicurazione",
+  "scadenzeImminentiScreenInternalMaintenanceDeadline": "Scadenza Manutenzione Interna",
+  "scadenzeImminentiScreenLadderCodeLabel": "Codice scala",
+  "scadenzeImminentiScreenLastCheckLabel": "Ultima verifica",
+  "scadenzeImminentiScreenLeaseRentalDeadline": "Scadenza Noleggio/Leasing",
+  "scadenzeImminentiScreenLocationInOfficeLower": "in Ufficio",
+  "scadenzeImminentiScreenLocationInWarehouseLower": "in Magazzino",
+  "scadenzeImminentiScreenLocationLabel": "Ubicazione",
+  "scadenzeImminentiScreenLocationNotSpecified": "Non specificata",
+  "scadenzeImminentiScreenLocationNotSpecifiedLower": "non specificata",
+  "scadenzeImminentiScreenLocationOffice": "In ufficio",
+  "scadenzeImminentiScreenLocationSite": "In cantiere {site}",
+  "@scadenzeImminentiScreenLocationSite": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenLocationVehicle": "Su automezzo {vehicle}",
+  "@scadenzeImminentiScreenLocationVehicle": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenLocationWarehouse": "In magazzino",
+  "scadenzeImminentiScreenLorryCraneDeadline": "Scadenza Gru Autocarro",
+  "scadenzeImminentiScreenMedicalExamDeadline": "Scadenza Visita Medica",
+  "scadenzeImminentiScreenModelLabel": "Modello",
+  "scadenzeImminentiScreenNextCheckLabel": "Prossimo Controllo",
+  "scadenzeImminentiScreenNextExternalCalibration": "Prossima taratura esterna",
+  "scadenzeImminentiScreenNextInternalCalibration": "Prossima taratura interna",
+  "scadenzeImminentiScreenNextVerificationLabel": "Prossima verifica",
+  "scadenzeImminentiScreenNonHazardousWasteCarrierDeadline": "Scadenza Rifiuti Non Pericolosi Trasportatore",
+  "scadenzeImminentiScreenNonHazardousWasteDisposerDeadline": "Scadenza Rifiuti Non Pericolosi Smaltitore",
+  "scadenzeImminentiScreenNoteTitleGeneric": "Nota — {titolo}",
+  "@scadenzeImminentiScreenNoteTitleGeneric": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenNoteTitleSiteDeadline": "Nota — {site} — {label}",
+  "@scadenzeImminentiScreenNoteTitleSiteDeadline": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenPlateLabel": "Targa",
+  "scadenzeImminentiScreenProductDeadline": "Scadenza {product}",
+  "@scadenzeImminentiScreenProductDeadline": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzeImminentiScreenReplacement18Years": "Sostituzione (18 anni)",
+  "scadenzeImminentiScreenResidencyPermitDeadline": "Scadenza Permesso di Soggiorno",
+  "scadenzeImminentiScreenRlstDeadline": "Scadenza RLST",
+  "scadenzeImminentiScreenRoadTaxDeadline": "Scadenza Bollo",
+  "scadenzeImminentiScreenRopesChainsCheck": "Controllo funi/catene",
+  "scadenzeImminentiScreenRsppDeadline": "Scadenza RSPP",
+  "scadenzeImminentiScreenSafetyTrainingDeadline": "Scadenza Formazione Sicurezza",
+  "scadenzeImminentiScreenScaffoldingErectionDeadline": "Scadenza Montaggio/Smontaggio ponteggi",
+  "scadenzeImminentiScreenSectionHeaderTitle": "Scadenze da controllare",
+  "scadenzeImminentiScreenSerialNumberLabel": "Matricola",
+  "scadenzeImminentiScreenShelvingCourseDeadline": "Scadenza corso Scaffalature",
+  "scadenzeImminentiScreenShelvingIdLabel": "ID scaffalatura",
+  "scadenzeImminentiScreenShelvingNextCheckLabel": "Prossimo controllo scaffalature",
+  "scadenzeImminentiScreenShowSectionTooltip": "Mostra scadenze",
+  "scadenzeImminentiScreenSiteLabel": "Cantiere",
+  "scadenzeImminentiScreenSitesPresentLabel": "Cantieri in cui è presente",
+  "scadenzeImminentiScreenSubcontractorLabel": "Subappaltatore",
+  "scadenzeImminentiScreenSupervisorDeadline": "Scadenza Preposto",
+  "scadenzeImminentiScreenTachographCardCompanyDeadline": "Scadenza Carta Tachigrafica + Azienda",
+  "scadenzeImminentiScreenTachographCardDeadline": "Scadenza Carta Tachigrafica",
+  "scadenzeImminentiScreenTachographCourseDeadline": "Scadenza corso Cronotachigrafico",
+  "scadenzeImminentiScreenTachographDeadline": "Scadenza Tachigrafo",
+  "scadenzeImminentiScreenTaxCodeDeadline": "Scadenza Codice Fiscale",
+  "scadenzeImminentiScreenTestingDeadline": "Scadenza Collaudo",
+  "scadenzeImminentiScreenTetanusDeadline": "Scadenza Antitetanica",
+  "scadenzeImminentiScreenTitle": "Scadenze imminenti",
+  "scadenzeImminentiScreenTowerCraneDeadline": "Scadenza Gru a Torre",
+  "scadenzeImminentiScreenTwentyYearCheck": "Verifica ventennale",
+  "scadenzeImminentiScreenTypeLabel": "Tipologia",
+  "scadenzeImminentiScreenVehicleLabel": "Veicolo",
+  "subappaltatoreDocumentiScreenAddEmployeeLabel": "Inserisci dipendente",
+  "subappaltatoreDocumentiScreenAddGeneralDeadlineLabel": "Inserisci scadenza generale",
+  "subappaltatoreDocumentiScreenAssociatedSitesLabel": "Cantieri associati",
+  "subappaltatoreDocumentiScreenBreadcrumbCantieri": "Cantieri",
+  "subappaltatoreDocumentiScreenBreadcrumbSubappaltatori": "Subappaltatori",
+  "subappaltatoreDocumentiScreenDeleteEmployeeConfirm": "Eliminare \"{nome}\"?",
+  "@subappaltatoreDocumentiScreenDeleteEmployeeConfirm": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenDeleteEmployeeNoDocs": "Il suo nome sparirà dai cantieri in cui risulta presente.",
+  "subappaltatoreDocumentiScreenDeleteEmployeeTitle": "Eliminare il dipendente?",
+  "subappaltatoreDocumentiScreenDeleteEmployeeTooltip": "Elimina dipendente",
+  "subappaltatoreDocumentiScreenDeleteEmployeeWithDocs": "Verranno eliminate anche le sue {count} scadenze (storico compreso) e il suo nome sparirà dai cantieri in cui risulta presente.",
+  "@subappaltatoreDocumentiScreenDeleteEmployeeWithDocs": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenDocsInOrder": "Documenti in regola",
+  "subappaltatoreDocumentiScreenEmailLabel": "Email",
+  "subappaltatoreDocumentiScreenEmployeesLabel": "Dipendenti",
+  "subappaltatoreDocumentiScreenGeneralDeadlinesLabel": "Scadenze generali",
+  "subappaltatoreDocumentiScreenInfoLabel": "Informazioni:",
+  "subappaltatoreDocumentiScreenIrreversible": "L'operazione non è reversibile.",
+  "subappaltatoreDocumentiScreenNewGeneralDeadlineTooltip": "Nuova scadenza generale",
+  "subappaltatoreDocumentiScreenNoDeadlinesForSite": "Nessuna scadenza per questo cantiere.",
+  "subappaltatoreDocumentiScreenNoDeadlinesRegistered": "Nessuna scadenza registrata",
+  "subappaltatoreDocumentiScreenNoEmployees": "Nessun dipendente inserito per questo subappaltatore.",
+  "subappaltatoreDocumentiScreenNoGeneralDeadlines": "Nessuna scadenza generale inserita per questo subappaltatore.",
+  "subappaltatoreDocumentiScreenOpenSiteTooltip": "Apri cantiere",
+  "subappaltatoreDocumentiScreenSelfEmployed": "Lavoratore autonomo",
+  "subappaltatoreDocumentiScreenSiteIndexTitle": "{index}) {nome}",
+  "@subappaltatoreDocumentiScreenSiteIndexTitle": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDocumentiScreenTypeLabel": "Tipo",
+  "subappaltatoreDocumentiScreenVatLabel": "P. IVA",
+  "tipiDpiScreenBreadcrumbDpi": "DPI",
+  "tipiDpiScreenBreadcrumbTipiDpi": "Tipi di DPI",
+  "tipiDpiScreenDeleteConfirmMessage": "Eliminare la tipologia di DPI {nome}? L'operazione non è reversibile.",
+  "@tipiDpiScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiDpiScreenDeleteConfirmTitle": "Eliminare la tipologia?",
+  "tipiDpiScreenDeleteTooltip": "Elimina tipologia",
+  "tipiDpiScreenEditTooltip": "Modifica tipologia",
+  "tipiDpiScreenEmptyState": "Nessun DPI inserito.",
+  "tipiDpiScreenForHeightWork": "Per lavori in quota",
+  "tipiDpiScreenNewDpiLabel": "Nuovo DPI",
+  "tipiDpiScreenNoteLabel": "Nota: {note}",
+  "@tipiDpiScreenNoteLabel": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "campoDataClearDateTooltip": "Rimuovi data",
+  "campoDataFormatHint": "gg/mm/aaaa",
+  "campoDataInvalidDate": "Data non valida",
+  "campoDataPickDateTooltip": "Seleziona data",
+  "campoDataRemoveFieldTooltip": "Rimuovi campo",
+  "campoDataYearRange": "Anno tra {min} e {max}",
+  "@campoDataYearRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "creaDpiFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "creaDpiFormDialogHeightWorkRequired": "Necessario per lavori in quota",
+  "creaDpiFormDialogHeightWorkSubtitle": "Richiesto automaticamente agli operai (M04) con scadenza lavori in quota impostata",
+  "creaDpiFormDialogNameLabel": "Nome*",
+  "creaDpiFormDialogNoticeDaysHint": "30, 7, 1",
+  "creaDpiFormDialogNoticeDaysLabel": "Giorni di Preavviso",
+  "creaDpiFormDialogTitleEdit": "Modifica DPI",
+  "creaDpiFormDialogTitleNew": "Nuovo DPI",
+  "scadenzaCantiereTileConfirmDeleteMessage": "Eliminare {etichetta} da {cantiere}? L'operazione non è reversibile.",
+  "@scadenzaCantiereTileConfirmDeleteMessage": {
+    "placeholders": {
+      "etichetta": {
+        "type": "String"
+      },
+      "cantiere": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzaCantiereTileConfirmDeleteTitle": "Eliminare la scadenza?",
+  "scadenzaCantiereTileDeleteTooltip": "Elimina scadenza",
+  "scadenzaCantiereTileDueDate": "Scadenza: {date}",
+  "@scadenzaCantiereTileDueDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "scadenzaCantiereTileEditTooltip": "Modifica scadenza",
+  "scadenzaCantiereTileNotesLine": "Note: {note}",
+  "@scadenzaCantiereTileNotesLine": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "notaRifiutoDialogTitle": "Nota — {nomeDitta} — {tipo}",
+  "@notaRifiutoDialogTitle": {
+    "placeholders": {
+      "nomeDitta": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaScalaDialogTitle": "Nota — Scala {codice}",
+  "@notaScadenzaScalaDialogTitle": {
+    "placeholders": {
+      "codice": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaDocumentoDialogDefaultType": "documento",
+  "notaScadenzaDocumentoDialogTitle": "Nota — {tipo}",
+  "@notaScadenzaDocumentoDialogTitle": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "creaSegnaleFormDialogBrowse": "Sfoglia",
+  "creaSegnaleFormDialogChangeImage": "Cambia immagine",
+  "creaSegnaleFormDialogDragDropText": "Trascina qui l'immagine del cartello",
+  "creaSegnaleFormDialogExtensionNotAllowed": "Estensione non ammessa (.{estensione})",
+  "@creaSegnaleFormDialogExtensionNotAllowed": {
+    "placeholders": {
+      "estensione": {
+        "type": "String"
+      }
+    }
+  },
+  "creaSegnaleFormDialogFileTooLarge": "Immagine troppo grande (max 5 MB)",
+  "creaSegnaleFormDialogFileTypesHint": "JPG, PNG o WEBP - max 5 MB",
+  "creaSegnaleFormDialogImageSectionTitle": "Immagine del cartello",
+  "creaSegnaleFormDialogImageUnavailable": "Immagine non disponibile",
+  "creaSegnaleFormDialogLocationHint": "Es. corridoio ingresso, lato nord",
+  "creaSegnaleFormDialogLocationLabel": "Ubicazione",
+  "creaSegnaleFormDialogNameLabel": "Nome*",
+  "creaSegnaleFormDialogRemoveImage": "Rimuovi",
+  "creaSegnaleFormDialogTitleEdit": "Modifica cartello",
+  "creaSegnaleFormDialogTitleNew": "Nuovo cartello",
+  "creaSegnaleFormDialogZoneLabel": "Zona",
+  "creaSegnaleFormDialogZoneOffice": "Ufficio",
+  "creaSegnaleFormDialogZoneUnspecified": "Non specificata",
+  "creaSegnaleFormDialogZoneWarehouse": "Magazzino",
+  "subappaltatoriScreenConfirmDeleteMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@subappaltatoriScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoriScreenConfirmDeleteTitle": "Eliminare subappaltatore?",
+  "subappaltatoriScreenDeleteTooltip": "Elimina subappaltatore",
+  "subappaltatoriScreenEditTooltip": "Modifica subappaltatore",
+  "subappaltatoriScreenEmptyLoaded": "Nessun subappaltatore caricato.",
+  "subappaltatoriScreenEmptySearch": "Nessun subappaltatore trovato per \"{query}\".",
+  "@subappaltatoriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoriScreenNewTooltip": "Nuovo subappaltatore",
+  "subappaltatoriScreenNone": "nessuno",
+  "subappaltatoriScreenSearchHint": "Cerca per ragione sociale",
+  "subappaltatoriScreenSitesCount": "Cantieri associati",
+  "subappaltatoriScreenTitle": "Subappaltatori",
+  "cantiereDetailScreenAddDeadlineLabel": "Aggiungi scadenza",
+  "cantiereDetailScreenAddSubcontractorLabel": "Aggiungi subappaltatore",
+  "cantiereDetailScreenAddressLabel": "Indirizzo",
+  "cantiereDetailScreenBreadcrumbSites": "Cantieri",
+  "cantiereDetailScreenConfirmDeleteMessage": "Verranno eliminate definitivamente dal server tutte le scadenze di {nome} e quelle dei subappaltatori assegnati a questo cantiere.\nOPERAZIONE IRREVERSIBILE.",
+  "@cantiereDetailScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereDetailScreenConfirmDeleteTitle": "Eliminare le scadenze del cantiere?",
+  "cantiereDetailScreenConfirmRemoveMessage": "Rimuovere \"{nome}\" da questo cantiere? Il subappaltatore non verrà eliminato, ma le sue scadenze e quelle dei suoi dipendenti non saranno più associati a questo cantiere.",
+  "@cantiereDetailScreenConfirmRemoveMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantiereDetailScreenConfirmRemoveTitle": "Rimuovere subappaltatore dal cantiere?",
+  "cantiereDetailScreenDeadlinesTitle": "Scadenze del cantiere",
+  "cantiereDetailScreenDeleteDataAction": "Elimina dati",
+  "cantiereDetailScreenEmployeesPresentLabel": "Dipendenti presenti",
+  "cantiereDetailScreenEmployeesPresentTooltip": "Dipendenti presenti in questo cantiere",
+  "cantiereDetailScreenEndDateLabel": "Data conclusione",
+  "cantiereDetailScreenGeneralDeadlinesTitle": "Scadenze Generali del cantiere",
+  "cantiereDetailScreenInfoSectionTitle": "Informazioni:",
+  "cantiereDetailScreenNoDeadlines": "Nessuna scadenza registrata per questo cantiere.",
+  "cantiereDetailScreenNoGeneralDeadlines": "Nessuna scadenza generica impostata per questo cantiere.",
+  "cantiereDetailScreenNoSubcontractors": "Nessun subappaltatore associato a questo cantiere.",
+  "cantiereDetailScreenNoneValue": "nessuno",
+  "cantiereDetailScreenNotSet": "Non impostata",
+  "cantiereDetailScreenPostalCodeLabel": "CAP",
+  "cantiereDetailScreenRemoveFromSiteTooltip": "Rimuovi da questo cantiere",
+  "cantiereDetailScreenStartDateLabel": "Data di inizio",
+  "cantiereDetailScreenSubcontractorsTitle": "Subappaltatori",
+  "cantiereDetailScreenSuspensionDateLabel": "Data sospensione",
+  "cantieriScreenActiveSitesTitle": "Cantieri in corso",
+  "cantieriScreenArchiveAction": "Archivio cantieri",
+  "cantieriScreenConfirmDeleteMessage": "Eliminare il cantiere {nome}? L'operazione non è reversibile.",
+  "@cantieriScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenConfirmDeleteTitle": "Eliminare cantiere?",
+  "cantieriScreenDeadlineNoteLabel": "Nota scadenza",
+  "cantieriScreenDeadlineTypesAction": "Tipi scadenze",
+  "cantieriScreenDefaultDocumentType": "Documento",
+  "cantieriScreenEditNoteTooltip": "Modifica nota",
+  "cantieriScreenEmployeeLabel": "Dipendente",
+  "cantieriScreenEmptyAllConcluded": "Nessun cantiere attivo (tutti conclusi).",
+  "cantieriScreenEmptyLoaded": "Nessun cantiere caricato.",
+  "cantieriScreenEmptySearch": "Nessun cantiere trovato per \"{query}\".",
+  "@cantieriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "cantieriScreenNewSiteAction": "Nuovo cantiere",
+  "cantieriScreenNoteDialogTitle": "Nota — {nome} — {etichetta}",
+  "@cantieriScreenNoteDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "etichetta": {
+        "type": "String"
+      }
+    }
+  },
+  "cantieriScreenSearchHint": "Cerca per nome o comune",
+  "cantieriScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "cantieriScreenSiteDeadlinesGroup": "Scadenze dei cantieri",
+  "cantieriScreenSiteLabel": "Cantiere",
+  "cantieriScreenSitesPresentLabel": "Cantieri in cui è presente",
+  "cantieriScreenSubcontractorsAction": "Subappaltatori",
+  "cantieriScreenTitle": "Cantieri",
+  "cantieriScreenUpcomingDeadlinesTitle": "Scadenze imminenti",
+  "amministrazioneScreenConfirmDeleteDeadlineMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@amministrazioneScreenConfirmDeleteDeadlineMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenConfirmDeleteDeadlineTitle": "Eliminare scadenza?",
+  "amministrazioneScreenConfirmDeleteEmployeeMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@amministrazioneScreenConfirmDeleteEmployeeMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenConfirmDeleteEmployeeTitle": "Eliminare dipendente?",
+  "amministrazioneScreenDeadlineDateLabel": "Scadenza",
+  "amministrazioneScreenDeadlineNoteLabel": "Nota scadenza",
+  "amministrazioneScreenDeleteDeadlineTooltip": "Elimina scadenza",
+  "amministrazioneScreenDeleteEmployeeTooltip": "Elimina dipendente",
+  "amministrazioneScreenDlAerialPlatform": "Scadenza Piattaforme elevatrici",
+  "amministrazioneScreenDlContract": "Scadenza Contratto",
+  "amministrazioneScreenDlDigitalSignature": "Scadenza Firma Digitale",
+  "amministrazioneScreenDlExcavator": "Scadenza Conduzione Escavatori",
+  "amministrazioneScreenDlFirefighting": "Scadenza Antincendio",
+  "amministrazioneScreenDlFirstAid": "Scadenza Primo Soccorso",
+  "amministrazioneScreenDlForklift": "Scadenza Carrello elevatore semovente",
+  "amministrazioneScreenDlHeightWork": "Scadenza Lavori in Quota",
+  "amministrazioneScreenDlIdCard": "Scadenza Carta Identità",
+  "amministrazioneScreenDlIsocyanates": "Scadenza corso Diisocianati",
+  "amministrazioneScreenDlLicense": "Scadenza Patente",
+  "amministrazioneScreenDlMedicalCheckup": "Scadenza Visita Medica",
+  "amministrazioneScreenDlResidencePermit": "Scadenza Permesso di Soggiorno",
+  "amministrazioneScreenDlRlst": "Scadenza RLST",
+  "amministrazioneScreenDlRspp": "Scadenza RSPP",
+  "amministrazioneScreenDlSafetyTraining": "Scadenza Formazione Sicurezza",
+  "amministrazioneScreenDlScaffolding": "Scadenza Montaggio/Smontaggio ponteggi",
+  "amministrazioneScreenDlShelving": "Scadenza corso Scaffalature",
+  "amministrazioneScreenDlSupervisor": "Scadenza Preposto",
+  "amministrazioneScreenDlTachograph": "Scadenza Carta Tachigrafica",
+  "amministrazioneScreenDlTachographCompany": "Scadenza Carta Tachigrafica + Azienda",
+  "amministrazioneScreenDlTachographCourse": "Scadenza corso Cronotachigrafico",
+  "amministrazioneScreenDlTaxCode": "Scadenza Codice Fiscale",
+  "amministrazioneScreenDlTetanus": "Scadenza Antitetanica",
+  "amministrazioneScreenDlTowerCrane": "Scadenza Gru a Torre",
+  "amministrazioneScreenDlTruckCrane": "Scadenza Gru Autocarro",
+  "amministrazioneScreenEditDeadlineTooltip": "Modifica scadenza",
+  "amministrazioneScreenEditEmployeeTooltip": "Modifica dipendente",
+  "amministrazioneScreenEditNoteTooltip": "Modifica nota",
+  "amministrazioneScreenEmployeeDeadlinesTitle": "Scadenze dipendenti",
+  "amministrazioneScreenEmployeeLabel": "Dipendente",
+  "amministrazioneScreenEmployeesTitle": "Dipendenti Aziendali",
+  "amministrazioneScreenEmptyDeadlinesLoaded": "Nessuna scadenza caricata.",
+  "amministrazioneScreenEmptyDeadlinesSearch": "Nessuna scadenza trovata per \"{query}\".",
+  "@amministrazioneScreenEmptyDeadlinesSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenEmptyEmployeesLoaded": "Nessun dipendente caricato.",
+  "amministrazioneScreenEmptyEmployeesSearch": "Nessun dipendente trovato per \"{query}\".",
+  "@amministrazioneScreenEmptyEmployeesSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "amministrazioneScreenFieldAerialPlatform": "Piattaforme Elevatrici",
+  "amministrazioneScreenFieldAge": "Età",
+  "amministrazioneScreenFieldBirthDate": "Data di Nascita",
+  "amministrazioneScreenFieldBirthPlace": "Luogo di Nascita",
+  "amministrazioneScreenFieldDigitalSignature": "Firma Digitale",
+  "amministrazioneScreenFieldEnvironmentalManagement": "Gestione Ambientale",
+  "amministrazioneScreenFieldExcavator": "Conduzione Escavatori",
+  "amministrazioneScreenFieldFirefighting": "Antincendio",
+  "amministrazioneScreenFieldFirstAid": "Primo Soccorso",
+  "amministrazioneScreenFieldForklift": "Carrello Elevatore Semovente",
+  "amministrazioneScreenFieldGeneralSafetyTraining": "Formazione Sicurezza generale",
+  "amministrazioneScreenFieldHealthCard": "Tessera Sanitara",
+  "amministrazioneScreenFieldHeightWork": "Lavori in Quota",
+  "amministrazioneScreenFieldIdCard": "Carta d'identità",
+  "amministrazioneScreenFieldIsocyanates": "Corso Diisocianati",
+  "amministrazioneScreenFieldLicense": "Patente",
+  "amministrazioneScreenFieldMedicalCheckup": "Visita Medica",
+  "amministrazioneScreenFieldModel231": "Modello 231",
+  "amministrazioneScreenFieldName": "Nome",
+  "amministrazioneScreenFieldRentri": "Rentri",
+  "amministrazioneScreenFieldResidencePermit": "Permesso di soggiorno",
+  "amministrazioneScreenFieldRlst": "RLST",
+  "amministrazioneScreenFieldRole": "Mansione",
+  "amministrazioneScreenFieldRspp": "RSPP",
+  "amministrazioneScreenFieldScaffolding": "Montaggio/Smontaggio Ponteggi",
+  "amministrazioneScreenFieldShelving": "Corso Scaffalature",
+  "amministrazioneScreenFieldSupervisor": "Preposto",
+  "amministrazioneScreenFieldTachograph": "Carta Tachigrafica",
+  "amministrazioneScreenFieldTachographCourse": "Corso Cronotachigrafico",
+  "amministrazioneScreenFieldTaxCode": "Codice Fiscale",
+  "amministrazioneScreenFieldTetanus": "Antitetanica",
+  "amministrazioneScreenFieldTowerCrane": "Gru a Torre",
+  "amministrazioneScreenFieldTruckCrane": "Gru Autocarro",
+  "amministrazioneScreenGeneralDeadlinesTitle": "Scadenze generali",
+  "amministrazioneScreenHideAllTooltip": "Nascondi tutti",
+  "amministrazioneScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "amministrazioneScreenHideDetailsTooltip": "Nascondi dettagli",
+  "amministrazioneScreenNoUpcomingDeadlines": "Nessuna scadenza imminente.",
+  "amministrazioneScreenSearchDeadlinesHint": "Cerca per nome o nota",
+  "amministrazioneScreenSearchEmployeesHint": "Cerca per nome, cognome o mansione",
+  "amministrazioneScreenSectionCoursesCompleted": "Scadenza corsi effettuati",
+  "amministrazioneScreenSectionPersonalDeadlines": "Scadenze Personali",
+  "amministrazioneScreenSectionPersonalInfo": "Anagrafica",
+  "amministrazioneScreenSectionTrainingDates": "Data corsi formazione effettuati",
+  "amministrazioneScreenShowAllTooltip": "Mostra tutti",
+  "amministrazioneScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "amministrazioneScreenShowDetailsTooltip": "Mostra dettagli",
+  "amministrazioneScreenTitle": "Amministrazione",
+  "amministrazioneScreenUpcomingDeadlinesTitle": "Scadenze imminenti",
+  "fasceCateneScreenInMagazzino": "In magazzino",
+  "fasceCateneScreenInCantiere": "In cantiere {nome}",
+  "@fasceCateneScreenInCantiere": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenSuAutomezzo": "Su automezzo {nome}",
+  "@fasceCateneScreenSuAutomezzo": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenNonSpecificata": "Non specificata",
+  "fasceCateneScreenEsitoPositivo": "Positivo",
+  "fasceCateneScreenEsitoNegativo": "Negativo",
+  "fasceCateneScreenTitle": "Fasce, Catene e Benne",
+  "fasceCateneScreenNuovaFasciaCatena": "Nuova fascia/catena",
+  "fasceCateneScreenInserisciBenna": "Inserisci benna",
+  "fasceCateneScreenPresenti": "Fasce, catene e benne presenti",
+  "fasceCateneScreenNascondiTutti": "Nascondi tutti",
+  "fasceCateneScreenMostraTutti": "Mostra tutti",
+  "fasceCateneScreenSearchHint": "Cerca per ID, numero di serie, tipo o ubicazione",
+  "fasceCateneScreenNessunElementoCaricato": "Nessun elemento caricato.",
+  "fasceCateneScreenNessunElementoTrovato": "Nessun elemento trovato per \"{query}\".",
+  "@fasceCateneScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenBenneAutoscaricanti": "Benne autoscaricanti",
+  "fasceCateneScreenAnagrafica": "Anagrafica",
+  "fasceCateneScreenNumeroSerie": "N. serie",
+  "fasceCateneScreenUbicazione": "Ubicazione",
+  "fasceCateneScreenVerificaConEsito": "Verifica con esito",
+  "fasceCateneScreenEsitoNegativoLower": "negativo",
+  "fasceCateneScreenEsitoPositivoLower": "positivo",
+  "fasceCateneScreenTipo": "Tipo",
+  "fasceCateneScreenCricchetto": "Cricchetto",
+  "fasceCateneScreenIdInterno": "ID interno",
+  "fasceCateneScreenNumeroSerieProduttore": "N. serie produttore",
+  "fasceCateneScreenColore": "Colore",
+  "fasceCateneScreenCaratteristiche": "Caratteristiche",
+  "fasceCateneScreenPortataKg": "Portata (Kg)",
+  "fasceCateneScreenSpessoreMm": "Spessore (mm)",
+  "fasceCateneScreenDiametroMm": "Diametro (mm)",
+  "fasceCateneScreenLarghezzaMm": "Larghezza (mm)",
+  "fasceCateneScreenLunghezzaM": "Lunghezza (m)",
+  "fasceCateneScreenUbicazioneEAcquisto": "Ubicazione e acquisto",
+  "fasceCateneScreenDataAcquisto": "Data acquisto",
+  "fasceCateneScreenLuogoAcquisto": "Luogo acquisto",
+  "fasceCateneScreenVerificaInterna": "Verifica interna",
+  "fasceCateneScreenUltimaVerifica": "Ultima verifica",
+  "fasceCateneScreenEsito": "Esito",
+  "fasceCateneScreenProssimaVerifica": "Prossima verifica",
+  "fasceCateneScreenEliminareFasciaCatenaTitle": "Eliminare la fascia/catena?",
+  "fasceCateneScreenEliminareBennaTitle": "Eliminare la benna?",
+  "fasceCateneScreenConfirmDeleteMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@fasceCateneScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "fasceCateneScreenNascondiInfo": "Nascondi info",
+  "fasceCateneScreenMostraInfo": "Mostra info",
+  "fasceCateneScreenDescrizione": "Descrizione",
+  "fasceCateneScreenCapacitaCarico": "Capacità di carico",
+  "fasceCateneScreenIngrandisciFoto": "Ingrandisci foto",
+  "fasceCateneScreenImmagineNonDisponibile": "Immagine non disponibile",
+  "fasceCateneScreenBennaTitolo": "{idInterno} - Benna",
+  "@fasceCateneScreenBennaTitolo": {
+    "placeholders": {
+      "idInterno": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenCodice": "Codice",
+  "scaleScreenMateriale": "Materiale",
+  "scaleScreenDescrizione": "Descrizione",
+  "scaleScreenUbicazione": "Ubicazione",
+  "scaleScreenUltimaVerifica": "Ultima verifica",
+  "scaleScreenProssimaVerifica": "Prossima verifica",
+  "scaleScreenInMagazzino": "In magazzino",
+  "scaleScreenInCantiere": "In cantiere {nome}",
+  "@scaleScreenInCantiere": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNonSpecificata": "Non specificata",
+  "scaleScreenTitle": "Scale",
+  "scaleScreenPdfCount": "{count} scale",
+  "@scaleScreenPdfCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scaleScreenPdfFiltro": "filtro di ricerca: \"{filtro}\"",
+  "@scaleScreenPdfFiltro": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenStampaErrore": "Impossibile generare la stampa: {dettagli}",
+  "@scaleScreenStampaErrore": {
+    "placeholders": {
+      "dettagli": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNuovaScala": "Nuova scala",
+  "scaleScreenStampa": "Stampa",
+  "scaleScreenScadenzeImminenti": "Scadenze imminenti",
+  "scaleScreenNascondiScadenze": "Nascondi scadenze",
+  "scaleScreenMostraScadenze": "Mostra scadenze",
+  "scaleScreenPresenti": "Scale presenti",
+  "scaleScreenNascondiTutti": "Nascondi tutti",
+  "scaleScreenMostraTutti": "Mostra tutti",
+  "scaleScreenSearchHint": "Cerca per codice, materiale o ubicazione",
+  "scaleScreenNessunElementoCaricato": "Nessun elemento caricato.",
+  "scaleScreenNessunElementoTrovato": "Nessun elemento trovato per \"{query}\".",
+  "@scaleScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenCodiceScala": "Codice scala",
+  "scaleScreenNotaScadenza": "Nota scadenza",
+  "scaleScreenModificaNota": "Modifica nota",
+  "scaleScreenEliminaScala": "Elimina scala",
+  "scaleScreenEliminareScalaTitle": "Eliminare scala?",
+  "scaleScreenConfirmDeleteMessage": "Eliminare \"{codice}\"? L'operazione non è reversibile.",
+  "@scaleScreenConfirmDeleteMessage": {
+    "placeholders": {
+      "codice": {
+        "type": "String"
+      }
+    }
+  },
+  "scaleScreenNascondiInfo": "Nascondi info",
+  "scaleScreenMostraInfo": "Mostra info",
+  "scaleScreenAnagrafica": "Anagrafica",
+  "scaleScreenControlli": "Controlli",
+  "bennaFormDialogEstensioneNonAmmessa": "Estensione non ammessa (.{estensione})",
+  "@bennaFormDialogEstensioneNonAmmessa": {
+    "placeholders": {
+      "estensione": {
+        "type": "String"
+      }
+    }
+  },
+  "bennaFormDialogImmagineTroppoGrande": "Immagine troppo grande (max 5 MB)",
+  "bennaFormDialogModificaTitle": "Modifica benna",
+  "bennaFormDialogNuovaTitle": "Nuova benna",
+  "bennaFormDialogAnagrafica": "Anagrafica",
+  "bennaFormDialogIdInterno": "ID interno*",
+  "bennaFormDialogDescrizione": "Descrizione",
+  "bennaFormDialogNumeroSerieProduttore": "Numero di serie produttore",
+  "bennaFormDialogCapacitaCaricoLt": "Capacità di carico (Lt)",
+  "bennaFormDialogUbicazione": "Ubicazione",
+  "bennaFormDialogTipoUbicazione": "Tipo ubicazione",
+  "bennaFormDialogNonSpecificata": "Non specificata",
+  "bennaFormDialogMagazzino": "Magazzino",
+  "bennaFormDialogCantiere": "Cantiere",
+  "bennaFormDialogSelezionaCantiere": "Seleziona un cantiere",
+  "bennaFormDialogAcquisto": "Acquisto",
+  "bennaFormDialogDataAcquisto": "Data di acquisto",
+  "bennaFormDialogVerificaInterna": "Verifica interna",
+  "bennaFormDialogUltimaVerificaInterna": "Ultima verifica interna",
+  "bennaFormDialogProssimaVerifica": "Prossima verifica",
+  "bennaFormDialogEsitoVerificaPositivo": "Esito verifica positivo",
+  "bennaFormDialogIdoneaUso": "Idonea all'uso",
+  "bennaFormDialogNonIdonea": "Non idonea: da mettere fuori servizio",
+  "bennaFormDialogFoto": "Foto",
+  "bennaFormDialogCambiaFoto": "Cambia foto",
+  "bennaFormDialogSfoglia": "Sfoglia",
+  "bennaFormDialogRimuovi": "Rimuovi",
+  "bennaFormDialogNoteAggiuntive": "Note aggiuntive",
+  "bennaFormDialogImmagineNonDisponibile": "Immagine non disponibile",
+  "bennaFormDialogTrascinaFoto": "Trascina qui la foto della benna",
+  "bennaFormDialogFormatiAmmessi": "JPG, PNG o WEBP - max 5 MB",
+  "scadenzaCantiereFormDialogNomeScadenzaTitle": "Nome scadenza",
+  "scadenzaCantiereFormDialogNomeScadenzaHint": "Es. Ponteggio, Gru, Recinzione...",
+  "scadenzaCantiereFormDialogContinua": "Continua",
+  "scadenzaCantiereFormDialogTitle": "Scadenze generali del cantiere",
+  "scadenzaCantiereFormDialogScadenzaMessaTerra": "Scadenza Messa a Terra",
+  "scadenzaCantiereFormDialogRimuoviMessaTerra": "Rimuovi scadenza messa a terra",
+  "scadenzaCantiereFormDialogAggiungiMessaTerra": "Aggiungi scadenza messa a terra",
+  "scadenzaCantiereFormDialogScadenzaGenerica": "Scadenza generica {numero}",
+  "@scadenzaCantiereFormDialogScadenzaGenerica": {
+    "placeholders": {
+      "numero": {
+        "type": "int"
+      }
+    }
+  },
+  "scadenzaCantiereFormDialogRimuoviQuesta": "Rimuovi questa scadenza",
+  "scadenzaCantiereFormDialogAggiungiGenerica": "Aggiungi scadenza generica",
+  "tipiScadenzeScreenTitle": "Tipi di Scadenze",
+  "tipiScadenzeScreenNuovaTipologia": "Nuova tipologia",
+  "tipiScadenzeScreenSearchHint": "Cerca per tipologia",
+  "tipiScadenzeScreenNessunaTipologiaCaricata": "Nessuna tipologia caricata.",
+  "tipiScadenzeScreenNessunaTipologiaTrovata": "Nessuna tipologia trovato per \"{query}\".",
+  "@tipiScadenzeScreenNessunaTipologiaTrovata": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenRichiedeScadenza": "Richiede scadenza",
+  "tipiScadenzeScreenAvviso": "Avviso",
+  "tipiScadenzeScreenAvvisoDalGiorno": "dal giorno dopo la scadenza",
+  "tipiScadenzeScreenPreavviso": "Preavviso",
+  "tipiScadenzeScreenGiorniPreavviso": "{giorni} giorni",
+  "@tipiScadenzeScreenGiorniPreavviso": {
+    "placeholders": {
+      "giorni": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenCollegatoA": "Collegato a",
+  "tipiScadenzeScreenModificaTipologia": "Modifica tipologia",
+  "tipiScadenzeScreenEliminaTipologia": "Elimina tipologia",
+  "tipiScadenzeScreenEliminareTitle": "Eliminare la tipologia?",
+  "tipiScadenzeScreenEliminareMessage": "Eliminare la tipologia di scadenza {nome}? L'operazione non è reversibile.",
+  "@tipiScadenzeScreenEliminareMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "tipiScadenzeScreenCantiere": "Cantiere",
+  "tipiScadenzeScreenSubappaltatore": "Subappaltatore",
+  "tipiScadenzeScreenDipendenteSubappaltatore": "Dipendente del subappaltatore",
+  "tipiScadenzeScreenDipendenteSubappaltatoreAutonomo": "Dipendente del subappaltatore (e lavoratori autonomi)",
+  "tipiScadenzeScreenLavoratoreAutonomo": "Lavoratore autonomo",
+  "tipiScadenzeScreenElencoFinale": "{a} e {b}",
+  "@tipiScadenzeScreenElencoFinale": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendenteSubappaltatoreDetailScreenCantieri": "Cantieri",
+  "dipendenteSubappaltatoreDetailScreenSubappaltatori": "Subappaltatori",
+  "dipendenteSubappaltatoreDetailScreenDipendentiAziendali": "Dipendenti Aziendali",
+  "dipendenteSubappaltatoreDetailScreenInformazioni": "Informazioni:",
+  "dipendenteSubappaltatoreDetailScreenTipo": "Tipo",
+  "dipendenteSubappaltatoreDetailScreenLavoratoreAutonomo": "Lavoratore autonomo",
+  "dipendenteSubappaltatoreDetailScreenNessunCantiere": "Il subappaltatore non è associato a nessun cantiere.",
+  "dipendenteSubappaltatoreDetailScreenScadenzeDocumenti": "Scadenze documenti e certificazioni",
+  "dipendenteSubappaltatoreDetailScreenAggiungiScadenza": "Aggiungi scadenza",
+  "dipendenteSubappaltatoreDetailScreenNessunaScadenza": "Nessuna scadenza registrata per questo dipendente.",
+  "dipendenteSubappaltatoreFormDialogNuovo": "Nuovo dipendente",
+  "dipendenteSubappaltatoreFormDialogModifica": "Modifica dipendente",
+  "dipendenteSubappaltatoreFormDialogNome": "Nome*",
+  "dipendenteSubappaltatoreFormDialogCognome": "Cognome*",
+  "dipendenteSubappaltatoreFormDialogNoteHelper": "Mostrate nel riquadro \"Informazioni\" della pagina del dipendente",
+  "dipendenteSubappaltatoreFormDialogLavoratoreAutonomo": "Lavoratore autonomo",
+  "dipendenteSubappaltatoreFormDialogLavoratoreAutonomoSubtitle": "Oltre alle scadenze del dipendente può registrare anche quelle riservate ai lavoratori autonomi",
+  "modificaScadenzaDocumentoDialogModificaTipo": "Modifica {tipo}",
+  "@modificaScadenzaDocumentoDialogModificaTipo": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "modificaScadenzaDocumentoDialogModificaScadenza": "Modifica scadenza",
+  "modificaScadenzaDocumentoDialogDataScadenza": "Data di scadenza",
+  "notaMisuraDialogTitle": "Nota — {nome} — {tipo}",
+  "@notaMisuraDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaGeneraleDialogTitle": "Nota — {nome}",
+  "@notaScadenzaGeneraleDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendentiPresentiDialogTitle": "Dipendenti presenti — {nome}",
+  "@dipendentiPresentiDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dipendentiPresentiDialogNessunDipendente": "Nessun dipendente registrato per questo subappaltatore.",
+  "dipendentiPresentiDialogNote": "Note: {note}",
+  "@dipendentiPresentiDialogNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenTitle": "Primo Soccorso",
+  "primoSoccorsoScreenStandardProductsLabel": "Prodotti standard",
+  "primoSoccorsoScreenNewItemLabel": "Nuovo elemento",
+  "primoSoccorsoScreenUpcomingDeadlines": "Scadenze imminenti",
+  "primoSoccorsoScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "primoSoccorsoScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "primoSoccorsoScreenSectionTitle": "Cassette e Pacchetti di primo soccorso",
+  "primoSoccorsoScreenHideAllTooltip": "Nascondi tutte",
+  "primoSoccorsoScreenShowAllTooltip": "Mostra tutte",
+  "primoSoccorsoScreenSearchHint": "Cerca per numero, posizione o tipologia",
+  "primoSoccorsoScreenNoItemsLoaded": "Nessun elemento caricato.",
+  "primoSoccorsoScreenNoItemsFound": "Nessun elemento trovato per \"{query}\".",
+  "@primoSoccorsoScreenNoItemsFound": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenArticleLabel": "Articolo",
+  "primoSoccorsoScreenLocationLabel": "Ubicazione",
+  "primoSoccorsoScreenDeadlineNoteLabel": "Nota scadenza",
+  "primoSoccorsoScreenEditNoteTooltip": "Modifica nota",
+  "primoSoccorsoScreenEditItemTooltip": "Modifica elemento",
+  "primoSoccorsoScreenDeleteItemTooltip": "Elimina elemento",
+  "primoSoccorsoScreenDeleteConfirmTitle": "Eliminare elemento?",
+  "primoSoccorsoScreenDeleteConfirmMessage": "Eliminare \"{numero}\"? L'operazione non è reversibile.",
+  "@primoSoccorsoScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenHideInfoTooltip": "Nascondi info",
+  "primoSoccorsoScreenShowInfoTooltip": "Mostra info",
+  "primoSoccorsoScreenChecksSectionTitle": "Controlli e Scadenze",
+  "primoSoccorsoScreenLastCheckLabel": "Ultima verifica",
+  "primoSoccorsoScreenNextCheckLabel": "Prossimo controllo",
+  "primoSoccorsoScreenNextProductDeadlineLabel": "Prossima scadenza prodotti",
+  "primoSoccorsoScreenNotaDialogTitle": "Nota — {titolo}",
+  "@primoSoccorsoScreenNotaDialogTitle": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenNextCheckType": "Prossimo Controllo",
+  "primoSoccorsoScreenProductDeadlineType": "Scadenza {nomeProdotto}",
+  "@primoSoccorsoScreenProductDeadlineType": {
+    "placeholders": {
+      "nomeProdotto": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationWarehouse": "In magazzino",
+  "primoSoccorsoScreenLocationOffice": "In ufficio",
+  "primoSoccorsoScreenLocationSite": "In cantiere {nome}",
+  "@primoSoccorsoScreenLocationSite": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationVehicle": "Su automezzo {nome}",
+  "@primoSoccorsoScreenLocationVehicle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "primoSoccorsoScreenLocationUnspecified": "Non specificata",
+  "impiantiScreenPdfOffice": "Ufficio",
+  "impiantiScreenPdfWarehouse": "Magazzino",
+  "impiantiScreenPdfUnspecified": "Non specificato",
+  "impiantiScreenColType": "Tipologia",
+  "impiantiScreenColLocation": "Ubicazione",
+  "impiantiScreenColInstallerCompany": "Ditta installazione",
+  "impiantiScreenColInstallDate": "Data installazione",
+  "impiantiScreenColAssessmentDate": "Data valutazione",
+  "impiantiScreenColInternalMaintDate": "Data manut. interna",
+  "impiantiScreenColInternalMaintDeadline": "Scad. manut. interna",
+  "impiantiScreenColInternalCheckType": "Tipo verifica interna",
+  "impiantiScreenColExternalMaintDate": "Data manut. esterna",
+  "impiantiScreenColExternalMaintDeadline": "Scad. manut. esterna",
+  "impiantiScreenColExternalCheckType": "Tipo verifica esterna",
+  "impiantiScreenColLightningAssessmentDeadline": "Scad. val. scariche atmosferiche",
+  "impiantiScreenInternalMaintenanceDeadlineType": "Scadenza Manutenzione Interna",
+  "impiantiScreenExternalMaintenanceDeadlineType": "Scadenza Manutenzione Esterna",
+  "impiantiScreenTitle": "Impianti",
+  "impiantiScreenPdfSubtitleCount": "{count} impianti",
+  "@impiantiScreenPdfSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "impiantiScreenPdfSubtitleFilter": "filtro di ricerca: \"{filtro}\"",
+  "@impiantiScreenPdfSubtitleFilter": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenPrintErrorMessage": "Impossibile generare la stampa: {details}",
+  "@impiantiScreenPrintErrorMessage": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenNewSystemLabel": "Nuovo impianto",
+  "impiantiScreenPrintLabel": "Stampa",
+  "impiantiScreenUpcomingDeadlines": "Scadenze imminenti",
+  "impiantiScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "impiantiScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "impiantiScreenActiveSystemsTitle": "Impianti attivi",
+  "impiantiScreenCollapseAllTooltip": "Chiudi tutti",
+  "impiantiScreenExpandAllTooltip": "Espandi tutti",
+  "impiantiScreenSearchHint": "Cerca per nome",
+  "impiantiScreenNoItemsLoaded": "Nessun impianto caricato.",
+  "impiantiScreenNoItemsFound": "Nessun impianto trovato per \"{query}\".",
+  "@impiantiScreenNoItemsFound": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenLocationOfficeLower": "in Ufficio",
+  "impiantiScreenLocationWarehouseLower": "in Magazzino",
+  "impiantiScreenLocationUnspecifiedLower": "non specificata",
+  "impiantiScreenDeadlineNoteLabel": "Nota scadenza",
+  "impiantiScreenEditNoteTooltip": "Modifica nota",
+  "impiantiScreenEditSystemTooltip": "Modifica impianto",
+  "impiantiScreenDeleteSystemTooltip": "Elimina impianto",
+  "impiantiScreenDeleteConfirmTitle": "Eliminare impianto?",
+  "impiantiScreenDeleteConfirmMessage": "Eliminare \"{tipologia}\"? L'operazione non è reversibile.",
+  "@impiantiScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      }
+    }
+  },
+  "impiantiScreenHideInfoTooltip": "Nascondi info",
+  "impiantiScreenShowInfoTooltip": "Mostra info",
+  "impiantiScreenInstallationSectionTitle": "Installazione",
+  "impiantiScreenInstallerCompanyLabel": "Ditta installatrice",
+  "impiantiScreenInstallDateLabel": "Data di Installazione",
+  "impiantiScreenAssessmentDateLabel": "Data di Valutazione",
+  "impiantiScreenInternalMaintenanceSectionTitle": "Manutenzione Interna",
+  "impiantiScreenInternalMaintDateLabel": "Data manutenzione interna",
+  "impiantiScreenInternalMaintDeadlineLabel": "Scadenza manutenzione interna",
+  "impiantiScreenCheckTypeLabel": "Tipo di Verifica",
+  "impiantiScreenExternalMaintenanceSectionTitle": "Manutenzione Esterna",
+  "impiantiScreenExternalMaintDateLabel": "Data manutenzione esterna",
+  "impiantiScreenExternalMaintDeadlineLabel": "Scadenza manutenzione esterna",
+  "impiantiScreenLightningSectionTitle": "Scariche Atmosferiche",
+  "impiantiScreenLightningAssessmentDeadlineLabel": "Scadenza valutazione scariche atmosferiche",
+  "impiantiScreenAdditionalNotesSectionTitle": "Note aggiuntive",
+  "macchinarioFormDialogOwnershipOwned": "Di Proprietà",
+  "macchinarioFormDialogOwnershipRented": "Noleggio",
+  "macchinarioFormDialogOwnershipLeased": "Leasing",
+  "macchinarioFormDialogNewTitle": "Nuovo macchinario",
+  "macchinarioFormDialogEditTitle": "Modifica macchinario",
+  "macchinarioFormDialogModelLabel": "Modello*",
+  "macchinarioFormDialogSerialNumberLabel": "Numero matricola",
+  "macchinarioFormDialogFactoryNumberLabel": "Numero di fabbrica",
+  "macchinarioFormDialogPurchaseYearLabel": "Anno di acquisto",
+  "macchinarioFormDialogTypeLabel": "Tipologia",
+  "macchinarioFormDialogUnspecifiedOption": "Non specificata",
+  "macchinarioFormDialogOwnershipLabel": "Proprietà",
+  "macchinarioFormDialogLeasingCompanyLabel": "Compagnia di Leasing",
+  "macchinarioFormDialogLeasingDeadlineLabel": "Scadenza Leasing",
+  "macchinarioFormDialogRentalCompanyLabel": "Azienda di Noleggio",
+  "macchinarioFormDialogRentalEmailLabel": "Email dell'azienda di noleggio",
+  "macchinarioFormDialogInvalidEmailValidator": "Inserisci email valida",
+  "macchinarioFormDialogCivaInailLabel": "Presente in CIVA/INAIL",
+  "macchinarioFormDialogInUseLabel": "In uso?",
+  "macchinarioFormDialogLocationSectionTitle": "Ubicazione",
+  "macchinarioFormDialogLocationTypeLabel": "Tipo ubicazione",
+  "macchinarioFormDialogLocationWarehouse": "Magazzino",
+  "macchinarioFormDialogLocationSite": "Cantiere",
+  "macchinarioFormDialogLocationVehicle": "Automezzo",
+  "macchinarioFormDialogSiteValidator": "Seleziona un cantiere",
+  "macchinarioFormDialogVehicleValidator": "Seleziona un automezzo",
+  "macchinarioFormDialogInsuranceCompanyLabel": "Compagnia assicurativa",
+  "macchinarioFormDialogInsuranceDeadlineLabel": "Scadenza Assicurazione",
+  "macchinarioFormDialogRemoveInsuranceDeadlineTooltip": "Rimuovi scadenza assicurazione",
+  "macchinarioFormDialogAddInsuranceDeadlineLabel": "Aggiungi scadenza assicurazione",
+  "macchinarioFormDialogInternalMaintenanceSectionTitle": "Manutenzione interna",
+  "macchinarioFormDialogInterventionDateLabel": "Data intervento",
+  "macchinarioFormDialogDeadlineLabel": "Scadenza",
+  "macchinarioFormDialogRopeChainCheckSectionTitle": "Controllo funi/catene",
+  "macchinarioFormDialogCheckDateLabel": "Data controllo",
+  "macchinarioFormDialogAnnualCheckSectionTitle": "Verifica annuale",
+  "macchinarioFormDialogInspectionDateLabel": "Data verifica",
+  "macchinarioFormDialogTwentyYearCheckSectionTitle": "Verifica ventennale",
+  "macchinarioFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "scaffalatureScreenNextCheckType": "Prossimo controllo scaffalature",
+  "scaffalatureScreenTitle": "Scaffalature",
+  "scaffalatureScreenAddLabel": "Aggiungi scaffalatura",
+  "scaffalatureScreenUpcomingDeadlines": "Scadenze imminenti",
+  "scaffalatureScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "scaffalatureScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "scaffalatureScreenSectionTitle": "Scaffalature presenti",
+  "scaffalatureScreenHideAllTooltip": "Nascondi tutti",
+  "scaffalatureScreenShowAllTooltip": "Mostra tutti",
+  "scaffalatureScreenNoItemsLoaded": "Nessun elemento caricato.",
+  "scaffalatureScreenIdLabel": "ID scaffalatura",
+  "scaffalatureScreenLastCheckLabel": "Ultima verifica",
+  "scaffalatureScreenDeadlineNoteLabel": "Nota scadenza",
+  "scaffalatureScreenEditNoteTooltip": "Modifica nota",
+  "scaffalatureScreenCardTitle": "Scaffalatura ID #{id}",
+  "@scaffalatureScreenCardTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalatureScreenNextCheckLabel": "Prossima verifica",
+  "scaffalatureScreenDeleteTooltip": "Elimina scaffale",
+  "scaffalatureScreenDeleteConfirmTitle": "Eliminare scaffalatura?",
+  "scaffalatureScreenDeleteConfirmMessage": "Eliminare la scaffalatura #{id}? L'operazione non è reversibile.",
+  "@scaffalatureScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalatureScreenHideInfoTooltip": "Nascondi info",
+  "scaffalatureScreenShowInfoTooltip": "Mostra info",
+  "scaffalatureScreenChecksSectionTitle": "Controlli",
+  "scaffalatureScreenOutcomeLabel": "Esito",
+  "scaffalatureScreenOutcomePositive": "Positivo",
+  "scaffalatureScreenOutcomeNegative": "Negativo",
+  "impiantiFormDialogNewTitle": "Nuovo impianto",
+  "impiantiFormDialogEditTitle": "Modifica impianto",
+  "impiantiFormDialogTypeLabel": "Tipologia*",
+  "impiantiFormDialogLocationTypeLabel": "Tipo ubicazione",
+  "impiantiFormDialogUnspecifiedOption": "Non specificata",
+  "impiantiFormDialogLocationWarehouse": "Magazzino",
+  "impiantiFormDialogLocationOffice": "Ufficio",
+  "impiantiFormDialogInstallationSectionTitle": "Installazione",
+  "impiantiFormDialogInstallDateLabel": "Data installazione",
+  "impiantiFormDialogInstallerCompanyLabel": "Ditta installatrice",
+  "impiantiFormDialogAssessmentDateLabel": "Data di Valutazione",
+  "impiantiFormDialogInternalMaintenanceSectionTitle": "Manutenzione Interna",
+  "impiantiFormDialogInternalMaintDateLabel": "Data di Manutenzione interna",
+  "impiantiFormDialogInternalMaintDeadlineLabel": "Scadenza Manutenzione interna",
+  "impiantiFormDialogInternalCheckTypeLabel": "Tipo di verifica interna",
+  "impiantiFormDialogExternalMaintenanceSectionTitle": "Manutenzione Esterna",
+  "impiantiFormDialogExternalMaintDateLabel": "Data di Manutenzione esterna",
+  "impiantiFormDialogExternalMaintDeadlineLabel": "Scadenza Manutenzione esterna",
+  "impiantiFormDialogExternalCheckTypeLabel": "Tipo di verifica esterna",
+  "impiantiFormDialogLightningSectionTitle": "Scariche Atmosferiche",
+  "impiantiFormDialogLightningAssessmentDeadlineLabel": "Scadenza Valutazione scariche atmosferiche",
+  "impiantiFormDialogRemoveLightningAssessmentTooltip": "Rimuovi valutazione scariche atmosferiche",
+  "impiantiFormDialogAddLightningAssessmentLabel": "Aggiungi scadenza valutazione scariche atmosferiche",
+  "impiantiFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "documentFormDialogDeadlineRequiredError": "Questa tipologia richiede una data di scadenza",
+  "documentFormDialogTitle": "Nuova scadenza",
+  "documentFormDialogSectionTitle": "Documento",
+  "documentFormDialogTypeLabel": "Tipo documento",
+  "documentFormDialogTypeValidator": "Seleziona un tipo",
+  "documentFormDialogDeadlineDateLabel": "Data di scadenza",
+  "documentFormDialogDeadlineDateOptionalLabel": "Data di scadenza (facoltativa)",
+  "documentFormDialogInfoText": "Il documento va conservato in sede: qui si registra solo la scadenza, per ricevere i promemoria via mail.",
+  "cantiereFormDialogNewTitle": "Nuovo cantiere",
+  "cantiereFormDialogEditTitle": "Modifica cantiere",
+  "cantiereFormDialogInfoSectionTitle": "Anagrafica del cantiere",
+  "cantiereFormDialogNameLabel": "Nome*",
+  "cantiereFormDialogAddressLabel": "Indirizzo*",
+  "cantiereFormDialogTownLabel": "Comune",
+  "cantiereFormDialogPostalCodeLabel": "CAP",
+  "cantiereFormDialogStatusSectionTitle": "Stato del cantiere",
+  "cantiereFormDialogStatusLabel": "Stato",
+  "cantiereFormDialogStatusInProgress": "In corso",
+  "cantiereFormDialogStatusCompleted": "Concluso",
+  "cantiereFormDialogStatusSuspended": "Sospeso",
+  "cantiereFormDialogStartDateLabel": "Data di Inizio",
+  "cantiereFormDialogSuspensionDateLabel": "Data di Sospensione",
+  "cantiereFormDialogCompletionDateLabel": "Data di Conclusione",
+  "scadenzaGeneraleFormDialogNewTitle": "Nuova scadenza",
+  "scadenzaGeneraleFormDialogEditTitle": "Modifica scadenza",
+  "scadenzaGeneraleFormDialogNameLabel": "Nome",
+  "scadenzaGeneraleFormDialogDeadlineLabel": "Scadenza",
+  "scadenzaGeneraleFormDialogNoticeDaysLabel": "Giorni di preavviso",
+  "scadenzaGeneraleFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "sospendiSollecitiDialogTitle": "Sospendi solleciti",
+  "sospendiSollecitiDialogDescription1": "Durante la sospensione le voci già scadute non vengono più risollecitate ogni giorno, né a noi né ai subappaltatori e alle ditte di noleggio.",
+  "sospendiSollecitiDialogDescription2": "Le email di preavviso continuano invece ad arrivare normalmente: ciò che entra in scadenza durante la chiusura viene comunque segnalato, una volta sola.",
+  "sospendiSollecitiDialogUntilLabel": "Sospendi fino al (compreso)",
+  "sospendiSollecitiDialogInvalidDateMessage": "La data deve essere odierna o futura.",
+  "sospendiSollecitiDialogSetByMessage": "Sospensione impostata da {impostataDa}.",
+  "@sospendiSollecitiDialogSetByMessage": {
+    "placeholders": {
+      "impostataDa": {
+        "type": "String"
+      }
+    }
+  },
+  "sospendiSollecitiDialogReactivateNowLabel": "Riattiva subito",
+  "sospendiSollecitiDialogUpdateLabel": "Aggiorna",
+  "sospendiSollecitiDialogSuspendLabel": "Sospendi",
+  "notaImpiantoDialogTitle": "Nota — {tipologia} — {tipo}",
+  "@notaImpiantoDialogTitle": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaFasciaCatenaDialogTitle": "Nota — {id}",
+  "@notaScadenzaFasciaCatenaDialogTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogTitle": "Articoli — {tipologia} #{numero}",
+  "@showArticoliDialogTitle": {
+    "placeholders": {
+      "tipologia": {
+        "type": "String"
+      },
+      "numero": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogEmptyMessage": "Nessun prodotto inserito.",
+  "showArticoliDialogQuantityLine": "Quantità: {quantita}",
+  "@showArticoliDialogQuantityLine": {
+    "placeholders": {
+      "quantita": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogDeadlineLine": "Scadenza: {data}",
+  "@showArticoliDialogDeadlineLine": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogNoteLine": "Note: {note}",
+  "@showArticoliDialogNoteLine": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "showArticoliDialogDeadlineNoteLine": "Nota: {nota}",
+  "@showArticoliDialogDeadlineNoteLine": {
+    "placeholders": {
+      "nota": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenTitle": "Estintori",
+  "estintoriScreenNewButton": "Nuovo estintore",
+  "estintoriScreenPrintAction": "Stampa",
+  "estintoriScreenPrintError": "Impossibile generare la stampa: {details}",
+  "@estintoriScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenUpcomingDeadlines": "Scadenze imminenti",
+  "estintoriScreenHideDeadlines": "Nascondi scadenze",
+  "estintoriScreenShowDeadlines": "Mostra scadenze",
+  "estintoriScreenSectionTitle": "Estintori presenti",
+  "estintoriScreenCollapseAll": "Chiudi tutti",
+  "estintoriScreenExpandAll": "Espandi tutti",
+  "estintoriScreenSearchHint": "Cerca per matricola o posizione",
+  "estintoriScreenEmptyNone": "Nessun estintore caricato.",
+  "estintoriScreenEmptySearch": "Nessun estintore trovato per \"{query}\".",
+  "@estintoriScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLabelMatricola": "Matricola",
+  "estintoriScreenLabelUbicazione": "Ubicazione",
+  "estintoriScreenLabelNotaScadenza": "Nota scadenza",
+  "estintoriScreenEditNoteTooltip": "Modifica nota",
+  "estintoriScreenEditTooltip": "Modifica estintore",
+  "estintoriScreenDeleteTooltip": "Elimina estintore",
+  "estintoriScreenDeleteConfirmTitle": "Eliminare estintore?",
+  "estintoriScreenDeleteConfirmMessage": "Eliminare \"{matricola}\"? L'operazione non è reversibile.",
+  "@estintoriScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "matricola": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenHideInfo": "Nascondi info",
+  "estintoriScreenShowInfo": "Mostra info",
+  "estintoriScreenSectionGeneralData": "Dati generali",
+  "estintoriScreenLabelCapacita": "Capacità",
+  "estintoriScreenLabelTipo": "Tipo",
+  "estintoriScreenLabelDataProduzione": "Data di Produzione",
+  "estintoriScreenLabelDataMessaInServizio": "Data messa in servizio",
+  "estintoriScreenSectionVerificaEsterna": "Verifica Esterna",
+  "estintoriScreenLabelDataVerificaEsterna": "Data verifica esterna",
+  "estintoriScreenLabelScadenzaVerificaEsterna": "Scadenza verifica esterna",
+  "estintoriScreenSectionRevisione": "Revisione",
+  "estintoriScreenLabelDataUltimaRevisione": "Data ultima revisione",
+  "estintoriScreenLabelScadenzaRevisione": "Scadenza revisione",
+  "estintoriScreenSectionCollaudo": "Collaudo",
+  "estintoriScreenLabelDataCollaudo": "Data collaudo",
+  "estintoriScreenLabelScadenzaCollaudo": "Scadenza collaudo",
+  "estintoriScreenTipoScadenzaCollaudo": "Scadenza Collaudo",
+  "estintoriScreenTipoScadenzaRevisione": "Scadenza Revisione",
+  "estintoriScreenTipoScadenzaVerificaEsterna": "Scadenza Verifica Esterna",
+  "estintoriScreenTipoSostituzione": "Sostituzione (18 anni)",
+  "estintoriScreenLocationWarehouse": "In magazzino",
+  "estintoriScreenLocationOffice": "In ufficio",
+  "estintoriScreenLocationSite": "In cantiere {nome}",
+  "@estintoriScreenLocationSite": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLocationVehicle": "Su automezzo {veicolo}",
+  "@estintoriScreenLocationVehicle": {
+    "placeholders": {
+      "veicolo": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenLocationUnspecified": "Non specificata",
+  "estintoriScreenPdfCount": "{count} estintori",
+  "@estintoriScreenPdfCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "estintoriScreenPdfFilter": "filtro di ricerca: \"{filtro}\"",
+  "@estintoriScreenPdfFilter": {
+    "placeholders": {
+      "filtro": {
+        "type": "String"
+      }
+    }
+  },
+  "estintoriScreenPdfColMatricola": "Num. Matricola",
+  "estintoriScreenPdfColDataProduzione": "Data produzione",
+  "estintoriScreenPdfColScadVerificaEsterna": "Scad. verifica esterna",
+  "estintoriScreenPdfColDataRevisione": "Data revisione",
+  "estintoriScreenPdfColScadRevisione": "Scad. revisione",
+  "estintoriScreenPdfColScadCollaudo": "Scad. collaudo",
+  "cassettaPsFormDialogTipoCassetta": "Cassetta",
+  "cassettaPsFormDialogTipoPacchettoMedicazione": "Pacchetto di Medicazione",
+  "cassettaPsFormDialogNotSpecified": "Non specificata",
+  "cassettaPsFormDialogAddProduct": "Aggiungi prodotto",
+  "cassettaPsFormDialogNoProducts": "Nessun prodotto inserito.",
+  "cassettaPsFormDialogQuantityLabel": "Quantità: {quantita}",
+  "@cassettaPsFormDialogQuantityLabel": {
+    "placeholders": {
+      "quantita": {
+        "type": "String"
+      }
+    }
+  },
+  "cassettaPsFormDialogExpiryLabel": "Scadenza: {data}",
+  "@cassettaPsFormDialogExpiryLabel": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      }
+    }
+  },
+  "cassettaPsFormDialogEditProductTooltip": "Modifica prodotto",
+  "cassettaPsFormDialogRemoveProductTooltip": "Rimuovi prodotto",
+  "cassettaPsFormDialogNewTitle": "Nuovo elemento",
+  "cassettaPsFormDialogEditTitle": "Modifica elemento",
+  "cassettaPsFormDialogNumberLabel": "Numero*",
+  "cassettaPsFormDialogTypeLabel": "Tipologia",
+  "cassettaPsFormDialogLocationSection": "Ubicazione",
+  "cassettaPsFormDialogLocationTypeLabel": "Tipo ubicazione",
+  "cassettaPsFormDialogLocationWarehouse": "Magazzino",
+  "cassettaPsFormDialogLocationOffice": "Ufficio",
+  "cassettaPsFormDialogLocationSite": "Cantiere",
+  "cassettaPsFormDialogLocationVehicle": "Automezzo",
+  "cassettaPsFormDialogSiteLabel": "Cantiere",
+  "cassettaPsFormDialogSelectSiteValidator": "Seleziona un cantiere",
+  "cassettaPsFormDialogVehicleLabel": "Automezzo",
+  "cassettaPsFormDialogSelectVehicleValidator": "Seleziona un automezzo",
+  "cassettaPsFormDialogLocationDetailsLabel": "Dettagli aggiuntivi ubicazione",
+  "cassettaPsFormDialogChecksSection": "Controlli",
+  "cassettaPsFormDialogLastCheckLabel": "Ultima Verifica",
+  "cassettaPsFormDialogNextCheckLabel": "Prossimo Controllo",
+  "cassettaPsFormDialogProductsSection": "Prodotti",
+  "cassettaPsFormDialogNextProductExpiryTitle": "Prossima Scadenza Prodotti",
+  "cassettaPsFormDialogNoProductExpiry": "Nessuna scadenza prodotti",
+  "cassettaPsFormDialogNewProductTitle": "Nuovo prodotto",
+  "cassettaPsFormDialogEditProductTitle": "Modifica prodotto",
+  "cassettaPsFormDialogProductNameLabel": "Nome prodotto*",
+  "cassettaPsFormDialogQuantityFieldLabel": "Quantità",
+  "cassettaPsFormDialogExpiryFieldLabel": "Scadenza",
+  "misureScreenTitle": "Misure",
+  "misureScreenNewButton": "Nuova misura",
+  "misureScreenSearchHint": "Cerca per nome",
+  "misureScreenEmptyNone": "Nessuno strumento di misura caricato.",
+  "misureScreenEmptySearch": "Nessuno strumento di misura trovato per \"{query}\".",
+  "@misureScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "misureScreenUpcomingDeadlines": "Scadenze imminenti",
+  "misureScreenHideDeadlines": "Nascondi scadenze",
+  "misureScreenShowDeadlines": "Mostra scadenze",
+  "misureScreenSectionTitle": "Strumenti di Misura",
+  "misureScreenCollapseAll": "Chiudi tutti",
+  "misureScreenExpandAll": "Espandi tutti",
+  "misureScreenLabelModello": "Modello",
+  "misureScreenLabelIncaricato": "Incaricato",
+  "misureScreenLabelNotaScadenza": "Nota scadenza",
+  "misureScreenEditNoteTooltip": "Modifica nota",
+  "misureScreenLabelMatricola": "Matricola",
+  "misureScreenEditTooltip": "Modifica misura",
+  "misureScreenDeleteTooltip": "Elimina misura",
+  "misureScreenDeleteConfirmTitle": "Eliminare strumento di misura?",
+  "misureScreenDeleteConfirmMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@misureScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "misureScreenHideInfo": "Nascondi info",
+  "misureScreenShowInfo": "Mostra info",
+  "misureScreenSectionGeneralData": "Dati generali",
+  "misureScreenLabelRifAcq": "Rif. Acq.",
+  "misureScreenSectionTaraturaInterna": "Taratura Interna",
+  "misureScreenLabelDataUltimaTaratura": "Data ultima taratura",
+  "misureScreenLabelDataProssimaTaratura": "Data prossima taratura",
+  "misureScreenSectionTaraturaEsterna": "Taratura Esterna",
+  "misureScreenTipoProssimaTaraturaInterna": "Prossima taratura interna",
+  "misureScreenTipoProssimaTaraturaEsterna": "Prossima taratura esterna",
+  "subappaltatoreDetailScreenBreadcrumbCantieri": "Cantieri",
+  "subappaltatoreDetailScreenInfoSection": "Informazioni:",
+  "subappaltatoreDetailScreenVatLabel": "P. IVA",
+  "subappaltatoreDetailScreenGeneralDeadlinesTitle": "Scadenze generali del subappaltatore",
+  "subappaltatoreDetailScreenSiteDeadlinesTitle": "Scadenze subappaltatore nel cantiere",
+  "subappaltatoreDetailScreenAddDeadline": "Aggiungi scadenza",
+  "subappaltatoreDetailScreenNoDeadlinesSubappaltatore": "Nessuna scadenza registrata per questo subappaltatore.",
+  "subappaltatoreDetailScreenEmployeeDeadlinesTitle": "Scadenze dipendenti presenti",
+  "subappaltatoreDetailScreenCollapseAll": "Chiudi tutti",
+  "subappaltatoreDetailScreenExpandAll": "Mostra tutti",
+  "subappaltatoreDetailScreenNoDeadlinesEmployees": "Nessuna scadenza registrata per i dipendenti presenti in questo cantiere.",
+  "subappaltatoreDetailScreenDeadlineCountSingular": "1 scadenza",
+  "subappaltatoreDetailScreenDeadlineCountPlural": "{count} scadenze",
+  "@subappaltatoreDetailScreenDeadlineCountPlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenExpiredCountSingular": ", 1 scaduto",
+  "subappaltatoreDetailScreenExpiredCountPlural": ", {count} scaduti",
+  "@subappaltatoreDetailScreenExpiredCountPlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenUpcomingCount": ", {count} in scadenza",
+  "@subappaltatoreDetailScreenUpcomingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenAutonomousWorker": " · Lavoratore autonomo",
+  "subappaltatoreDetailScreenNoteSuffix": " · Note: {note}",
+  "@subappaltatoreDetailScreenNoteSuffix": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "subappaltatoreDetailScreenHideDeadlines": "Nascondi scadenze",
+  "subappaltatoreDetailScreenShowDeadlines": "Mostra scadenze",
+  "subappaltatoreDetailScreenOpenEmployeePage": "Apri pagina dipendente",
+  "misureFormDialogNewTitle": "Nuova misura",
+  "misureFormDialogEditTitle": "Modifica misura",
+  "misureFormDialogNameLabel": "Nome*",
+  "misureFormDialogReferenceLabel": "Riferimento",
+  "misureFormDialogSerialLabel": "Matricola",
+  "misureFormDialogInternalCalibrationSection": "Taratura Interna",
+  "misureFormDialogAssignedToLabel": "Incaricato",
+  "misureFormDialogNotSpecified": "Non specificato",
+  "misureFormDialogLastCalibrationLabel": "Data ultima taratura",
+  "misureFormDialogNextCalibrationLabel": "Data prossima taratura",
+  "misureFormDialogExternalCalibrationSection": "Taratura Esterna",
+  "misureFormDialogExternalAssignedToLabel": "Incaricato taratura esterna",
+  "misureFormDialogAdditionalNotesLabel": "Note aggiuntive",
+  "articoliStandardCassettePsScreenTipoCassetta": "Cassetta",
+  "articoliStandardCassettePsScreenTipoPacchettoMedicazione": "Pacchetto di Medicazione",
+  "articoliStandardCassettePsScreenBreadcrumbFirstAid": "Primo Soccorso",
+  "articoliStandardCassettePsScreenBreadcrumbStandardProducts": "Prodotti standard",
+  "articoliStandardCassettePsScreenDescription": "Questi prodotti vengono inseriti automaticamente quando si sceglie la tipologia in una nuova cassetta o pacchetto di medicazione.\nQuantità e scadenza restano modificabili per ogni singolo elemento.",
+  "articoliStandardCassettePsScreenAddProduct": "Aggiungi prodotto",
+  "articoliStandardCassettePsScreenEmpty": "Nessun prodotto standard inserito.",
+  "articoliStandardCassettePsScreenContentSection": "Contenuto",
+  "articoliStandardCassettePsScreenEditTooltip": "Modifica prodotto",
+  "articoliStandardCassettePsScreenDeleteTooltip": "Elimina prodotto",
+  "articoliStandardCassettePsScreenDeleteConfirmTitle": "Eliminare prodotto?",
+  "articoliStandardCassettePsScreenDeleteConfirmMessage": "Eliminare \"{nome}\" dai prodotti standard? L'operazione non è reversibile.",
+  "@articoliStandardCassettePsScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "articoloStandardCassettaPsFormDialogTipoCassetta": "Cassetta",
+  "articoloStandardCassettaPsFormDialogTipoPacchettoMedicazione": "Pacchetto di Medicazione",
+  "articoloStandardCassettaPsFormDialogNewTitle": "Nuovo prodotto standard",
+  "articoloStandardCassettaPsFormDialogEditTitle": "Modifica prodotto standard",
+  "articoloStandardCassettaPsFormDialogTypeLabel": "Tipologia*",
+  "articoloStandardCassettaPsFormDialogProductNameLabel": "Nome prodotto*",
+  "articoloStandardCassettaPsFormDialogQuantityLabel": "Quantità",
+  "documentoTileDeleteConfirmTitle": "Eliminare la scadenza?",
+  "documentoTileDeleteConfirmMessage": "Eliminare {documento}? L'operazione non è reversibile.",
+  "@documentoTileDeleteConfirmMessage": {
+    "placeholders": {
+      "documento": {
+        "type": "String"
+      }
+    }
+  },
+  "documentoTileDefaultDocumentName": "questo documento",
+  "documentoTileSharedSuffix": " (condiviso)",
+  "documentoTileLabelScadenza": "Scadenza",
+  "documentoTileNotRequired": "non richiesta",
+  "documentoTileLabelNota": "Nota",
+  "documentoTileEditDeadline": "Modifica scadenza",
+  "documentoTileDeleteDeadline": "Elimina scadenza",
+  "notaMacchinarioDialogTitle": "Nota — {modello} — {tipo}",
+  "@notaMacchinarioDialogTitle": {
+    "placeholders": {
+      "modello": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaDpiAssegnatoDialogTitle": "Nota — {titolo}",
+  "@notaDpiAssegnatoDialogTitle": {
+    "placeholders": {
+      "titolo": {
+        "type": "String"
+      }
+    }
+  },
+  "notaScadenzaBennaDialogTitle": "Nota — Benna {idInterno}",
+  "@notaScadenzaBennaDialogTitle": {
+    "placeholders": {
+      "idInterno": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenTitle": "Macchinari",
+  "macchinariScreenLocationCantiere": "In cantiere {cantiere}",
+  "@macchinariScreenLocationCantiere": {
+    "placeholders": {
+      "cantiere": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenLocationAutomezzo": "In {veicolo}",
+  "@macchinariScreenLocationAutomezzo": {
+    "placeholders": {
+      "veicolo": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenLocationMagazzino": "In magazzino",
+  "macchinariScreenLocationUnspecified": "Non specificata",
+  "macchinariScreenFieldModello": "Modello",
+  "macchinariScreenFieldTipologia": "Tipologia",
+  "macchinariScreenFieldMatricola": "Nr. Matricola",
+  "macchinariScreenFieldFabbrica": "Nr. Fabbrica",
+  "macchinariScreenFieldAnno": "Anno",
+  "macchinariScreenFieldAnnoAcquisto": "Anno di acquisto",
+  "macchinariScreenFieldProprieta": "Proprietà",
+  "macchinariScreenFieldUbicazione": "Ubicazione",
+  "macchinariScreenFieldCivaInail": "CIVA/INAIL",
+  "macchinariScreenFieldPresenteCivaInail": "Presente in CIVA/INAIL",
+  "macchinariScreenFieldScadAssicurazione": "Scad. assicurazione",
+  "macchinariScreenFieldScadManutenzione": "Scad. manutenzione",
+  "macchinariScreenFieldScadFuniCatene": "Scad. funi/catene",
+  "macchinariScreenFieldVerificaAnnuale": "Verifica annuale",
+  "macchinariScreenFieldVerificaVentennale": "Verifica ventennale",
+  "macchinariScreenFieldNotaScadenza": "Nota scadenza",
+  "macchinariScreenFieldLeasingCompany": "Compagnia di Leasing",
+  "macchinariScreenFieldLeasingExpiry": "Scadenza Leasing",
+  "macchinariScreenFieldRentalCompany": "Azienda di Noleggio",
+  "macchinariScreenFieldEmail": "Email",
+  "macchinariScreenFieldInsuranceCompany": "Compagnia assicurativa",
+  "macchinariScreenFieldInsuranceExpiry": "Scadenza assicurazione",
+  "macchinariScreenFieldInterventionDate": "Data intervento",
+  "macchinariScreenFieldExpiry": "Scadenza",
+  "macchinariScreenFieldLastControlDate": "Data ultimo controllo",
+  "macchinariScreenFieldVerificationDate": "Data verifica",
+  "macchinariScreenPrintSubtitleCount": "{count} macchinari",
+  "@macchinariScreenPrintSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "macchinariScreenPrintSubtitleFilter": "filtro di ricerca: \"{filter}\"",
+  "@macchinariScreenPrintSubtitleFilter": {
+    "placeholders": {
+      "filter": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenPrintError": "Impossibile generare la stampa: {details}",
+  "@macchinariScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenNewButton": "Nuovo macchinario",
+  "macchinariScreenPrintButton": "Stampa",
+  "macchinariScreenUpcomingDeadlines": "Scadenze imminenti",
+  "macchinariScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "macchinariScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "macchinariScreenCollapseAllTooltip": "Chiudi tutti",
+  "macchinariScreenExpandAllTooltip": "Espandi tutti",
+  "macchinariScreenSearchHint": "Cerca per nome",
+  "macchinariScreenEmptyLoaded": "Nessun macchinario caricato.",
+  "macchinariScreenEmptySearch": "Nessun macchinario trovato per \"{query}\".",
+  "@macchinariScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenEditNoteTooltip": "Modifica nota",
+  "macchinariScreenEditTooltip": "Modifica macchinario",
+  "macchinariScreenDeleteTooltip": "Elimina macchinario",
+  "macchinariScreenDeleteConfirmTitle": "Eliminare macchinario?",
+  "macchinariScreenDeleteConfirmMessage": "Eliminare \"{modello}\"? L'operazione non è reversibile.",
+  "@macchinariScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "modello": {
+        "type": "String"
+      }
+    }
+  },
+  "macchinariScreenHideInfoTooltip": "Nascondi info",
+  "macchinariScreenShowInfoTooltip": "Mostra info",
+  "macchinariScreenSectionGeneralData": "Dati generali",
+  "macchinariScreenSectionInsurance": "Assicurazione",
+  "macchinariScreenSectionInternalMaintenance": "Manutenzione Interna",
+  "macchinariScreenSectionRopesChainsControl": "Controllo funi/catene",
+  "automezziScreenTitle": "Automezzi",
+  "automezziScreenFieldNome": "Nome",
+  "automezziScreenFieldTarga": "Targa",
+  "automezziScreenFieldCategoria": "Categoria",
+  "automezziScreenFieldTelepass": "Nr. Telepass",
+  "automezziScreenFieldProprieta": "Proprietà",
+  "automezziScreenFieldCompAssicurazione": "Comp. assicurazione",
+  "automezziScreenFieldScadAssicurazione": "Scad. assicurazione",
+  "automezziScreenFieldScadBollo": "Scad. bollo",
+  "automezziScreenFieldScadRevisione": "Scad. revisione",
+  "automezziScreenFieldScadTachigrafo": "Scad. controllo tachigrafo",
+  "automezziScreenFieldVeicolo": "Veicolo",
+  "automezziScreenFieldNotaScadenza": "Nota scadenza",
+  "automezziScreenFieldCategoriaEuro": "Categoria EURO",
+  "automezziScreenFieldScadenzaProprieta": "Scadenza {proprieta}",
+  "@automezziScreenFieldScadenzaProprieta": {
+    "placeholders": {
+      "proprieta": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenPrintSubtitleCount": "{count} automezzi",
+  "@automezziScreenPrintSubtitleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "automezziScreenPrintSubtitleFilter": "filtro di ricerca: \"{filter}\"",
+  "@automezziScreenPrintSubtitleFilter": {
+    "placeholders": {
+      "filter": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenPrintError": "Impossibile generare la stampa: {details}",
+  "@automezziScreenPrintError": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenNewButton": "Nuovo automezzo",
+  "automezziScreenPrintButton": "Stampa",
+  "automezziScreenUpcomingDeadlines": "Scadenze imminenti",
+  "automezziScreenHideDeadlinesTooltip": "Nascondi scadenze",
+  "automezziScreenShowDeadlinesTooltip": "Mostra scadenze",
+  "automezziScreenCollapseAllTooltip": "Chiudi tutti",
+  "automezziScreenExpandAllTooltip": "Espandi tutti",
+  "automezziScreenSearchHint": "Cerca per nome o targa",
+  "automezziScreenEmptyLoaded": "Nessun automezzo caricato.",
+  "automezziScreenEmptySearch": "Nessun automezzo trovato per \"{query}\".",
+  "@automezziScreenEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenEditNoteTooltip": "Modifica nota",
+  "automezziScreenEditTooltip": "Modifica automezzo",
+  "automezziScreenDeleteTooltip": "Elimina automezzo",
+  "automezziScreenDeleteConfirmTitle": "Eliminare automezzo?",
+  "automezziScreenDeleteConfirmMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@automezziScreenDeleteConfirmMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "automezziScreenHideInfoTooltip": "Nascondi info",
+  "automezziScreenShowInfoTooltip": "Mostra info",
+  "automezziScreenSectionGeneralData": "Dati generali",
+  "automezziScreenSectionScadenze": "Scadenze",
+  "dipendenteAziendaleFormDialogNewTitle": "Nuovo dipendente aziendale",
+  "dipendenteAziendaleFormDialogEditTitle": "Modifica dipendente aziendale",
+  "dipendenteAziendaleFormDialogNomeLabel": "Nome*",
+  "dipendenteAziendaleFormDialogCognomeLabel": "Cognome*",
+  "dipendenteAziendaleFormDialogMansioneLabel": "Mansione",
+  "dipendenteAziendaleFormDialogMansioneNonSpecificata": "Non specificata",
+  "dipendenteAziendaleFormDialogScadenzaRlst": "Scadenza RLST",
+  "dipendenteAziendaleFormDialogScadenzaRspp": "Scadenza RSPP",
+  "dipendenteAziendaleFormDialogCodiceFiscaleLabel": "Codice Fiscale",
+  "dipendenteAziendaleFormDialogDataNascita": "Data di Nascita",
+  "dipendenteAziendaleFormDialogLuogoNascita": "Luogo di Nascita",
+  "dipendenteAziendaleFormDialogEtaLabel": "Età",
+  "dipendenteAziendaleFormDialogEtaHelper": "Calcolata dalla data di nascita",
+  "dipendenteAziendaleFormDialogSectionContratto": "Contratto",
+  "dipendenteAziendaleFormDialogDataAssunzione": "Data di Assunzione",
+  "dipendenteAziendaleFormDialogScadenzaContratto": "Scadenza Contratto",
+  "dipendenteAziendaleFormDialogRemoveScadenzaContrattoTooltip": "Rimuovi scadenza contratto",
+  "dipendenteAziendaleFormDialogAddScadenzaContratto": "Aggiungi scadenza del contratto",
+  "dipendenteAziendaleFormDialogSectionPersonali": "Personali",
+  "dipendenteAziendaleFormDialogScadenzaVisitaMedica": "Scadenza Visita Medica",
+  "dipendenteAziendaleFormDialogScadenzaPatente": "Scadenza Patente",
+  "dipendenteAziendaleFormDialogScadenzaCartaTachigraficaAzienda": "Scadenza Carta Tachigrafica + Azienda",
+  "dipendenteAziendaleFormDialogScadenzaCartaTachigrafica": "Scadenza Carta Tachigrafica",
+  "dipendenteAziendaleFormDialogScadenzaCartaIdentita": "Scadenza Carta d'identità",
+  "dipendenteAziendaleFormDialogScadenzaFirmaDigitale": "Scadenza Firma Digitale",
+  "dipendenteAziendaleFormDialogScadenzaCodiceFiscale": "Scadenza Codice Fiscale",
+  "dipendenteAziendaleFormDialogScadenzaPermessoSoggiorno": "Scadenza Permesso di Soggiorno",
+  "dipendenteAziendaleFormDialogRemovePermessoSoggiornoTooltip": "Rimuovi permesso di soggiorno",
+  "dipendenteAziendaleFormDialogAddPermessoSoggiorno": "Aggiungi permesso di soggiorno",
+  "dipendenteAziendaleFormDialogScadenzaAntitetanica": "Scadenza Antitetanica",
+  "dipendenteAziendaleFormDialogRemoveAntitetanicaTooltip": "Rimuovi antitetanica",
+  "dipendenteAziendaleFormDialogAddAntitetanica": "Aggiungi antitetanica",
+  "dipendenteAziendaleFormDialogSectionCorsi": "Corsi",
+  "dipendenteAziendaleFormDialogScadenzaFormazioneGenerale": "Scadenza corso di formazione generale",
+  "dipendenteAziendaleFormDialogNoteAggiuntive": "Note aggiuntive",
+  "dipendenteAziendaleFormDialogRemoveCorsoTooltip": "Rimuovi corso",
+  "dipendenteAziendaleFormDialogAddCorso": "Aggiungi corso",
+  "dipendenteAziendaleFormDialogAllCoursesAdded": "Hai già aggiunto tutti i corsi disponibili.",
+  "dipendenteAziendaleFormDialogSelectCoursesTitle": "Seleziona i corsi da aggiungere",
+  "dipendenteAziendaleFormDialogAddCoursesCount": "Aggiungi ({count})",
+  "@dipendenteAziendaleFormDialogAddCoursesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dipendenteAziendaleFormDialogCorsoPrimoSoccorsoNome": "Corso di Primo Soccorso",
+  "dipendenteAziendaleFormDialogCorsoPrimoSoccorsoEtichetta": "Scadenza Corso Primo Soccorso",
+  "dipendenteAziendaleFormDialogCorsoAntincendioNome": "Corso Antincendio",
+  "dipendenteAziendaleFormDialogCorsoAntincendioEtichetta": "Scadenza Corso Antincendio",
+  "dipendenteAziendaleFormDialogCorsoPrepostoNome": "Corso Preposto",
+  "dipendenteAziendaleFormDialogCorsoPrepostoEtichetta": "Scadenza Preposto",
+  "dipendenteAziendaleFormDialogCorsoPonteggiNome": "Montaggio/Smontaggio ponteggi",
+  "dipendenteAziendaleFormDialogCorsoPonteggiEtichetta": "Scadenza Ponteggi",
+  "dipendenteAziendaleFormDialogCorsoLavoriQuotaNome": "Lavori in Quota",
+  "dipendenteAziendaleFormDialogCorsoLavoriQuotaEtichetta": "Scadenza Lavori in Quota",
+  "dipendenteAziendaleFormDialogCorsoEscavatoriNome": "Conduzione Escavatori",
+  "dipendenteAziendaleFormDialogCorsoEscavatoriEtichetta": "Scadenza Conduzione Escavatori",
+  "dipendenteAziendaleFormDialogCorsoGruAutocarroNome": "Gru Autocarro",
+  "dipendenteAziendaleFormDialogCorsoGruAutocarroEtichetta": "Scadenza Gru Autocarro",
+  "dipendenteAziendaleFormDialogCorsoGruTorreNome": "Gru a Torre",
+  "dipendenteAziendaleFormDialogCorsoGruTorreEtichetta": "Scadenza Gru a Torre",
+  "dipendenteAziendaleFormDialogCorsoPiattaformeNome": "Piattaforme Elevatrici",
+  "dipendenteAziendaleFormDialogCorsoPiattaformeEtichetta": "Scadenza Piattaforme Elevatrici",
+  "dipendenteAziendaleFormDialogCorsoCarrelloElevatoreNome": "Carrello Elevatore Semovente",
+  "dipendenteAziendaleFormDialogCorsoCarrelloElevatoreEtichetta": "Scadenza Carrello Elevatore",
+  "dipendenteAziendaleFormDialogCorsoDisocianatiNome": "Corso Diisocianati",
+  "dipendenteAziendaleFormDialogCorsoDisocianatiEtichetta": "Scadenza Corso Diisocianati",
+  "dipendenteAziendaleFormDialogCorsoScaffalatureNome": "Corso Scaffalature",
+  "dipendenteAziendaleFormDialogCorsoScaffalatureEtichetta": "Scadenza Scaffalature",
+  "dipendenteAziendaleFormDialogCorsoFormazione231Nome": "Corso di formazione Modello 231",
+  "dipendenteAziendaleFormDialogCorsoFormazione231Etichetta": "Data Corso di formazione Modello 231",
+  "dipendenteAziendaleFormDialogCorsoAmbientaleNome": "Corso di formazione di Sistema Gestione Ambientale",
+  "dipendenteAziendaleFormDialogCorsoAmbientaleEtichetta": "Data Formazione Ambientale",
+  "dipendenteAziendaleFormDialogCorsoRentriNome": "Corso di formazione Rentri",
+  "dipendenteAziendaleFormDialogCorsoRentriEtichetta": "Data Corso di formazione Rentri",
+  "dipendenteAziendaleFormDialogCorsoCronotachigraficoNome": "Corso Cronotachigrafico",
+  "dipendenteAziendaleFormDialogCorsoCronotachigraficoEtichetta": "Scadenza Cronotachigrafico",
+  "estintoreFormDialogNewTitle": "Nuovo estintore",
+  "estintoreFormDialogEditTitle": "Modifica estintore",
+  "estintoreFormDialogMatricolaLabel": "Numero di Matricola*",
+  "estintoreFormDialogTipoAgenteLabel": "Tipo di agente",
+  "estintoreFormDialogTipoAgenteNonSpecificato": "Non specificato",
+  "estintoreFormDialogCapacitaLabel": "Capacità",
+  "estintoreFormDialogDataProduzione": "Data di Produzione",
+  "estintoreFormDialogDataMessaInServizio": "Data di messa in servizio",
+  "estintoreFormDialogSectionUbicazione": "Ubicazione",
+  "estintoreFormDialogTipoUbicazioneLabel": "Tipo ubicazione",
+  "estintoreFormDialogUbicazioneNonSpecificata": "Non specificata",
+  "estintoreFormDialogUbicazioneMagazzino": "Magazzino",
+  "estintoreFormDialogUbicazioneUfficio": "Ufficio",
+  "estintoreFormDialogUbicazioneCantiere": "Cantiere",
+  "estintoreFormDialogUbicazioneAutomezzo": "Automezzo",
+  "estintoreFormDialogSelectCantiereValidator": "Seleziona un cantiere",
+  "estintoreFormDialogSelectAutomezzoValidator": "Seleziona un automezzo",
+  "estintoreFormDialogDettagliUbicazione": "Dettagli aggiuntivi ubicazione",
+  "estintoreFormDialogSectionVerificaEsterna": "Verifica esterna",
+  "estintoreFormDialogDataVerificaEsterna": "Data verifica esterna",
+  "estintoreFormDialogScadenzaVerificaEsterna": "Scadenza verifica esterna",
+  "estintoreFormDialogSectionRevisione": "Revisione",
+  "estintoreFormDialogUltimaRevisione": "Ultima revisione",
+  "estintoreFormDialogScadenzaRevisione": "Scadenza revisione",
+  "estintoreFormDialogSectionCollaudo": "Collaudo",
+  "estintoreFormDialogUltimoCollaudo": "Ultimo collaudo",
+  "estintoreFormDialogScadenzaCollaudo": "Scadenza collaudo",
+  "estintoreFormDialogNoteAggiuntive": "Note aggiuntive",
+  "rifiutoFormDialogNewTitle": "Nuova ditta rifiuti",
+  "rifiutoFormDialogEditTitle": "Modifica ditta rifiuti",
+  "rifiutoFormDialogNomeDittaLabel": "Nome ditta*",
+  "rifiutoFormDialogSectionTrasportatore": "Trasportatore",
+  "rifiutoFormDialogIsTrasportatore": "Trasportatore?",
+  "rifiutoFormDialogNrAutorizzazioneTrasportatore": "Numero di Autorizzazione Trasportatore",
+  "rifiutoFormDialogScadNonPericolosiTrasportatore": "Scadenza rifiuti non pericolosi trasportatore",
+  "rifiutoFormDialogAutorizzazionePericolosi": "Autorizzazione a rifiuti pericolosi?",
+  "rifiutoFormDialogScadPericolosiTrasportatore": "Scadenza rifiuti pericolosi trasportatore",
+  "rifiutoFormDialogNoteTrasportatore": "Note trasportatore",
+  "rifiutoFormDialogSectionSmaltitore": "Smaltitore",
+  "rifiutoFormDialogIsSmaltitore": "Smaltitore?",
+  "rifiutoFormDialogNrAutorizzazioneSmaltitore": "Numero di Autorizzazione Smaltitore",
+  "rifiutoFormDialogScadNonPericolosiSmaltitore": "Scadenza rifiuti non pericolosi smaltitore",
+  "rifiutoFormDialogScadPericolosiSmaltitore": "Scadenza rifiuti pericolosi smaltitore",
+  "rifiutoFormDialogNoteSmaltitore": "Note smaltitore",
+  "automezzoFormDialogNewTitle": "Nuovo automezzo",
+  "automezzoFormDialogEditTitle": "Modifica automezzo",
+  "automezzoFormDialogNomeLabel": "Nome",
+  "automezzoFormDialogTargaLabel": "Targa*",
+  "automezzoFormDialogCategoriaLabel": "Categoria",
+  "automezzoFormDialogNonSpecificata": "Non specificata",
+  "automezzoFormDialogTelepassLabel": "Numero Telepass",
+  "automezzoFormDialogProprietaLabel": "Proprietà",
+  "automezzoFormDialogScadenzaProprieta": "Scadenza {proprieta}",
+  "@automezzoFormDialogScadenzaProprieta": {
+    "placeholders": {
+      "proprieta": {
+        "type": "String"
+      }
+    }
+  },
+  "automezzoFormDialogSectionAssicurazione": "Assicurazione",
+  "automezzoFormDialogScadenzaAssicurazione": "Scadenza assicurazione",
+  "automezzoFormDialogNomeAssicurazioneLabel": "Nome assicurazione",
+  "automezzoFormDialogSectionBollo": "Bollo",
+  "automezzoFormDialogScadenzaBollo": "Scadenza bollo",
+  "automezzoFormDialogSectionRevisione": "Revisione",
+  "automezzoFormDialogScadenzaRevisione": "Scadenza revisione",
+  "automezzoFormDialogSectionTachigrafo": "Tachigrafo",
+  "automezzoFormDialogScadenzaControlloTachigrafo": "Scadenza controllo tachigrafo",
+  "automezzoFormDialogNoteAggiuntive": "Note aggiuntive",
+  "scalaFormDialogNewTitle": "Nuova scala",
+  "scalaFormDialogEditTitle": "Modifica scala",
+  "scalaFormDialogSectionAnagrafica": "Anagrafica",
+  "scalaFormDialogCodiceLabel": "Codice*",
+  "scalaFormDialogMaterialeLabel": "Materiale",
+  "scalaFormDialogDescrizioneLabel": "Descrizione",
+  "scalaFormDialogSectionUbicazione": "Ubicazione",
+  "scalaFormDialogTipoUbicazioneLabel": "Tipo ubicazione",
+  "scalaFormDialogUbicazioneNonSpecificata": "Non specificata",
+  "scalaFormDialogUbicazioneMagazzino": "Magazzino",
+  "scalaFormDialogUbicazioneCantiere": "Cantiere",
+  "scalaFormDialogSelectCantiereValidator": "Seleziona un cantiere",
+  "scalaFormDialogSectionVerifiche": "Verifiche",
+  "scalaFormDialogUltimaVerifica": "Ultima verifica",
+  "scalaFormDialogProssimaVerifica": "Prossima verifica",
+  "scalaFormDialogNoteAggiuntive": "Note aggiuntive",
+  "modificaScadenzaCantiereDialogTitle": "Modifica {etichetta}",
+  "@modificaScadenzaCantiereDialogTitle": {
+    "placeholders": {
+      "etichetta": {
+        "type": "String"
+      }
+    }
+  },
+  "modificaScadenzaCantiereDialogDataScadenza": "Data di scadenza",
+  "modificaScadenzaCantiereDialogMissingDate": "Inserisci una data di scadenza",
+  "ritiroDpiQuotaDialogConfirmTitle": "Ritirare il DPI?",
+  "ritiroDpiQuotaDialogConfirmMessage": "Ritirare \"{tipo}\" a {dipendente}? Viene azzerata solo la data di consegna: il resto della scheda resta invariato e alla riconsegna basterà reinserire la data.",
+  "@ritiroDpiQuotaDialogConfirmMessage": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      },
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogConfirmButton": "Ritira",
+  "ritiroDpiQuotaDialogRiconsegnaTitle": "Riconsegna — {tipo}",
+  "@ritiroDpiQuotaDialogRiconsegnaTitle": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogRiconsegnaMessage": "Il DPI torna a {dipendente}: indica la data in cui gli viene riconsegnato.",
+  "@ritiroDpiQuotaDialogRiconsegnaMessage": {
+    "placeholders": {
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "ritiroDpiQuotaDialogDataConsegnaLabel": "Data consegna*",
+  "ritiroDpiQuotaDialogRiconsegnaButton": "Riconsegna",
+  "statoBadgeValido": "Valido",
+  "statoBadgeInScadenza": "In scadenza",
+  "statoBadgeScaduto": "Scaduto",
+  "segnaleticaSicurezzaScreenZonaUfficio": "Ufficio",
+  "segnaleticaSicurezzaScreenZonaMagazzino": "Magazzino",
+  "segnaleticaSicurezzaScreenZonaNonSpecificata": "Zona non specificata",
+  "segnaleticaSicurezzaScreenEsitoCartelloAssente": "Cartello assente",
+  "segnaleticaSicurezzaScreenEsitoPresente": "Presente",
+  "segnaleticaSicurezzaScreenEsitoPosizioneIdonea": "Posizione idonea",
+  "segnaleticaSicurezzaScreenEsitoPosizioneNonIdonea": "Posizione non idonea",
+  "segnaleticaSicurezzaScreenEsitoBuonoStato": "Buono stato",
+  "segnaleticaSicurezzaScreenEsitoDaSostituire": "Da sostituire",
+  "segnaleticaSicurezzaScreenTitle": "Segnaletica di Sicurezza",
+  "segnaleticaSicurezzaScreenTitleShort": "Segnaletica",
+  "segnaleticaSicurezzaScreenNuovoControllo": "Nuovo controllo",
+  "segnaleticaSicurezzaScreenNuovoSegnale": "Nuovo segnale",
+  "segnaleticaSicurezzaScreenInfoEmailScadenza": "Info email di scadenza",
+  "segnaleticaSicurezzaScreenSegnaleticaPresente": "Segnaletica presente",
+  "segnaleticaSicurezzaScreenChiudiTutti": "Chiudi tutti",
+  "segnaleticaSicurezzaScreenEspandiTutti": "Espandi tutti",
+  "segnaleticaSicurezzaScreenControllaTutti": "Controlla tutti",
+  "segnaleticaSicurezzaScreenNessunCartelloZona": "Nessun cartello in questa zona.",
+  "segnaleticaSicurezzaScreenModificaCartello": "Modifica cartello",
+  "segnaleticaSicurezzaScreenEliminaCartello": "Elimina cartello",
+  "segnaleticaSicurezzaScreenEliminareCartelloTitle": "Eliminare cartello?",
+  "segnaleticaSicurezzaScreenEliminareCartelloMessage": "Eliminare \"{nome}\" e i suoi controlli? L'operazione non è reversibile.",
+  "@segnaleticaSicurezzaScreenEliminareCartelloMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "segnaleticaSicurezzaScreenNascondiInfo": "Nascondi info",
+  "segnaleticaSicurezzaScreenMostraInfo": "Mostra info",
+  "segnaleticaSicurezzaScreenCampoUbicazione": "Ubicazione",
+  "segnaleticaSicurezzaScreenUltimoControllo": "Ultimo controllo",
+  "segnaleticaSicurezzaScreenMaiControllato": "mai controllato",
+  "segnaleticaSicurezzaScreenDatiCartello": "Dati del cartello",
+  "segnaleticaSicurezzaScreenCampoZona": "Zona",
+  "segnaleticaSicurezzaScreenControlliRegistrati": "Controlli registrati",
+  "segnaleticaSicurezzaScreenControlliHeader": "Controlli",
+  "segnaleticaSicurezzaScreenNessunControlloRegistrato": "Nessun controllo registrato.",
+  "segnaleticaSicurezzaScreenIngrandisciCartello": "Ingrandisci cartello",
+  "segnaleticaSicurezzaScreenImmagineNonDisponibile": "Immagine non disponibile",
+  "segnaleticaSicurezzaScreenEsitiLabel": "Esiti",
+  "segnaleticaSicurezzaScreenNoteControllo": "Note controllo",
+  "segnaleticaSicurezzaScreenModificaControllo": "Modifica controllo",
+  "segnaleticaSicurezzaScreenEliminaControllo": "Elimina controllo",
+  "segnaleticaSicurezzaScreenEliminareControlloTitle": "Eliminare controllo?",
+  "segnaleticaSicurezzaScreenEliminareControlloMessage": "Eliminare il controllo del {data} su \"{nome}\"? L'operazione non è reversibile.",
+  "@segnaleticaSicurezzaScreenEliminareControlloMessage": {
+    "placeholders": {
+      "data": {
+        "type": "String"
+      },
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "dpiScreenTitle": "DPI",
+  "dpiScreenAssegnaDpi": "Assegna DPI",
+  "dpiScreenTipiDpi": "Tipi di DPI",
+  "dpiScreenScadenzeImminenti": "Scadenze imminenti",
+  "dpiScreenNascondiScadenze": "Nascondi scadenze",
+  "dpiScreenMostraScadenze": "Mostra scadenze",
+  "dpiScreenDipendentiConDpiObbligatori": "Dipendenti con DPI obbligatori",
+  "dpiScreenNascondiTutti": "Nascondi tutti",
+  "dpiScreenMostraTutti": "Mostra tutti",
+  "dpiScreenCercaPerNome": "Cerca per nome",
+  "dpiScreenNessunDipendenteMansione": "Nessun dipendente con mansione Datore, M02, M03 o M04.",
+  "dpiScreenNessunDipendenteTrovato": "Nessun dipendente trovato per \"{query}\".",
+  "@dpiScreenNessunDipendenteTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "dpiScreenCampoDipendente": "Dipendente",
+  "dpiScreenCampoMatricola": "Matricola",
+  "dpiScreenNotaScadenza": "Nota scadenza",
+  "dpiScreenModificaNota": "Modifica nota",
+  "dpiScreenCampoMansione": "Mansione",
+  "dpiScreenCampoAssegnati": "Assegnati",
+  "dpiScreenCampoNota": "Nota",
+  "dpiScreenAssegnaAltroDpi": "Assegna un altro DPI",
+  "dpiScreenNascondiDpi": "Nascondi DPI",
+  "dpiScreenMostraDpi": "Mostra DPI",
+  "dpiScreenNessunaRegolaDpi": "Nessuna regola DPI impostata per questa mansione.",
+  "dpiScreenAltriDpiAssegnati": "Altri DPI assegnati",
+  "dpiScreenNonAssegnato": "Non assegnato",
+  "dpiScreenCampoProduttore": "Produttore",
+  "dpiScreenCampoTaglia": "Taglia",
+  "dpiScreenCampoScadenza": "Scadenza",
+  "dpiScreenNonImpostata": "non impostata",
+  "dpiScreenDpiRitirato": "DPI Ritirato",
+  "dpiScreenRiconsegnaDpiQuota": "Riconsegna DPI per lavori in quota",
+  "dpiScreenRitiraDpiQuota": "Ritira DPI per lavori in quota",
+  "dpiScreenModificaDpiAssegnato": "Modifica DPI assegnato",
+  "dpiScreenEliminaDpiAssegnato": "Elimina DPI assegnato",
+  "dpiScreenEliminareDpiAssegnatoTitle": "Eliminare il DPI assegnato?",
+  "dpiScreenEliminareDpiAssegnatoMessage": "Eliminare \"{tipo}\" assegnato a {dipendente}? L'operazione non è reversibile.",
+  "@dpiScreenEliminareDpiAssegnatoMessage": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      },
+      "dipendente": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenTipoNonPericolosiTrasportatore": "Scadenza Rifiuti Non Pericolosi Trasportatore",
+  "rifiutiScreenTipoPericolosiTrasportatore": "Scadenza Rifiuti Pericolosi Trasportatore",
+  "rifiutiScreenTipoNonPericolosiSmaltitore": "Scadenza Rifiuti Non Pericolosi Smaltitore",
+  "rifiutiScreenTipoPericolosiSmaltitore": "Scadenza Rifiuti Pericolosi Smaltitore",
+  "rifiutiScreenTitle": "Rifiuti",
+  "rifiutiScreenScadenzeImminenti": "Scadenze imminenti",
+  "rifiutiScreenNascondiScadenze": "Nascondi scadenze",
+  "rifiutiScreenMostraScadenze": "Mostra scadenze",
+  "rifiutiScreenAziendePerRaccolta": "Aziende per raccolta rifiuti",
+  "rifiutiScreenNascondiTutti": "Nascondi tutti",
+  "rifiutiScreenMostraTutti": "Mostra tutti",
+  "rifiutiScreenCercaPerNomeDitta": "Cerca per nome ditta",
+  "rifiutiScreenNessunElementoCaricato": "Nessun elemento caricato.",
+  "rifiutiScreenNessunElementoTrovato": "Nessun elemento trovato per \"{query}\".",
+  "@rifiutiScreenNessunElementoTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenCampoDitta": "Ditta",
+  "rifiutiScreenNotaScadenza": "Nota scadenza",
+  "rifiutiScreenModificaNota": "Modifica nota",
+  "rifiutiScreenCampoTrasportatore": "Trasportatore",
+  "rifiutiScreenNoteTrasportatore": "Note trasportatore",
+  "rifiutiScreenCampoSmaltitore": "Smaltitore",
+  "rifiutiScreenNoteSmaltitore": "Note smaltitore",
+  "rifiutiScreenEliminaAzienda": "Elimina azienda",
+  "rifiutiScreenEliminareAziendaTitle": "Eliminare azienda?",
+  "rifiutiScreenEliminareAziendaMessage": "Eliminare \"{nome}\"? L'operazione non è reversibile.",
+  "@rifiutiScreenEliminareAziendaMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "rifiutiScreenNascondiInfo": "Nascondi info",
+  "rifiutiScreenMostraInfo": "Mostra info",
+  "rifiutiScreenNrAutorizzazione": "Nr. Autorizzazione",
+  "rifiutiScreenScadNonPericolosi": "Scad. Rifiuti non pericolosi",
+  "rifiutiScreenScadPericolosi": "Scad. Rifiuti pericolosi",
+  "controlloSegnaleFormDialogEditTitle": "Modifica controllo",
+  "controlloSegnaleFormDialogNewTitle": "Nuovo controllo",
+  "controlloSegnaleFormDialogCartelloLabel": "Cartello*",
+  "controlloSegnaleFormDialogSelezionaCartello": "Seleziona un cartello",
+  "controlloSegnaleFormDialogDataIspezione": "Data ispezione",
+  "controlloSegnaleFormDialogEsitoControllo": "Esito del controllo",
+  "controlloSegnaleFormDialogCartelloPresente": "Il cartello è presente",
+  "controlloSegnaleFormDialogPosizioneIdonea": "Posizione idonea",
+  "controlloSegnaleFormDialogInBuonoStato": "In buono stato",
+  "controlloSegnaleFormDialogNoteHint": "Es. cartello scolorito, da sostituire",
+  "controlloSegnaleFormDialogControlloZonaTitle": "Controllo di zona - {zona}",
+  "@controlloSegnaleFormDialogControlloZonaTitle": {
+    "placeholders": {
+      "zona": {
+        "type": "String"
+      }
+    }
+  },
+  "controlloSegnaleFormDialogRegistrazioneBlocco": "Viene registrato un controllo con esito positivo (cartello presente, posizione idonea, buono stato) su tutti i {count} {noun} della zona. Se un cartello non era a posto, correggi il suo controllo dalla card del cartello.",
+  "controlloSegnaleFormDialogSignSingular": "cartello",
+  "controlloSegnaleFormDialogSignPlural": "cartelli",
+  "@controlloSegnaleFormDialogRegistrazioneBlocco": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "noun": {
+        "type": "String"
+      }
+    }
+  },
+  "controlloSegnaleFormDialogNoteAppliedLabel": "Note (applicate a tutti)",
+  "controlloSegnaleFormDialogNoteAppliedHint": "Es. giro di controllo mensile",
+  "controlloSegnaleFormDialogCartelliInteressati": "Cartelli interessati",
+  "controlloSegnaleFormDialogRegistraSuTutti": "Registra su tutti",
+  "tipoScadenzaFormDialogSelezionaAppartenenza": "Seleziona almeno un'appartenenza",
+  "tipoScadenzaFormDialogNewTitle": "Nuovo tipo scadenza",
+  "tipoScadenzaFormDialogEditTitle": "Modifica tipo scadenza",
+  "tipoScadenzaFormDialogTipologia": "Tipologia",
+  "tipoScadenzaFormDialogNomeLabel": "Nome*",
+  "tipoScadenzaFormDialogNomeHint": "es. DURC, POS, Visura",
+  "tipoScadenzaFormDialogNotaPredefinitaLabel": "Nota predefinita",
+  "tipoScadenzaFormDialogNotaPredefinitaHint": "es. scade ogni 6 mesi",
+  "tipoScadenzaFormDialogNotaPredefinitaHelper": "Viene precompilata nelle note della scadenza quando si sceglie questa tipologia",
+  "tipoScadenzaFormDialogAppartenenza": "Appartenenza",
+  "tipoScadenzaFormDialogCantiere": "Cantiere",
+  "tipoScadenzaFormDialogSubappaltatore": "Subappaltatore",
+  "tipoScadenzaFormDialogDipendenteSubappaltatore": "Dipendente del subappaltatore",
+  "tipoScadenzaFormDialogLavoratoreAutonomo": "Lavoratore autonomo",
+  "tipoScadenzaFormDialogTipologieDipendentiInfo": "Le tipologie dei dipendenti valgono anche per i lavoratori autonomi.",
+  "tipoScadenzaFormDialogScadenza": "Scadenza",
+  "tipoScadenzaFormDialogRichiedeScadenza": "Richiede scadenza",
+  "tipoScadenzaFormDialogAvvisaSoloScadutaTitle": "Avvisa solo a scadenza superata",
+  "tipoScadenzaFormDialogAvvisaSoloScadutaSubtitle": "Nessun preavviso: la prima email parte il giorno dopo la data di scadenza (es. DURC)",
+  "tipoScadenzaFormDialogGiorniPreavvisoLabel": "Giorni di preavviso",
+  "tipoScadenzaFormDialogGiorniPreavvisoHint": "es. 30, 15, 7, 1",
+  "subappaltatoreFormDialogNewTitle": "Nuovo subappaltatore",
+  "subappaltatoreFormDialogEditTitle": "Modifica subappaltatore",
+  "subappaltatoreFormDialogCercaEsistenti": "Cerca tra i subappaltatori esistenti",
+  "subappaltatoreFormDialogSelezionaEsistenteInfo": "Seleziona un subappaltatore esistente oppure compila i campi qui sotto per crearne uno nuovo.",
+  "subappaltatoreFormDialogAnagrafica": "Anagrafica",
+  "subappaltatoreFormDialogRagioneSocialeLabel": "Ragione sociale*",
+  "subappaltatoreFormDialogPartitaIvaLabel": "Partita IVA*",
+  "subappaltatoreFormDialogTelefonoLabel": "Telefono",
+  "subappaltatoreFormDialogEmailLabel": "Email",
+  "subappaltatoreFormDialogEmailInvalida": "Inserisci email valida",
+  "subappaltatoreFormDialogNoteHelper": "Mostrate nel riquadro \"Informazioni\" della pagina del subappaltatore",
+  "subappaltatoreFormDialogCantieriAssociati": "Cantieri associati",
+  "archivioCantieriScreenEliminareTuttiTitle": "Vuoi eliminare tutti i cantieri archiviati?",
+  "archivioCantieriScreenEliminareTuttiMessage": "Azione non ripristinabile, presta attenzione.",
+  "archivioCantieriScreenTitle": "Archivio cantieri",
+  "archivioCantieriScreenEliminaCantieriArchiviatiTooltip": "Elimina cantieri archiviati",
+  "archivioCantieriScreenEliminaCantieriLabel": "Elimina cantieri",
+  "archivioCantieriScreenNessunCantiereArchiviato": "Nessun cantiere archiviato.",
+  "archivioCantieriScreenCantieriConclusi": "Cantieri conclusi",
+  "archivioCantieriScreenCercaHint": "Cerca per nome, indirizzo o comune",
+  "archivioCantieriScreenNessunCantiereConcluso": "Nessun cantiere concluso (tutti attivi).",
+  "archivioCantieriScreenNessunCantiereTrovato": "Nessun cantiere concluso trovato per \"{query}\".",
+  "@archivioCantieriScreenNessunCantiereTrovato": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "archivioCantieriScreenEliminareCantiereTitle": "Eliminare cantiere?",
+  "archivioCantieriScreenEliminareCantiereMessage": "Eliminare definitivamente il cantiere \"{nome}\"? L'operazione non è reversibile.",
+  "@archivioCantieriScreenEliminareCantiereMessage": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      }
+    }
+  },
+  "scaffalaturaFormDialogNewTitle": "Nuova scaffalatura",
+  "scaffalaturaFormDialogEditTitle": "Modifica scaffalatura",
+  "scaffalaturaFormDialogIdInternoLabel": "ID interno*",
+  "scaffalaturaFormDialogInserireNumero": "Inserire un numero",
+  "scaffalaturaFormDialogVerifiche": "Verifiche",
+  "scaffalaturaFormDialogDataUltimaVerifica": "Data ultima verifica",
+  "scaffalaturaFormDialogEsitoPositivo": "Esito POSITIVO?",
+  "scaffalaturaFormDialogDataProssimaVerifica": "Data prossima verifica",
+  "infoDialogNoteScadenzaTitle": "Informazioni per le note scadenza",
+  "infoDialogNoteScadenzaIntro": "Inserendo la parola ",
+  "infoDialogNoteScadenzaOr": " oppure ",
+  "infoDialogNoteScadenzaOutro": " all'interno della nota di scadenza,\nl'auto invio dell'email per tale scadenza verrà bloccato.",
+  "infoDialogEmailScadenzaTitle": "Informazioni per l'invio delle email scadenze",
+  "infoDialogEmailScadenzaIntro": "Le email delle scadenze di ",
+  "infoDialogEmailScadenzaMiddle": " vengono gestite dalla pagina ",
+  "infoDialogEmailScadenzaPageName": "Amministrazione - Scadenze generali",
+  "infoDialogEmailScadenzaOutro": ".\nModificare quindi da lì la scadenza quando viene effettuato il controllo.",
+  "notaAutomezzoDialogTitle": "Nota — {nome} — {tipo}",
+  "@notaAutomezzoDialogTitle": {
+    "placeholders": {
+      "nome": {
+        "type": "String"
+      },
+      "tipo": {
+        "type": "String"
+      }
+    }
+  },
+  "pagina404ScreenTitle": "Errore 404",
+  "pagina404ScreenMessage": "Ops! Sembra che tu ti sia perso.\nLa pagina che cerchi non esiste o è stata spostata.",
+  "pagina404ScreenTornaHome": "Torna alla Home"
+}

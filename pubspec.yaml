@@ -1,0 +1,43 @@
+name: gestionale_edile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons:
+  go_router: ^17.3.0
+  google_fonts: ^6.2.1
+  http: ^1.6.0
+  intl: ^0.20.2
+  pocketbase: ^0.24.0+1
+  provider: ^6.1.5+1
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.5.5
+  flutter_dropzone: ^4.2.1
+  badges: 
+  pinput: 
+  pdf: 
+  printing: 
+  flutter_material_design_icons: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+    # Font Unicode incorporato nei PDF di stampa: i font standard del PDF
+    # (Helvetica & co.) coprono solo Latin-1 e vanno in errore su caratteri
+    # come €, ’ o – copiati da Word.
+    - assets/fonts/

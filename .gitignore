@@ -1,0 +1,62 @@
+# ===== Flutter / Dart =====
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+.claude/
+.packages
+.pub-cache/
+.pub/
+.idea/
+*.lock
+!pubspec.lock
+.metadata
+
+# Android/iOS/web build artifacts generati automaticamente
+android/app/debug
+android/app/profile
+android/app/release
+ios/Flutter/flutter_export_environment.sh
+web/.last_build_id
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# ===== PocketBase =====
+# Binario: distribuito via GitHub Releases, non nel repo (vedi §7 dei passaggi)
+backend/pocketbase
+backend/pocketbase.exe
+
+# Log e file temporanei di PocketBase — MAI dati sensibili, ma nemmeno utili da versionare
+backend/pb_data/logs.db
+backend/pb_data/logs.db-*
+backend/pb_data/*.db-shm
+backend/pb_data/*.db-wal
+
+# Storage upload: qui finiscono i FILE caricati (PDF, immagini). Nella demo
+# non ci sono documenti caricati (solo date di scadenza nei record), quindi
+# la escludo comunque — resta vuota e non c'è rischio se in futuro carichi
+# qualcosa per test e dimentichi di rimuoverlo prima di un commit
+backend/pb_data/storage/
+
+# NOTA: backend/pb_data/data.db NON è escluso di proposito — contiene solo
+# dati fittizi per la demo pubblica. Prima di ogni commit, verifica comunque
+# con `sqlite3 backend/pb_data/data.db "SELECT * FROM users"` (o dall'admin UI)
+# che non ci siano email/dati reali finiti dentro per sbaglio durante il seeding.
+
+# Backup automatici PocketBase (se configurati anche in locale)
+backend/pb_data/backups/
+
+# Hooks per notifiche non servono
+backend/pb_hooks
+
+# ===== Segreti / config =====
+.env
+.env.local
+*.pem
+*.key
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
