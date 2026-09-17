@@ -1,11 +1,11 @@
 {
-    "name": "Gestionale Perin",
-    "short_name": "Gestionale Perin",
+    "name": "Scadenziario Demo",
+    "short_name": "Scadenziario Demo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Expiries tracker for a construction company.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
