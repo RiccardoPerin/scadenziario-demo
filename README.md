@@ -5,7 +5,7 @@ A compliance and asset management system built for a construction company to tra
 This repository is a **public demo build**: almost same codebase running in production at the company, pointed at a separate backend seeded with fake data instead of real company records. No client data, employee names, or business information from the original deployment is included here.
 
 **Live demo:** https://riccardoperin.github.io/scadenziario-demo/
-Login: `demo@demo.it` / Password: `demo`
+Login: `demo@demo.it` / Password: `demodemo`
 
 ## Why this exists
 

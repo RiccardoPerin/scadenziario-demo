@@ -99,10 +99,22 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       titleSpacing: isMobile ? 4 : 20,
       automaticallyImplyLeading: false,
       centerTitle: !isMobile,
+      leadingWidth: showHome ? (isMobile ? 88 : 104) : null,
       leading: Builder(
-        builder: (context) => IconButton(
-          icon: const Icon(Icons.menu),
-          onPressed: () => Scaffold.of(context).openDrawer(),
+        builder: (context) => Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () => Scaffold.of(context).openDrawer(),
+            ),
+            if (showHome)
+              IconButton(
+                icon: const Icon(Icons.home_outlined),
+                tooltip: l10n.appBarGoHome,
+                onPressed: () => context.go('/'),
+              ),
+          ],
         ),
       ),
       title: isMobile
@@ -167,12 +179,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             icon: Icon(action.icon, color: action.color),
             tooltip: action.label,
             onPressed: action.onPressed,
-          ),
-        if (showHome)
-          IconButton(
-            icon: const Icon(Icons.home_outlined),
-            tooltip: l10n.appBarGoHome,
-            onPressed: () => context.go('/')
           ),
         IconButton(
           icon: const Icon(Icons.translate),

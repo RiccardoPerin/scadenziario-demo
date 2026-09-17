@@ -333,6 +333,7 @@ class _AmministrazioneScreenState extends State<AmministrazioneScreen> {
           : RefreshIndicator(
               onRefresh: () async {
                 await dipendentiAziendaliProvider.load();
+                await scadenzeGeneraliProvider.load();
               },
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(24, 24, 24, 24),
@@ -576,7 +577,7 @@ class _AmministrazioneScreenState extends State<AmministrazioneScreen> {
                           onChanged: (v) =>
                               setState(() => _queryDipendenti = v),
                         ),
-                        const SizedBox(height: 20),
+                        const SizedBox(height: 12),
                         if (dipendentiFiltrati.isEmpty)
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 24),
@@ -689,9 +690,7 @@ class _AmministrazioneScreenState extends State<AmministrazioneScreen> {
                                   ),
                                   child: Center(
                                     child: Text(
-                                      dipendentiAziendaliProvider
-                                              .dipendenti
-                                              .isEmpty
+                                      scadenzeGeneraliProvider.scadenze.isEmpty
                                           ? l10n.amministrazioneScreenEmptyDeadlinesLoaded
                                           : l10n.amministrazioneScreenEmptyDeadlinesSearch(_queryScadenze.trim()),
                                     ),
