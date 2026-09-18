@@ -1169,6 +1169,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get subappaltatoriScreenSitesCount => 'Cantieri associati';
 
   @override
+  String get subappaltatoriNumDipendenti => 'Numero di dipendenti';
+
+  @override
   String get subappaltatoriScreenTitle => 'Subappaltatori';
 
   @override
@@ -3427,34 +3430,18 @@ class AppLocalizationsIt extends AppLocalizations {
       'Nessuna scadenza registrata per i dipendenti presenti in questo cantiere.';
 
   @override
-  String get subappaltatoreDetailScreenDeadlineCountSingular => '1 scadenza';
+  String get subappaltatoreDetailScreenDeadlineCountLabel =>
+      'Numero scadenze caricate';
 
   @override
-  String subappaltatoreDetailScreenDeadlineCountPlural(int count) {
-    return '$count scadenze';
-  }
+  String get subappaltatoreDetailScreenExpiredLabel => 'Scaduti';
 
   @override
-  String get subappaltatoreDetailScreenExpiredCountSingular => ', 1 scaduto';
+  String get subappaltatoreDetailScreenUpcomingLabel => 'In scadenza';
 
   @override
-  String subappaltatoreDetailScreenExpiredCountPlural(int count) {
-    return ', $count scaduti';
-  }
-
-  @override
-  String subappaltatoreDetailScreenUpcomingCount(int count) {
-    return ', $count in scadenza';
-  }
-
-  @override
-  String get subappaltatoreDetailScreenAutonomousWorker =>
-      ' · Lavoratore autonomo';
-
-  @override
-  String subappaltatoreDetailScreenNoteSuffix(String note) {
-    return ' · Note: $note';
-  }
+  String get subappaltatoreDetailScreenAutonomousWorkerLabel =>
+      'Lavoratore autonomo';
 
   @override
   String get subappaltatoreDetailScreenHideDeadlines => 'Nascondi scadenze';

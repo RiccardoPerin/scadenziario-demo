@@ -566,6 +566,7 @@
   "subappaltatoriScreenNone": "none",
   "subappaltatoriScreenSearchHint": "Search by company name",
   "subappaltatoriScreenSitesCount": "Associated sites",
+  "subappaltatoriNumDipendenti": "Number of employees",
   "subappaltatoriScreenTitle": "Subcontractors",
   "cantiereDetailScreenAddDeadlineLabel": "Add deadline",
   "cantiereDetailScreenAddSubcontractorLabel": "Add subcontractor",
@@ -1690,41 +1691,10 @@
   "subappaltatoreDetailScreenCollapseAll": "Collapse all",
   "subappaltatoreDetailScreenExpandAll": "Show all",
   "subappaltatoreDetailScreenNoDeadlinesEmployees": "No deadlines recorded for the employees on this site.",
-  "subappaltatoreDetailScreenDeadlineCountSingular": "1 deadline",
-  "subappaltatoreDetailScreenDeadlineCountPlural": "{count} deadlines",
-  "@subappaltatoreDetailScreenDeadlineCountPlural": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenExpiredCountSingular": ", 1 overdue",
-  "subappaltatoreDetailScreenExpiredCountPlural": ", {count} overdue",
-  "@subappaltatoreDetailScreenExpiredCountPlural": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenUpcomingCount": ", {count} upcoming",
-  "@subappaltatoreDetailScreenUpcomingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenAutonomousWorker": " · Self-employed worker",
-  "subappaltatoreDetailScreenNoteSuffix": " · Notes: {note}",
-  "@subappaltatoreDetailScreenNoteSuffix": {
-    "placeholders": {
-      "note": {
-        "type": "String"
-      }
-    }
-  },
+  "subappaltatoreDetailScreenDeadlineCountLabel": "Deadlines loaded",
+  "subappaltatoreDetailScreenExpiredLabel": "Overdue",
+  "subappaltatoreDetailScreenUpcomingLabel": "Upcoming",
+  "subappaltatoreDetailScreenAutonomousWorkerLabel": "Self-employed worker",
   "subappaltatoreDetailScreenHideDeadlines": "Hide deadlines",
   "subappaltatoreDetailScreenShowDeadlines": "Show deadlines",
   "subappaltatoreDetailScreenOpenEmployeePage": "Open employee page",

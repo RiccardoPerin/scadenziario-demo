@@ -1149,6 +1149,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get subappaltatoriScreenSitesCount => 'Associated sites';
 
   @override
+  String get subappaltatoriNumDipendenti => 'Number of employees';
+
+  @override
   String get subappaltatoriScreenTitle => 'Subcontractors';
 
   @override
@@ -3396,34 +3399,17 @@ class AppLocalizationsEn extends AppLocalizations {
       'No deadlines recorded for the employees on this site.';
 
   @override
-  String get subappaltatoreDetailScreenDeadlineCountSingular => '1 deadline';
+  String get subappaltatoreDetailScreenDeadlineCountLabel => 'Deadlines loaded';
 
   @override
-  String subappaltatoreDetailScreenDeadlineCountPlural(int count) {
-    return '$count deadlines';
-  }
+  String get subappaltatoreDetailScreenExpiredLabel => 'Overdue';
 
   @override
-  String get subappaltatoreDetailScreenExpiredCountSingular => ', 1 overdue';
+  String get subappaltatoreDetailScreenUpcomingLabel => 'Upcoming';
 
   @override
-  String subappaltatoreDetailScreenExpiredCountPlural(int count) {
-    return ', $count overdue';
-  }
-
-  @override
-  String subappaltatoreDetailScreenUpcomingCount(int count) {
-    return ', $count upcoming';
-  }
-
-  @override
-  String get subappaltatoreDetailScreenAutonomousWorker =>
-      ' · Self-employed worker';
-
-  @override
-  String subappaltatoreDetailScreenNoteSuffix(String note) {
-    return ' · Notes: $note';
-  }
+  String get subappaltatoreDetailScreenAutonomousWorkerLabel =>
+      'Self-employed worker';
 
   @override
   String get subappaltatoreDetailScreenHideDeadlines => 'Hide deadlines';

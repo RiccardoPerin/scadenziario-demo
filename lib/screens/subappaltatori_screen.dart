@@ -221,6 +221,7 @@ class _SubappaltatoreCard extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             VoceInfo(l10n.subappaltatoriScreenSitesCount, numeroCantieri==0 ? l10n.subappaltatoriScreenNone : numeroCantieri.toString()),
+            VoceInfo(l10n.subappaltatoriNumDipendenti, dipendentiProvider.perSubappaltatore(subappaltatore.id).length.toString()),
             if (subappaltatore.note != '')
               VoceInfo(l10n.commonNoteLabel, subappaltatore.note),
           ],

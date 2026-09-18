@@ -302,30 +302,16 @@ class _SubappaltatoreDetailScreenState extends State<SubappaltatoreDetailScreen>
                                 dipendente.nomeCompleto,
                                 style: const TextStyle(fontWeight: FontWeight.w600),
                               ),
-                              subtitle: Text.rich(
-                                TextSpan(
-                                  children: [
-                                    TextSpan(
-                                      text: documentiDelDipendente.length == 1
-                                          ? l10n.subappaltatoreDetailScreenDeadlineCountSingular
-                                          : l10n.subappaltatoreDetailScreenDeadlineCountPlural(documentiDelDipendente.length),
-                                    ),
-                                    if (conteggio.scaduti > 0)
-                                      TextSpan(
-                                        text: conteggio.scaduti == 1
-                                            ? l10n.subappaltatoreDetailScreenExpiredCountSingular
-                                            : l10n.subappaltatoreDetailScreenExpiredCountPlural(conteggio.scaduti),
-                                      ),
-                                    if (conteggio.inScadenza > 0)
-                                      TextSpan(
-                                        text: l10n.subappaltatoreDetailScreenUpcomingCount(conteggio.inScadenza),
-                                      ),
-                                    if (dipendente.lavoratoreAutonomo)
-                                      TextSpan(text: l10n.subappaltatoreDetailScreenAutonomousWorker),
-                                    if (dipendente.note.isNotEmpty)
-                                      TextSpan(text: l10n.subappaltatoreDetailScreenNoteSuffix(dipendente.note)),
-                                  ],
-                                ),
+                              subtitle: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  VoceInfo(l10n.subappaltatoreDetailScreenDeadlineCountLabel, documentiDelDipendente.length.toString()),
+                                  if (conteggio.scaduti > 0) VoceInfo(l10n.subappaltatoreDetailScreenExpiredLabel, conteggio.scaduti.toString()),
+                                  if (conteggio.inScadenza > 0) VoceInfo(l10n.subappaltatoreDetailScreenUpcomingLabel, conteggio.inScadenza.toString()),
+                                  if (dipendente.lavoratoreAutonomo) VoceInfo(l10n.subappaltatoreDetailScreenAutonomousWorkerLabel, l10n.commonYes),
+                                  if (dipendente.note.isNotEmpty) VoceInfo(l10n.commonNoteLabel, dipendente.note),
+                                ],
                               ),
                               trailing: Row(
                                 mainAxisSize: MainAxisSize.min,
@@ -360,11 +346,6 @@ class _SubappaltatoreDetailScreenState extends State<SubappaltatoreDetailScreen>
                                   ),
                                 ],
                               ),
-                              onTap: () => setState(() {
-                                espanso
-                                    ? _dipendentiEspansi.remove(dipendente.id)
-                                    : _dipendentiEspansi.add(dipendente.id);
-                              }),
                             ),
                             AnimatedSize(
                               duration: const Duration(milliseconds: 200),

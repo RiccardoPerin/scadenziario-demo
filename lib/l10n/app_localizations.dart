@@ -2106,6 +2106,12 @@ abstract class AppLocalizations {
   /// **'Cantieri associati'**
   String get subappaltatoriScreenSitesCount;
 
+  /// No description provided for @subappaltatoriNumDipendenti.
+  ///
+  /// In it, this message translates to:
+  /// **'Numero di dipendenti'**
+  String get subappaltatoriNumDipendenti;
+
   /// No description provided for @subappaltatoriScreenTitle.
   ///
   /// In it, this message translates to:
@@ -6114,47 +6120,29 @@ abstract class AppLocalizations {
   /// **'Nessuna scadenza registrata per i dipendenti presenti in questo cantiere.'**
   String get subappaltatoreDetailScreenNoDeadlinesEmployees;
 
-  /// No description provided for @subappaltatoreDetailScreenDeadlineCountSingular.
+  /// No description provided for @subappaltatoreDetailScreenDeadlineCountLabel.
   ///
   /// In it, this message translates to:
-  /// **'1 scadenza'**
-  String get subappaltatoreDetailScreenDeadlineCountSingular;
+  /// **'Numero scadenze caricate'**
+  String get subappaltatoreDetailScreenDeadlineCountLabel;
 
-  /// No description provided for @subappaltatoreDetailScreenDeadlineCountPlural.
+  /// No description provided for @subappaltatoreDetailScreenExpiredLabel.
   ///
   /// In it, this message translates to:
-  /// **'{count} scadenze'**
-  String subappaltatoreDetailScreenDeadlineCountPlural(int count);
+  /// **'Scaduti'**
+  String get subappaltatoreDetailScreenExpiredLabel;
 
-  /// No description provided for @subappaltatoreDetailScreenExpiredCountSingular.
+  /// No description provided for @subappaltatoreDetailScreenUpcomingLabel.
   ///
   /// In it, this message translates to:
-  /// **', 1 scaduto'**
-  String get subappaltatoreDetailScreenExpiredCountSingular;
+  /// **'In scadenza'**
+  String get subappaltatoreDetailScreenUpcomingLabel;
 
-  /// No description provided for @subappaltatoreDetailScreenExpiredCountPlural.
+  /// No description provided for @subappaltatoreDetailScreenAutonomousWorkerLabel.
   ///
   /// In it, this message translates to:
-  /// **', {count} scaduti'**
-  String subappaltatoreDetailScreenExpiredCountPlural(int count);
-
-  /// No description provided for @subappaltatoreDetailScreenUpcomingCount.
-  ///
-  /// In it, this message translates to:
-  /// **', {count} in scadenza'**
-  String subappaltatoreDetailScreenUpcomingCount(int count);
-
-  /// No description provided for @subappaltatoreDetailScreenAutonomousWorker.
-  ///
-  /// In it, this message translates to:
-  /// **' · Lavoratore autonomo'**
-  String get subappaltatoreDetailScreenAutonomousWorker;
-
-  /// No description provided for @subappaltatoreDetailScreenNoteSuffix.
-  ///
-  /// In it, this message translates to:
-  /// **' · Note: {note}'**
-  String subappaltatoreDetailScreenNoteSuffix(String note);
+  /// **'Lavoratore autonomo'**
+  String get subappaltatoreDetailScreenAutonomousWorkerLabel;
 
   /// No description provided for @subappaltatoreDetailScreenHideDeadlines.
   ///

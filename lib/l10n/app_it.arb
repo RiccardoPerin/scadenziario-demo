@@ -576,6 +576,7 @@
   "subappaltatoriScreenNone": "nessuno",
   "subappaltatoriScreenSearchHint": "Cerca per ragione sociale",
   "subappaltatoriScreenSitesCount": "Cantieri associati",
+  "subappaltatoriNumDipendenti": "Numero di dipendenti",
   "subappaltatoriScreenTitle": "Subappaltatori",
   "cantiereDetailScreenAddDeadlineLabel": "Aggiungi scadenza",
   "cantiereDetailScreenAddSubcontractorLabel": "Aggiungi subappaltatore",
@@ -1700,41 +1701,10 @@
   "subappaltatoreDetailScreenCollapseAll": "Chiudi tutti",
   "subappaltatoreDetailScreenExpandAll": "Mostra tutti",
   "subappaltatoreDetailScreenNoDeadlinesEmployees": "Nessuna scadenza registrata per i dipendenti presenti in questo cantiere.",
-  "subappaltatoreDetailScreenDeadlineCountSingular": "1 scadenza",
-  "subappaltatoreDetailScreenDeadlineCountPlural": "{count} scadenze",
-  "@subappaltatoreDetailScreenDeadlineCountPlural": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenExpiredCountSingular": ", 1 scaduto",
-  "subappaltatoreDetailScreenExpiredCountPlural": ", {count} scaduti",
-  "@subappaltatoreDetailScreenExpiredCountPlural": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenUpcomingCount": ", {count} in scadenza",
-  "@subappaltatoreDetailScreenUpcomingCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "subappaltatoreDetailScreenAutonomousWorker": " · Lavoratore autonomo",
-  "subappaltatoreDetailScreenNoteSuffix": " · Note: {note}",
-  "@subappaltatoreDetailScreenNoteSuffix": {
-    "placeholders": {
-      "note": {
-        "type": "String"
-      }
-    }
-  },
+  "subappaltatoreDetailScreenDeadlineCountLabel": "Numero scadenze caricate",
+  "subappaltatoreDetailScreenExpiredLabel": "Scaduti",
+  "subappaltatoreDetailScreenUpcomingLabel": "In scadenza",
+  "subappaltatoreDetailScreenAutonomousWorkerLabel": "Lavoratore autonomo",
   "subappaltatoreDetailScreenHideDeadlines": "Nascondi scadenze",
   "subappaltatoreDetailScreenShowDeadlines": "Mostra scadenze",
   "subappaltatoreDetailScreenOpenEmployeePage": "Apri pagina dipendente",
